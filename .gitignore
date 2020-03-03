@@ -1,5 +1,5 @@
 # Ignore venv
-venv/
+nlp/
 
 .DS_Store
 .idea

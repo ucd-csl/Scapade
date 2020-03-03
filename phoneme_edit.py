@@ -1,8 +1,9 @@
 import pandas as pd
+import numpy as np
+
 
 def phoneme_edit_distance():
-    # EMMA'S EDIT DISTANCE FOR PHONEMES
-    # similarity matrix
+
     similarities = pd.read_csv(input('matrix name: '), index_col=0)
 
     # cost of insertion/deletion
