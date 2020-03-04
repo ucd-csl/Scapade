@@ -1,10 +1,11 @@
 import pandas as pd
 import numpy as np
+from tabulate import tabulate
 
 
 def phoneme_edit_distance():
 
-    similarities = pd.read_csv(input('matrix name: '), index_col=0)
+    similarities = pd.read_csv('acoustic_similarity.csv', index_col=0)
 
     # cost of insertion/deletion
     idc = 0.5
@@ -139,7 +140,14 @@ def phoneme_edit_distance():
         bt = naive_backtrace(e)
         a, b, c = (align(word1, word2, bt))
         alignment = (list(zip(a, b, c)))
-        x, y = (d.shape)
+        x, y = d.shape
         score = (d[x - 1][y - 1])
         table = make_table(alignment)
+        print(tabulate(table))
+
         return score
+
+    print(align_and_score(w1, w2))
+
+
+phoneme_edit_distance()
