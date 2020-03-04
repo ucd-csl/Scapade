@@ -1,5 +1,12 @@
 # Ignore venv
 nlp/
 
+# Ignore Elsa's files
+CMU_phonemes_similarity.ipynb
+school_misspellings.ipynb
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
 .DS_Store
 .idea
