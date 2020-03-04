@@ -3,7 +3,10 @@ import numpy as np
 from tabulate import tabulate
 
 
-def phoneme_edit_distance():
+def phoneme_edit_distance(w1, w2):
+
+    w1 = w1.split()
+    w2 = w2.split()
 
     similarities = pd.read_csv('acoustic_similarity.csv', index_col=0)
 
@@ -142,12 +145,9 @@ def phoneme_edit_distance():
         alignment = (list(zip(a, b, c)))
         x, y = d.shape
         score = (d[x - 1][y - 1])
-        table = make_table(alignment)
-        print(tabulate(table))
+        # table = make_table(alignment)
+        # print(tabulate(table))
 
         return score
 
     print(align_and_score(w1, w2))
-
-
-phoneme_edit_distance()
