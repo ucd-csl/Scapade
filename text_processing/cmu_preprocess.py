@@ -1,11 +1,18 @@
 import re
 
 
+path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/"
+
+
 def process_lines(input_line):
     """
+    Takes the current line being read from the cmu dictionary, and processes according to the following rules:
+    - Removes leading and trailing whitespace
+    - Removes all digits
+    - Removes parenthesis '()'
 
     :param input_line:
-    :return:
+    :return: processed input line
     """
 
     input_line = input_line.strip()
@@ -15,34 +22,52 @@ def process_lines(input_line):
 
 
 def write_output(phoneme2word, phonemes_set):
+    """
+    Takes the dictionary of phonemes:words and the set of phonemes and writes them to output files.
 
-    phoneme2word_out = open("phoneme2word_dict.txt", 'w')
+    :param phoneme2word:
+    :param phonemes_set:
+    :return: None
+    """
+
+    phoneme2word_out = open(path_files + "phoneme2word_dict.txt", 'w')
     phoneme2word_out.write(str(phoneme2word))
     phoneme2word_out.close()
 
-    phonemes_set_out = open("phonemes_set.txt", 'w')
+    phonemes_set_out = open(path_files + "phonemes_set.txt", 'w')
     phonemes_set_out.write(str(phonemes_set))
     phonemes_set_out.close()
 
 
-with open("C:/Users/robert/Documents/zeeko_nlp/input_files/cmudict-0.7b", "r") as cmu_dict_file:
+def cmu_dict_processing():
+    """
+    Carries out the main processing of the cmu dictionary into the desired formats. Also writes and updated version of
+    the cmu dictionary to a csv, in the form word, phoneme.
 
-    cmu_phoneme2word = {}
-    cmu_phonemes_set = set()
-    cmu_output = open('cmu_processed.csv', 'w')
+    :return: None
+    """
+    with open(path_files + "cmudict-0.7b", 'r') as cmu_dict_file:
 
-    for line in cmu_dict_file:
-        line_processed = process_lines(line)
+        cmu_phoneme2word = {}
+        cmu_phonemes_set = set()
+        cmu_output = open(path_files + "cmu_processed.csv", 'w')
 
-        if line_processed and line_processed[0].isalpha():
-            word, phonemes = line_processed.split("  ")
-            word = word.lower()
-            cmu_phonemes_set.add(phonemes)
-            cmu_output.write(word + "," + phonemes + "\n")
+        for line in cmu_dict_file:
+            line_processed = process_lines(line)
 
-            if phonemes in cmu_phoneme2word:
-                cmu_phoneme2word[phonemes].append(word)
-            else:
-                cmu_phoneme2word[phonemes] = [word]
-    cmu_output.close()
-    write_output(cmu_phoneme2word, cmu_phonemes_set)
+            if line_processed and line_processed[0].isalpha():
+                word, phonemes = line_processed.split("  ")
+                word = word.lower()
+                cmu_phonemes_set.add(phonemes)
+                cmu_output.write(word + ',' + phonemes + "\n")
+
+                if phonemes in cmu_phoneme2word:
+                    cmu_phoneme2word[phonemes].append(word)
+                else:
+                    cmu_phoneme2word[phonemes] = [word]
+        cmu_output.close()
+        write_output(cmu_phoneme2word, cmu_phonemes_set)
+
+
+if __name__ == "__main__":
+    cmu_dict_processing()
