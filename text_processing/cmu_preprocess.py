@@ -20,7 +20,7 @@ def write_output(phoneme2word, phonemes_set):
     phoneme2word_out.write(str(phoneme2word))
     phoneme2word_out.close()
 
-    phonemes_set_out = open("phonemes_list.txt", 'w')
+    phonemes_set_out = open("phonemes_set.txt", 'w')
     phonemes_set_out.write(str(phonemes_set))
     phonemes_set_out.close()
 
