@@ -1,11 +1,16 @@
-from string import digits
+import re
 
 
 def process_lines(input_line):
+    """
+
+    :param input_line:
+    :return:
+    """
 
     input_line = input_line.strip()
-    remove_digits = str.maketrans('', '', digits)
-    input_line = input_line.translate(remove_digits)
+    pattern = re.compile(r'[0-9+()]')
+    input_line = pattern.sub("", input_line)
     return input_line
 
 
@@ -25,14 +30,19 @@ with open("C:/Users/robert/Documents/zeeko_nlp/input_files/cmudict-0.7b", "r") a
         # Make sure that we start by a letter from the alphabet, lower or upper case
         if line_processed and line_processed[0].isalpha():
             word, phonemes = line_processed.split("  ")
-            word = word.strip("()")
 
 
+            cmu_dict2[word.lower()] = phonemes
+            cmu_dict[phonemes] = word.lower()
+            cmu_phones.append(phonemes)
 
+    print(len(cmu_dict))
+    print(len(cmu_dict2))
 
-            # cmu_dict2[word.lower()] = phones
-            # cmu_dict[phones] = word.lower()
-            # cmu_phones.append(phones)
-
-
+    dict_1 = open("dict1.txt", 'w')
+    dict_1.write(str(cmu_dict))
+    dict_1.close()
+    dict_2 = open("dict2.txt", 'w')
+    dict_2.write(str(cmu_dict2))
+    dict_2.close()
 
