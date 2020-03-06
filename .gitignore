@@ -4,9 +4,13 @@ nlp/
 # Ignore Elsa's files
 CMU_phonemes_similarity.ipynb
 school_misspellings.ipynb
+data_structure_test.ipynb
+
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
+
 .DS_Store
 .idea
+__pycache__/
