@@ -14,35 +14,35 @@ def process_lines(input_line):
     return input_line
 
 
+def write_output(phoneme2word, phonemes_set):
+
+    phoneme2word_out = open("phoneme2word_dict.txt", 'w')
+    phoneme2word_out.write(str(phoneme2word))
+    phoneme2word_out.close()
+
+    phonemes_set_out = open("phonemes_list.txt", 'w')
+    phonemes_set_out.write(str(phonemes_set))
+    phonemes_set_out.close()
+
+
 with open("C:/Users/robert/Documents/zeeko_nlp/input_files/cmudict-0.7b", "r") as cmu_dict_file:
 
-    cmu_dict = {}
-    cmu_phones = []
-    cmu_dict2 = {}
+    cmu_phoneme2word = {}
+    cmu_phonemes_set = set()
+    cmu_output = open('cmu_processed.csv', 'w')
 
-    # creating dictionary for cmu dict
-    # create one dictionary with phones as key and word as values
-    # create a second dictionary with word as key and phone as value
     for line in cmu_dict_file:
-
         line_processed = process_lines(line)
 
-        # Make sure that we start by a letter from the alphabet, lower or upper case
         if line_processed and line_processed[0].isalpha():
             word, phonemes = line_processed.split("  ")
+            word = word.lower()
+            cmu_phonemes_set.add(phonemes)
+            cmu_output.write(word + "," + phonemes + "\n")
 
-
-            cmu_dict2[word.lower()] = phonemes
-            cmu_dict[phonemes] = word.lower()
-            cmu_phones.append(phonemes)
-
-    print(len(cmu_dict))
-    print(len(cmu_dict2))
-
-    dict_1 = open("dict1.txt", 'w')
-    dict_1.write(str(cmu_dict))
-    dict_1.close()
-    dict_2 = open("dict2.txt", 'w')
-    dict_2.write(str(cmu_dict2))
-    dict_2.close()
-
+            if phonemes in cmu_phoneme2word:
+                cmu_phoneme2word[phonemes].append(word)
+            else:
+                cmu_phoneme2word[phonemes] = [word]
+    cmu_output.close()
+    write_output(cmu_phoneme2word, cmu_phonemes_set)
