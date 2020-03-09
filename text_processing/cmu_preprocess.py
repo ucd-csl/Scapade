@@ -14,14 +14,13 @@ def process_lines(input_line):
     :param input_line:
     :return: processed input line
     """
-
     input_line = input_line.strip()
     pattern = re.compile(r'[0-9+()]')
     input_line = pattern.sub("", input_line)
     return input_line
 
 
-def write_output(phoneme2word, phonemes_set):
+def write_output_phonemes(phoneme2word, phonemes_set):
     """
     Takes the dictionary of phonemes:words and the set of phonemes and writes them to output files.
 
@@ -29,7 +28,6 @@ def write_output(phoneme2word, phonemes_set):
     :param phonemes_set:
     :return: None
     """
-
     phoneme2word_out = open(path_files + "phoneme2word_dict.txt", 'w')
     phoneme2word_out.write(str(phoneme2word))
     phoneme2word_out.close()
@@ -37,6 +35,12 @@ def write_output(phoneme2word, phonemes_set):
     phonemes_set_out = open(path_files + "phonemes_set.txt", 'w')
     phonemes_set_out.write(str(phonemes_set))
     phonemes_set_out.close()
+
+
+def write_output_freq_dict(frequency_dict):
+    freq_dict_out = open(path_files + "frequency_dict.txt", 'w')
+    freq_dict_out.write(str(frequency_dict))
+    freq_dict_out.close()
 
 
 def cmu_dict_processing():
@@ -66,8 +70,18 @@ def cmu_dict_processing():
                 else:
                     cmu_phoneme2word[phonemes] = [word]
         cmu_output.close()
-        write_output(cmu_phoneme2word, cmu_phonemes_set)
+        write_output_phonemes(cmu_phoneme2word, cmu_phonemes_set)
+
+
+def frequency_dict_process():
+    frequency_dictionary = {}
+    with open(path_files + "frequency_dictionary_en_82_765.txt") as frequency_dict_file:
+        for line in frequency_dict_file:
+            word, frequency = line.split()
+            frequency_dictionary[word] = frequency
+    write_output_freq_dict(frequency_dictionary)
 
 
 if __name__ == "__main__":
     cmu_dict_processing()
+    frequency_dict_process()
