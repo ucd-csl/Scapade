@@ -39,8 +39,7 @@ def write_output_phonemes(phoneme2word, phonemes_set):
 
 def write_output_freq_dict(frequency_dict):
     """
-    Takes the frequency dictionary text file from SymSpell (https://github.com/wolfgarbe/SymSpell) and converts it
-    into a Python dictionary and saves to file. Current dictionary used is: frequency_dictionary_en_82_765.txt
+    Writes the processed frequency dictionary to text file named 'frequency_dict.txt
 
     :param frequency_dict:
     :return: None
@@ -81,6 +80,11 @@ def cmu_dict_processing():
 
 
 def frequency_dict_process():
+    """
+    Takes the frequency dictionary text file from SymSpell (https://github.com/wolfgarbe/SymSpell) and converts it
+    into a Python dictionary and saves to file. Current dictionary used is: frequency_dictionary_en_82_765.txt
+    :return:
+    """
     frequency_dictionary = {}
     with open(path_files + "frequency_dictionary_en_82_765.txt") as frequency_dict_file:
         for line in frequency_dict_file:
