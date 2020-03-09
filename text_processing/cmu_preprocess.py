@@ -38,6 +38,13 @@ def write_output_phonemes(phoneme2word, phonemes_set):
 
 
 def write_output_freq_dict(frequency_dict):
+    """
+    Takes the frequency dictionary text file from SymSpell (https://github.com/wolfgarbe/SymSpell) and converts it
+    into a Python dictionary and saves to file. Current dictionary used is: frequency_dictionary_en_82_765.txt
+
+    :param frequency_dict:
+    :return: None
+    """
     freq_dict_out = open(path_files + "frequency_dict.txt", 'w')
     freq_dict_out.write(str(frequency_dict))
     freq_dict_out.close()
