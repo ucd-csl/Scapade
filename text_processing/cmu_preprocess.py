@@ -1,5 +1,5 @@
 import re
-
+import pickle
 
 path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/"
 
@@ -28,13 +28,12 @@ def write_output_phonemes(phoneme2word, phonemes_set):
     :param phonemes_set:
     :return: None
     """
-    phoneme2word_out = open(path_files + "phoneme2word_dict.txt", 'w')
-    phoneme2word_out.write(str(phoneme2word))
-    phoneme2word_out.close()
 
-    phonemes_set_out = open(path_files + "phonemes_set.txt", 'w')
-    phonemes_set_out.write(str(phonemes_set))
-    phonemes_set_out.close()
+    with open(path_files + "phoneme2word_dict.txt", 'wb') as fp:
+        pickle.dump(phoneme2word, fp)
+
+    with open(path_files + "phonemes_set.txt", 'wb') as fp:
+        pickle.dump(phonemes_set, fp)
 
 
 def write_output_freq_dict(frequency_dict):
