@@ -22,7 +22,7 @@ def process_lines(input_line):
 
 def write_output_phonemes(phoneme2word, phonemes_set):
     """
-    Takes the dictionary of phonemes:words and the set of phonemes and writes them to output files.
+    Takes the dictionary of phonemes:words and the set of phonemes and writes them to pickle output files.
 
     :param phoneme2word:
     :param phonemes_set:
