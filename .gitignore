@@ -10,7 +10,7 @@ data_structure_test.ipynb
 # Jupyter Notebook
 .ipynb_checkpoints
 
-
+# Caches and JetBrains stuff
 .DS_Store
 .idea
 __pycache__/
