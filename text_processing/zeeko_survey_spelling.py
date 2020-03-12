@@ -32,11 +32,26 @@ The floss
 """
 
 
-def load_csv():
+def load_xlsx():
     data_folder = Path("C:/Users/robert/Documents/zeeko_nlp/zeeko_surveys/")
     file_to_open = data_folder / "APPYNESS POST EQUALS TRUST TRIAL 1 Burton Joyce A.xlsx"
-    df = pd.read_excel(file_to_open)
-    print(df.head())
+    df = pd.read_excel(file_to_open, header=1)
+    return df
+
+
+def extract_text(df):
+    open_ended_cols = []
+    all_text = ""
+    for column in df.columns:
+        if column[:4] == 'Open':
+            open_ended_cols.append(column)
+
+    for column in open_ended_cols:
+        for row in df[column]:
+            if not pd.isnull(row):
+                all_text += row
+    return all_text
+
 
 def clean_text(input_text):
     processed_text = emoji.get_emoji_regexp().sub(u'', input_text)
@@ -54,7 +69,9 @@ def find_mistakes(processed_text):
 
 
 if __name__ == "__main__":
-    load_csv()
+    df = load_xlsx()
+    text = extract_text(df)
+    print(text)
     # cleaned_text = clean_text(test_text)
     # mistakes = find_mistakes(cleaned_text)
     # print(mistakes)
