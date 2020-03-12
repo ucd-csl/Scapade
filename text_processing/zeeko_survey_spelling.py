@@ -1,8 +1,10 @@
 import enchant
-import re
 import emoji
+import pandas as pd
+from pathlib import Path
 
 d = enchant.Dict("en_GB")
+
 test_text = """That the character can do a cartwheel.
 The floss😆
 Sound when you click on the phone
@@ -30,6 +32,12 @@ The floss
 """
 
 
+def load_csv():
+    data_folder = Path("C:/Users/robert/Documents/zeeko_nlp/zeeko_surveys/")
+    file_to_open = data_folder / "APPYNESS POST EQUALS TRUST TRIAL 1 Burton Joyce A.xlsx"
+    df = pd.read_excel(file_to_open)
+    print(df.head())
+
 def clean_text(input_text):
     processed_text = emoji.get_emoji_regexp().sub(u'', input_text)
     replace_rules = {".": " ", ",": " ", "’": "'", "\n": " ", '\r': " "}
@@ -46,6 +54,7 @@ def find_mistakes(processed_text):
 
 
 if __name__ == "__main__":
-    cleaned_text = clean_text(test_text)
-    mistakes = find_mistakes(cleaned_text)
-    print(mistakes)
+    load_csv()
+    # cleaned_text = clean_text(test_text)
+    # mistakes = find_mistakes(cleaned_text)
+    # print(mistakes)
