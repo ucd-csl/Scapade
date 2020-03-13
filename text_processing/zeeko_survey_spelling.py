@@ -1,5 +1,6 @@
 import enchant
 import emoji
+import pickle
 import pandas as pd
 from pathlib import Path
 from os import listdir
@@ -9,7 +10,6 @@ d = enchant.Dict("en_GB")
 
 
 def load_xlsx():
-
     data_folder = Path("C:/Users/robert/Documents/zeeko_nlp/zeeko_surveys/")
     all_xlsx_files = [f for f in listdir(data_folder) if isfile(join(data_folder, f))]
     df_dict = {}
@@ -39,20 +39,27 @@ def extract_text(df_dict):
 
 def clean_text(input_text):
     processed_text = emoji.get_emoji_regexp().sub(u'', input_text)
-    replace_rules = {".": " ", ",": " ", "’": "'", "\n": " ", '\r': " ",  "(": "", ")": ""}
-    processed_text = (processed_text.translate(str.maketrans(replace_rules))).lower().split()
+    replace_rules = {".": " ", ",": " ", "’": "'", "“": "", "\n": " ", '\r': " ",  "(": "", ")": "", "!": "", "#": "",
+                     "?": "", "&": "", "`": "'", ":": "", "/": "", ";": "", "[": "", "]": ""}
+    processed_text = (processed_text.translate(str.maketrans(replace_rules))).split()
     return processed_text
 
 
 def find_mistakes(processed_text):
     spelling_mistakes = set()
     for word in processed_text:
-        if not d.check(word):
-            spelling_mistakes.add(word)
+        if not d.check(word) and not d.check(word.lower()):
+            spelling_mistakes.add(word.lower())
     return spelling_mistakes
 
 
 def save_output(mistakes_set):
+
+    data_folder = Path("C:/Users/robert/Documents/zeeko_nlp/spelling_mistakes/")
+    custom_valid_words_path = data_folder / 'valid_words_set.txt'
+    pickle_in = open(custom_valid_words_path, "rb")
+    custom_valid_words = pickle.load(pickle_in)
+
     with open('xlsx_output.txt', 'w', encoding="utf-8") as output_file:
         for mistake in mistakes_set:
             if mistake not in custom_valid_words:
