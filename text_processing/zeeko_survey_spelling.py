@@ -35,27 +35,25 @@ The floss
 def load_xlsx():
     data_folder = Path("C:/Users/robert/Documents/zeeko_nlp/zeeko_surveys/")
     file_to_open = data_folder / "APPYNESS POST EQUALS TRUST TRIAL 1 Burton Joyce A.xlsx"
-    df = pd.read_excel(file_to_open, header=1)
-    return df
+    df_survey = pd.read_excel(file_to_open, header=1)
+    return df_survey
 
 
 def extract_text(df):
-    open_ended_cols = []
+
     all_text = ""
     for column in df.columns:
         if column[:4] == 'Open':
-            open_ended_cols.append(column)
-
-    for column in open_ended_cols:
-        for row in df[column]:
-            if not pd.isnull(row):
-                all_text += row
+            for row in df[column]:
+                if not pd.isnull(row):
+                    all_text += row + " "
     return all_text
 
 
 def clean_text(input_text):
     processed_text = emoji.get_emoji_regexp().sub(u'', input_text)
-    replace_rules = {".": " ", ",": " ", "’": "'", "\n": " ", '\r': " "}
+    # replace_rules = {".": " ", ",": " ", "’": "'", "\n": " ", '\r': " ",  "(": "", ")": ""}
+    replace_rules = {".": " ", ",": " ", "’": "'", "\n": " ", '\r': " ",  "(": "", ")": ""}
     processed_text = (processed_text.translate(str.maketrans(replace_rules))).lower().split()
     return processed_text
 
@@ -71,7 +69,6 @@ def find_mistakes(processed_text):
 if __name__ == "__main__":
     df = load_xlsx()
     text = extract_text(df)
-    print(text)
-    # cleaned_text = clean_text(test_text)
-    # mistakes = find_mistakes(cleaned_text)
-    # print(mistakes)
+    cleaned_text = clean_text(text)
+    mistakes = find_mistakes(cleaned_text)
+    print(mistakes)
