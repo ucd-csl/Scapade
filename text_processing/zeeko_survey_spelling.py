@@ -59,8 +59,9 @@ def save_output(mistakes_set):
     custom_valid_words_path = data_folder / 'valid_words_set.txt'
     pickle_in = open(custom_valid_words_path, "rb")
     custom_valid_words = pickle.load(pickle_in)
+    spelling_mistakes_output = data_folder / 'zeeko_spelling_mistakes_list.txt'
 
-    with open('xlsx_output.txt', 'w', encoding="utf-8") as output_file:
+    with open(spelling_mistakes_output, 'w', encoding="utf-8") as output_file:
         for mistake in mistakes_set:
             if mistake not in custom_valid_words:
                 output_file.write("%s\n" % mistake)
