@@ -1,7 +1,19 @@
 import re
 import pickle
+from pathlib import Path
+import pandas as pd
 
 path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/"
+
+
+def valid_phonemes():
+    similarities = Path(path_files) / 'acoustic_similarity.csv'
+    similarities = pd.read_csv(similarities, index_col=0)
+    phonemes = []
+    for column in similarities.columns:
+        phonemes.append(column)
+    with open(path_files + "arpabet.csv", 'wb') as fp:
+        pickle.dump(phonemes, fp)
 
 
 def process_lines(input_line):
@@ -28,6 +40,7 @@ def write_output_phonemes(phoneme2word, phonemes_set):
     :param phonemes_set:
     :return: None
     """
+    phonemes_set = sorted(phonemes_set)
 
     with open(path_files + "phoneme2word_dict.txt", 'wb') as fp:
         pickle.dump(phoneme2word, fp)
@@ -93,5 +106,6 @@ def frequency_dict_process():
 
 
 if __name__ == "__main__":
+    valid_phonemes()
     cmu_dict_processing()
     frequency_dict_process()
