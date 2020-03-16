@@ -7,6 +7,11 @@ path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/"
 
 
 def valid_phonemes():
+    """
+    Loads to acoustic similarity matrix and extracts each Arpabet phoneme. Serialised as a pickle
+    csv file for loading in other scripts.
+    :return: None
+    """
     similarities = Path(path_files) / 'acoustic_similarity.csv'
     similarities = pd.read_csv(similarities, index_col=0)
     phonemes = []
