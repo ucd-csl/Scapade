@@ -17,7 +17,7 @@ cmu_valid_phonemes = []
 for column in similarities.columns:
     phonemes.append(column)
 
-valid_phonemes = (cmu_phonemes.iloc[:,1])
+valid_phonemes = (cmu_phonemes.iloc[:, 1])
 valid_phonemes = valid_phonemes.tolist()
 
 #  https://norvig.com/spell-correct.html
