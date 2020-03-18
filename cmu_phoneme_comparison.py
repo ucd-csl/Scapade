@@ -13,13 +13,13 @@ cmu_phonemes = pd.read_csv(cmu_phonemes, encoding = "ISO-8859-1")
 
 
 def arpabet_phonemes():
-    arpabet_phonemes = []
+    arpa_phonemes = []
     for column in similarities.columns:
-        arpabet_phonemes.append(column)
+        arpa_phonemes.append(column)
     cmu_valid_phonemes = (cmu_phonemes.iloc[:, 1])
     cmu_valid_phonemes = cmu_valid_phonemes.tolist()
 
-    return (arpabet_phonemes, cmu_valid_phonemes)
+    return arpa_phonemes, cmu_valid_phonemes
 
 
 #  https://norvig.com/spell-correct.html
