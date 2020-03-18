@@ -5,6 +5,7 @@ import pandas as pd
 from pathlib import Path
 from os import listdir
 from os.path import isfile, join
+import re
 
 d = enchant.Dict("en_GB")
 
@@ -58,8 +59,12 @@ def clean_text(input_text):
     :return: a list of individual words
     """
     processed_text = emoji.get_emoji_regexp().sub(u'', input_text)
+    print(processed_text)
     replace_rules = {".": " ", ",": " ", "’": "'", "“": "", "\n": " ", '\r': " ",  "(": "", ")": "", "!": "", "#": "",
-                     "?": "", "&": "", "`": "'", ":": "", "/": "", ";": "", "[": "", "]": ""}
+                     "?": "", "&": "", "`": "'", ":": "", "/": "", ";": "", "[": "", "]": "", "£": ""}
+    special_strings = ["-_-", "--", "ʖ", "°", "͜", "͡"]
+    for string in special_strings:
+        processed_text = processed_text.replace(string, "")
     processed_text = (processed_text.translate(str.maketrans(replace_rules))).split()
     return processed_text
 
@@ -91,7 +96,8 @@ def save_output(mistakes_set):
     custom_valid_words_path = data_folder / 'valid_words_set.txt'
     pickle_in = open(custom_valid_words_path, "rb")
     custom_valid_words = pickle.load(pickle_in)
-    spelling_mistakes_output = data_folder / 'zeeko_spelling_mistakes_list.txt'
+    g2p_folder = Path("C:/Users/robert/Documents/zeeko_nlp/g2p_files/")
+    spelling_mistakes_output = g2p_folder / 'word_list.txt'
 
     with open(spelling_mistakes_output, 'w', encoding="utf-8") as output_file:
         for mistake in mistakes_set:
