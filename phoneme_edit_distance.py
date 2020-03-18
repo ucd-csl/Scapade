@@ -4,8 +4,9 @@ from tabulate import tabulate
 
 
 def phoneme_edit_distance(w1, w2):
-
-    similarities = pd.read_csv('input_files/acoustic_similarity.csv', index_col=0)
+    w1 = w1.split()
+    w2 = w2.split()
+    similarities = pd.read_csv('input_files/acoustic_distributional_distance_matrix.csv', index_col=0)
 
     # cost of insertion/deletion
     idc = 0.5
@@ -144,6 +145,6 @@ def phoneme_edit_distance(w1, w2):
         score = (d[x - 1][y - 1])
         # table = make_table(alignment)
         # print(tabulate(table))
-
         return score
 
+    return align_and_score(w1, w2)
