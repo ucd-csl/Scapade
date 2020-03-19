@@ -51,26 +51,26 @@ def generate_phoneme_candidates(word, phonemes, valid_phonemes):
     return candidates(word)
 
 
+def cmu_candidate_scoring():
+    start = timeit.default_timer()
+    phonemes, valid_phonemes = arpabet_phonemes()
+    word_candidates = (generate_phoneme_candidates('N OW N', phonemes, valid_phonemes))
+    scores = {}
 
-start = timeit.default_timer()
-phonemes, valid_phonemes = arpabet_phonemes()
-word_candidates = (generate_phoneme_candidates('N OW N', phonemes, valid_phonemes))
-scores = {}
+    for word in word_candidates:
+        score_dist = phoneme_edit_distance('N OW N', word)
+        if score_dist < 0.5:
+            scores[word] = score_dist
+    min = 100
+    best = ""
 
-for word in word_candidates:
-    score_dist = phoneme_edit_distance('N OW N', word)
-    if score_dist < 0.5:
-        scores[word] = score_dist
-min = 100
-best = ""
-
-for k,v in scores.items():
-    if v < min:
-        best = k
-        min = v
-print(best, min)
+    for k, v in scores.items():
+        if v < min:
+            best = k
+            min = v
+    print(best, min)
+    stop = timeit.default_timer()
+    print('Time: ', stop - start)
 
 
-stop = timeit.default_timer()
-print(scores)
-print('Time: ', stop - start)
+cmu_candidate_scoring()
