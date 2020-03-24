@@ -110,7 +110,25 @@ def frequency_dict_process():
     write_output_freq_dict(frequency_dictionary)
 
 
+def cmu_frequency_dict():
+    cmu_dict = pd.read_csv(path_files + "cmu_processed.csv", names=['Word', 'Sequence', 'Frequency'], encoding = "ISO-8859-1")
+    cmu_dict['Frequency'] = 1
+    cmu_frequency_rows = []
+    with open(path_files + "frequency_dict.txt") as frequency_dict:
+        frequency_dict = eval(frequency_dict.read())
+        for index, row in cmu_dict.iterrows():
+            if row['Word'] in frequency_dict:
+                row['Frequency'] = frequency_dict[row['Word']]
+                cmu_frequency_rows.append(row)
+            else:
+                cmu_frequency_rows.append(row)
+
+        cmu_frequency = pd.DataFrame(cmu_frequency_rows)
+        cmu_frequency.to_csv(path_files + "cmu_frequency.csv", header=False, index=False)
+
+
 if __name__ == "__main__":
     valid_phonemes()
     cmu_dict_processing()
     frequency_dict_process()
+    cmu_frequency_dict()
