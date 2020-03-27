@@ -35,11 +35,21 @@ def create_default_dict(file_path):
     return dictionary_template
 
 
+def g2p_word_list(template_dict, name):
+    output_path = "C:/Users/robert/Documents/zeeko_nlp/g2p_files/"
+    file_name = Path(output_path) / name
+    with open(file_name, 'w') as file:
+        for key, value in template_dict.items():
+            file.write(key+"\n")
+
+
 def symspell_dict(input_dict, sym_spell):
     working_dict = input_dict.copy()
 
     for misspelling, details in working_dict.items():
-        input_term = misspelling
+        print(misspelling)
+        input_term = misspelling # symspell needs a space rather than an underscore
+        print(input_term)
         suggestion = sym_spell.lookup(input_term, Verbosity.CLOSEST, max_edit_distance=2)
         suggestions = []
 
@@ -78,15 +88,19 @@ def pickle_output(dict_object, name):
 
 def main():
 
-    sym_spell = create_sym_object()
+    # sym_spell = create_sym_object()
 
     birkbeck_template = create_default_dict(birkbeck_mispellings_path)
-    birkbeck_sym = symspell_dict(birkbeck_template, sym_spell)
-    pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
-
+    g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
+    # pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
+    # birkbeck_sym = symspell_dict(birkbeck_template, sym_spell)
+    # pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
+    #
     holbrook_template = create_default_dict(holbrook_mispellings_path)
-    holbrook_sym = symspell_dict(holbrook_template, sym_spell)
-    pickle_output(holbrook_sym, 'holbrook_symspell_dict.txt')
+    g2p_word_list(holbrook_template, 'holbrook_word_list.txt')
+    # pickle_output(holbrook_template, 'holbrook_template_dict.txt')
+    # holbrook_sym = symspell_dict(holbrook_template, sym_spell)
+    # pickle_output(holbrook_sym, 'holbrook_symspell_dict.txt')
 
 
 if __name__ == "__main__":
