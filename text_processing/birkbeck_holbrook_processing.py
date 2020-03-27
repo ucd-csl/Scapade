@@ -27,10 +27,14 @@ def create_default_dict(file_path):
         for line in lines:
             line = line.split()[0]
             if line[0] == '$':
+                if '_' in line:
+                    correct_spelling = 'skip'
+                    continue
                 correct_spelling = line[1:].lower()
                 continue
-            mispelling = line.lower()
-            dictionary_template[mispelling] = {'correct_spelling':correct_spelling}
+            if correct_spelling != 'skip':
+                misspelling = line.lower()
+                dictionary_template[misspelling] = {'correct_spelling':correct_spelling}
 
     return dictionary_template
 
@@ -71,14 +75,34 @@ def symspell_dict(input_dict, sym_spell):
 def pyspell_dict(input_dict):
     spell = SpellChecker()
     working_dict = input_dict.copy()
-
     for mispelling, details in working_dict.items():
-
-        # Get the one `most likely` answer
         working_dict[mispelling]['correction'] = spell.correction(mispelling)
-
-        # Get a list of `likely` options
         working_dict[mispelling]['candidates'] = spell.candidates(mispelling)
+
+
+def add_phonemes(input_dict, name):
+    input_path = "C:/Users/robert/Documents/zeeko_nlp/g2p_files/"
+    file_name = name + "_phonemes.txt"
+    file = Path(input_path) / file_name
+    current_dict = input_dict.copy()
+    clean_dict = {key.strip() for key, item in current_dict.items()}
+    print(clean_dict['cheerio'])
+
+
+    with open(file, "r") as phonemes_list:
+        for line in phonemes_list:
+            line = line.rstrip("\n").split(" ", 1)
+            word, phoneme = line[0], line[1]
+            current_dict[word]['phoneme_rep'] = phoneme
+    print(current_dict)
+
+
+    # thing = string.split(" ", 1)
+
+
+
+
+
 
 
 def pickle_output(dict_object, name):
@@ -91,21 +115,18 @@ def main():
     # sym_spell = create_sym_object()
 
     birkbeck_template = create_default_dict(birkbeck_mispellings_path)
-    g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
-    # pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
+    pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
+    # g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
     # birkbeck_sym = symspell_dict(birkbeck_template, sym_spell)
     # pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
-    #
-    holbrook_template = create_default_dict(holbrook_mispellings_path)
-    g2p_word_list(holbrook_template, 'holbrook_word_list.txt')
+
+    # holbrook_template = create_default_dict(holbrook_mispellings_path)
+    # add_phonemes(holbrook_template, 'holbrook')
     # pickle_output(holbrook_template, 'holbrook_template_dict.txt')
+    # g2p_word_list(holbrook_template, 'holbrook_word_list.txt')
     # holbrook_sym = symspell_dict(holbrook_template, sym_spell)
     # pickle_output(holbrook_sym, 'holbrook_symspell_dict.txt')
 
 
 if __name__ == "__main__":
     main()
-
-
-
-
