@@ -2,11 +2,13 @@ from pathlib import Path
 from spellchecker import SpellChecker
 import pkg_resources
 from symspellpy import SymSpell, Verbosity
+import pickle
 
-path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/" # path format windows
-path_files = "/Users/robertyoung/git_repos/nlp_phoneme_spelling/input_files/" # path format mac
-birkbeck_mispellings_path = Path(path_files) / 'birkbeck.txt'
-holbrook_mispellings_path = Path(path_files) / 'holbrook-missp.txt'
+input_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/" # path format windows
+output_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/spelling_correction_dicts"
+# path_files = "/Users/robertyoung/git_repos/nlp_phoneme_spelling/input_files/" # path format mac
+birkbeck_mispellings_path = Path(input_path_files) / 'birkbeck.txt'
+holbrook_mispellings_path = Path(input_path_files) / 'holbrook-missp.txt'
 
 
 def create_sym_object():
@@ -33,31 +35,31 @@ def create_default_dict(file_path):
     return dictionary_template
 
 
-def symspell_dict(input_dict,sym_spell):
+def symspell_dict(input_dict, sym_spell):
+    working_dict = input_dict.copy()
 
-    for mispelling, details in input_dict.items():
-        input_term = mispelling
+    for misspelling, details in working_dict.items():
+        input_term = misspelling
         suggestion = sym_spell.lookup(input_term, Verbosity.CLOSEST, max_edit_distance=2)
         suggestions = []
 
         if len(suggestion) == 0:
-            input_dict[mispelling]['suggested'] = ""
-            input_dict[mispelling]['candidates'] = ""
+            working_dict[misspelling]['suggested'] = ""
+            working_dict[misspelling]['candidates'] = ""
         if len(suggestion) == 1:
-            input_dict[mispelling]['suggested'] = str(suggestion[0]).split(',')
-            input_dict[mispelling]['candidates'] = ""
+            working_dict[misspelling]['suggested'] = str(suggestion[0]).split(',')
+            working_dict[misspelling]['candidates'] = ""
         if len(suggestion) > 1:
             for symspell_suggest in suggestion:
                 suggestions.append(str(symspell_suggest).split(','))
-            input_dict[mispelling]['suggested'] = suggestions[0]
-            input_dict[mispelling]['candidates'] = suggestions
+            working_dict[misspelling]['suggested'] = suggestions[0]
+            working_dict[misspelling]['candidates'] = suggestions
 
-    return input_dict
+    return working_dict
 
 
 def pyspell_dict(input_dict):
     spell = SpellChecker()
-    counter = 0
     working_dict = input_dict.copy()
 
     for mispelling, details in working_dict.items():
@@ -67,19 +69,28 @@ def pyspell_dict(input_dict):
 
         # Get a list of `likely` options
         working_dict[mispelling]['candidates'] = spell.candidates(mispelling)
-        counter += 1
-
-        if counter % 100 == 0:
-            print(counter)
 
 
+def pickle_output(dict_object, name):
+    path = Path(output_path_files) / name
+    pickle.dump(dict_object, open(path, "wb"))
 
 
+def main():
 
-sym_spell = create_sym_object()
-birkbeck_dict = create_default_dict(birkbeck_mispellings_path)
-holbrook_template = create_default_dict(holbrook_mispellings_path)
+    sym_spell = create_sym_object()
 
+    birkbeck_template = create_default_dict(birkbeck_mispellings_path)
+    birkbeck_sym = symspell_dict(birkbeck_template, sym_spell)
+    pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
+
+    holbrook_template = create_default_dict(holbrook_mispellings_path)
+    holbrook_sym = symspell_dict(holbrook_template, sym_spell)
+    pickle_output(holbrook_sym, 'holbrook_symspell_dict.txt')
+
+
+if __name__ == "__main__":
+    main()
 
 
 
