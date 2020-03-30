@@ -1,7 +1,7 @@
 from pathlib import Path
 from spellchecker import SpellChecker
 import pkg_resources
-from symspellpy import SymSpell, Verbosity
+from symspellpy_words import SymSpell, Verbosity
 import pickle
 
 input_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/" # path format windows
@@ -13,7 +13,7 @@ holbrook_mispellings_path = Path(input_path_files) / 'holbrook-missp.txt'
 
 def create_sym_object():
     sym_spell = SymSpell(max_dictionary_edit_distance=3, prefix_length=15)
-    dictionary_path = pkg_resources.resource_filename("symspellpy", "frequency_dictionary_en_82_765.txt")
+    dictionary_path = pkg_resources.resource_filename("symspellpy_phonemes", "frequency_dictionary_en_82_765.txt")
     sym_spell.load_dictionary(dictionary_path, term_index=0, count_index=1)
 
     return sym_spell
@@ -44,17 +44,19 @@ def g2p_word_list(template_dict, name):
     file_name = Path(output_path) / name
     with open(file_name, 'w') as file:
         for key, value in template_dict.items():
+            key = key.replace('_', '')
             file.write(key+"\n")
 
 
-def symspell_dict(input_dict, sym_spell):
-    working_dict = input_dict.copy()
-
+def symspell_dict(name, sym_spell):
+    name = name + "_template_dict.txt"
+    full_path = Path(output_path_files) / name
+    working_dict = pickle.load(open(full_path, "rb"))
     for misspelling, details in working_dict.items():
-
-        input_term = misspelling # symspell needs a space rather than an underscore
+        input_term = misspelling.replace("_", " ")
         suggestion = sym_spell.lookup(input_term, Verbosity.CLOSEST, max_edit_distance=2)
         suggestions = []
+
 
         if len(suggestion) == 0:
             working_dict[misspelling]['suggested'] = ""
@@ -86,7 +88,7 @@ def add_phonemes(input_dict, name):
     current_dict = input_dict.copy()
     keys_order = []
     for keys in current_dict.keys():
-        keys_order.append(keys)  # compensates for g2p replacing '_' with ' '
+        keys_order.append(keys)
 
     with open(file, "r") as phonemes_list:
         i = 0
@@ -94,6 +96,7 @@ def add_phonemes(input_dict, name):
             line = line.rstrip("\n").split(" ", 1)
             word, phoneme = line[0], line[1]
             current_dict[keys_order[i]]['phoneme_rep'] = phoneme
+            current_dict[keys_order[i]]['suggested'] = ""
             i += 1
 
     return current_dict
@@ -111,7 +114,7 @@ def main():
     birkbeck_template = create_default_dict(birkbeck_mispellings_path)
     pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
     g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
-    birkbeck_sym = symspell_dict(birkbeck_template, sym_spell)
+    birkbeck_sym = symspell_dict('holbrook', sym_spell)
     pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
     birkbeck_phonemes = add_phonemes(birkbeck_template, 'birkbeck')
     pickle_output(birkbeck_phonemes, 'birkbeck_phonemes_dict.txt')
@@ -119,7 +122,7 @@ def main():
     holbrook_template = create_default_dict(holbrook_mispellings_path)
     pickle_output(holbrook_template, 'holbrook_template_dict.txt')
     g2p_word_list(holbrook_template, 'holbrook_word_list.txt')
-    holbrook_sym = symspell_dict(holbrook_template, sym_spell)
+    holbrook_sym = symspell_dict('holbrook', sym_spell)
     pickle_output(holbrook_sym, 'holbrook_symspell_dict.txt')
     holbrook_phonemes = add_phonemes(holbrook_template, 'holbrook')
     pickle_output(holbrook_phonemes, 'holbrook_phonemes_dict.txt')

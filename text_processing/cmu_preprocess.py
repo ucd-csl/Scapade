@@ -111,7 +111,8 @@ def frequency_dict_process():
 
 
 def cmu_frequency_dict():
-    cmu_dict = pd.read_csv(path_files + "cmu_processed.csv", names=['Word', 'Sequence', 'Frequency'], encoding = "ISO-8859-1")
+    cmu_dict = pd.read_csv(path_files + "cmu_processed.csv", names=['Word', 'Sequence', 'Frequency'],
+                           encoding="ISO-8859-1")
     cmu_dict['Frequency'] = 1
     cmu_frequency_rows = []
     with open(path_files + "frequency_dict.txt") as frequency_dict:

@@ -148,3 +148,5 @@ def phoneme_edit_distance(w1, w2):
         return score
 
     return align_and_score(w1, w2)
+
+print(phoneme_edit_distance('AE D AH M Z', 'AE D AH M'))
