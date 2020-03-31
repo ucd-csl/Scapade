@@ -4,9 +4,10 @@ import pkg_resources
 from symspellpy_words import SymSpell, Verbosity
 import pickle
 
-input_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/" # path format windows
-output_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/spelling_correction_dicts"
-# path_files = "/Users/robertyoung/git_repos/nlp_phoneme_spelling/input_files/" # path format mac
+# input_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/" # path format windows
+# output_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/spelling_correction_dicts"
+output_path_files = "/Users/robertyoung/git_repos/nlp_phoneme_spelling/input_files/spelling_correction_dicts"
+input_path_files = "/Users/robertyoung/git_repos/nlp_phoneme_spelling/input_files/" # path format mac
 birkbeck_mispellings_path = Path(input_path_files) / 'birkbeck.txt'
 holbrook_mispellings_path = Path(input_path_files) / 'holbrook-missp.txt'
 
@@ -62,11 +63,11 @@ def symspell_dict(name, sym_spell):
             working_dict[misspelling]['suggested'] = ""
             working_dict[misspelling]['candidates'] = ""
         if len(suggestion) == 1:
-            working_dict[misspelling]['suggested'] = str(suggestion[0]).split(',')
+            working_dict[misspelling]['suggested'] = str(suggestion[0]).split(',')[0]
             working_dict[misspelling]['candidates'] = ""
         if len(suggestion) > 1:
             for symspell_suggest in suggestion:
-                suggestions.append(str(symspell_suggest).split(','))
+                suggestions.append(str(symspell_suggest).split(',')[0])
             working_dict[misspelling]['suggested'] = suggestions[0]
             working_dict[misspelling]['candidates'] = suggestions
 
@@ -108,24 +109,23 @@ def pickle_output(dict_object, name):
 
 
 def main():
-
     sym_spell = create_sym_object()
-
-    birkbeck_template = create_default_dict(birkbeck_mispellings_path)
-    pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
-    g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
-    birkbeck_sym = symspell_dict('holbrook', sym_spell)
-    pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
-    birkbeck_phonemes = add_phonemes(birkbeck_template, 'birkbeck')
-    pickle_output(birkbeck_phonemes, 'birkbeck_phonemes_dict.txt')
+    #
+    # birkbeck_template = create_default_dict(birkbeck_mispellings_path)
+    # pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
+    # g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
+    # birkbeck_sym = symspell_dict('holbrook', sym_spell)
+    # pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
+    # birkbeck_phonemes = add_phonemes(birkbeck_template, 'birkbeck')
+    # pickle_output(birkbeck_phonemes, 'birkbeck_phonemes_dict.txt')
 
     holbrook_template = create_default_dict(holbrook_mispellings_path)
     pickle_output(holbrook_template, 'holbrook_template_dict.txt')
-    g2p_word_list(holbrook_template, 'holbrook_word_list.txt')
+    # g2p_word_list(holbrook_template, 'holbrook_word_list.txt')
     holbrook_sym = symspell_dict('holbrook', sym_spell)
     pickle_output(holbrook_sym, 'holbrook_symspell_dict.txt')
-    holbrook_phonemes = add_phonemes(holbrook_template, 'holbrook')
-    pickle_output(holbrook_phonemes, 'holbrook_phonemes_dict.txt')
+    # holbrook_phonemes = add_phonemes(holbrook_template, 'holbrook')
+    # pickle_output(holbrook_phonemes, 'holbrook_phonemes_dict.txt')
 
 
 if __name__ == "__main__":
