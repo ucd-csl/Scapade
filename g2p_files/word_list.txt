@@ -89,180 +89,287 @@ $dances
 danses
 $details
 deetales
+$discussions
 dicussions
-dided - DIED
-didnt
+$died
+dided
+$difference
 differance
+$different
 difrunt
+$digital
 digitle
 ditull
+$footprint
 futprnt
+$doesn't
 doest
 donet
+$don't
 dont
 dount
-downlding
 downt
+$downloading
+downlding
+$safety
 saftety
+$easier
 easyer
+$educational
 edcautional
-effcet - EFFECT
-egicasinol - EDUCATIONAL
-egsample - EXAMPLE
-eles - ELSE
+egicasinol
+$effect
+effcet
+$example
+egsample
+$else
+eles
+$emails
 emales
+$entertaining
 entertaning
-enterwebs - INTERWEBS
+$environment
 enviroment
+$environments
 enviroments
+$anybody
 enybody
+$everyone's
 everyones
+$every
 evry
+$favourite
 favouate
-fdortnuite
-fing - THING
+$thing
+fing
+$friend
 freind
-freinds
 frend
+$friends
+freinds
 frendes
-frendly
 frends
 frenids
 frens
 fridnds
-froget
-gane - GAIN
-genuilly - GENUINELY
+$friendly
+frendly
+$gain
+gane
+$genuinely
+genuilly
+$gonna
 gona
-goning - GOING
+$going
+goning
+$graphics
 grafics
+$guy
 guyy
+$hackers
 hakers
+$happening
 happing
+$harrassed
 harrased
+$having
 haveing
+$he
 hee
+$honestly
 honastly
+$important
 importent
+$inappropriate
 innapropriate
 innipropiet
+$instagram
 innteraction
 instagram
 instergram
 instergran
 instgram
-interdent
+interdent - TAG
 intgram
+$interesting
 intresting
+$isn't
 isnt
-isuues - ISSUES
-jerck - JERK
+$issues
+isuues
+$jerk
+jerck
+$kidnap
 kiddnap
+kidnapp
+$kidnapper
 kiddnaper
-kideven
 kidknapper
 kidnaper
+$kidnapping
 kidnaping
-kidnapp
+$kill
 kil
-laddy
-lan
+
+laddy - TAG
+lan - TAG
+$learning
 learnung
+$learned
 lernt
-lifes
+lifes - TAG
+$lonely
 lonley
 lonly
-looka
-loring
+looka  - TAG
+loring - TAG
+$maybe
 mabe
 mabey
 maby
 mabye
-macher - MATURE
 maybey
-meen - MEAN
-mellon - MELLON
-messanger - MESSENGER
+$mature
+macher
+$mean
+meen
+$melon
+mellon
+$messenger
+messanger
+$michael
 mical
 michael
 micheal
 michel
 michiel
-midia
-mincraft
+midia - TAG
+$manipulate
 minipulate
-mishon - MISSION
+$mission
+mishon
+$netflix
 netfilix
-nevers
-niss - NICE
+nevers  - TAG
+$nice
+niss
+$normally
 normlly
-onllan - ONLINE
-overaged - OVERAGE
+$online
+onllan
+$overage
+overaged
+$password
 pasword
-perswade - PERSUADE
+$persuade
+perswade
+$pretend
 petend
+$physical
 phiscal
+$people
 poeple
+$poorly
 porly
+$possibly
 posibly
+$predator
 preaditor
+$pretending
 pretenden
+prtending
+$probably
 probaly
 probly
 probobly
 probrely
-prtending
-pstander - BYSTANDER
+$bystander
+pstander
+$realistic
 raelistic
+$really
 reall
-recieved
-rediculous
 relly
+$received
+recieved
+$ridiculous
+rediculous
+$restrictions
 restrtictions
-royale
+$safety
 saftey
+$scam
 scame
+$scammer
 scamer
+$shows
 shose
+$situation
 sichweshen
+$screen
 skreen
-snapechat
+$someone
 som1
+$something
 someting
+$somewhere
 somewere
+$something
 somthing
+$space
 spase
+$strangers
 srangers
-stoping
 strangrs
 streanges
+$stopping
+stoping
+$surprise
 suprise
+$talk
 talck
-tath - THAT
-tath's = THAT'S
 tawk
+$that
+tath
+$that's
+tath's
+$teaching
 teatching
-tec - TECH
+$tech
+tec
+$tells
 tels
+$think
 tink
+$told
 tolld
-tought
-tourt
 towled
-trased - TRACED
-tring - TRYING
-trost - TRUST
+$thought
+tought
+tourt - TAG
+$traced
+trased
+$trying
+tring
 tyring
-upstander
+$trust
+trost
+upstander - TAG
+$your
 ur
-wats
-werk
-whants
+wats - TAG
+werk - TAG
+whants - TAG
 whatch
-whith - WITH
-wip - WHIP
+$with
+whith
+$whip
+wip
+$weirdo
 wirdo
-woid - WOULD
-wonst - WANTS
-youse
+$would
+woid
+$wants
+wonst
+$yourself
 youself
