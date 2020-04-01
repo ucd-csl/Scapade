@@ -165,28 +165,11 @@ def pickle_output(dict_object, name):
 
 
 def main():
-    sym_spell = create_sym_object()
-    #
-    # birkbeck_template = create_default_dict(birkbeck_mispellings_path)
-    # pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
-    # g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
-    # birkbeck_sym = symspell_dict('holbrook', sym_spell)
-    # pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
-    # birkbeck_phonemes = add_phonemes(birkbeck_template, 'birkbeck')
-    # pickle_output(birkbeck_phonemes, 'birkbeck_phonemes_dict.txt')
-
-    holbrook_template = create_default_dict(holbrook_mispellings_path)
-    pickle_output(holbrook_template, 'holbrook_template_dict.txt')
-    # g2p_word_list(holbrook_template, 'holbrook_word_list.txt')
-    holbrook_sym = symspell_dict('holbrook', sym_spell)
-    pickle_output(holbrook_sym, 'holbrook_symspell_dict.txt')
-    # holbrook_phonemes = add_phonemes(holbrook_template, 'holbrook')
-    # pickle_output(holbrook_phonemes, 'holbrook_phonemes_dict.txt')
-
+    pass
     # sym_spell = create_sym_object()
 
-    birkbeck_template = create_default_dict(birkbeck_mispellings_path)
-    pyspell_dict(birkbeck_template, 'birkbeck')
+    # birkbeck_template = create_default_dict(birkbeck_mispellings_path)
+    # pyspell_dict(birkbeck_template, 'birkbeck')
     # pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
     # g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
     # birkbeck_sym = symspell_word_dict('holbrook', sym_spell)
