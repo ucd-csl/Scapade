@@ -1,8 +1,10 @@
 from pathlib import Path
-from spellchecker import SpellChecker
-import pkg_resources
-from symspellpy_words import SymSpell, Verbosity
 import pickle
+import pkg_resources
+import pandas as pd
+from spellchecker import SpellChecker
+from symspellpy_words import SymSpell, Verbosity
+
 
 # input_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/" # path format windows
 # output_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/spelling_correction_dicts"
@@ -49,7 +51,7 @@ def g2p_word_list(template_dict, name):
             file.write(key+"\n")
 
 
-def symspell_dict(name, sym_spell):
+def symspell_word_dict(name, sym_spell):
     name = name + "_template_dict.txt"
     full_path = Path(output_path_files) / name
     working_dict = pickle.load(open(full_path, "rb"))
@@ -57,7 +59,6 @@ def symspell_dict(name, sym_spell):
         input_term = misspelling.replace("_", " ")
         suggestion = sym_spell.lookup(input_term, Verbosity.CLOSEST, max_edit_distance=2)
         suggestions = []
-
 
         if len(suggestion) == 0:
             working_dict[misspelling]['suggested'] = ""
@@ -74,12 +75,19 @@ def symspell_dict(name, sym_spell):
     return working_dict
 
 
-def pyspell_dict(input_dict):
+def pyspell_dict(input_dict, name):
+    file_name = name + "_pyspell_dict.txt"
     spell = SpellChecker()
-    working_dict = input_dict.copy()
+    working_dict = dict(input_dict)
+    counter = 0
     for mispelling, details in working_dict.items():
-        working_dict[mispelling]['correction'] = spell.correction(mispelling)
-        working_dict[mispelling]['candidates'] = spell.candidates(mispelling)
+        if counter % 100 == 0:
+            print(counter)
+        working_dict[mispelling]['suggested'] = spell.correction(mispelling)
+        working_dict[mispelling]['candidates'] = list(spell.candidates(mispelling))
+        counter += 1
+
+    pickle_output(working_dict, file_name)
 
 
 def add_phonemes(input_dict, name):
@@ -103,12 +111,61 @@ def add_phonemes(input_dict, name):
     return current_dict
 
 
+def symspell_phonemes(verbosity_level, dataset):
+
+    from symspellpy_phonemes import symspellpy
+    SymSpell = symspellpy.SymSpell
+    Verbosity = symspellpy.Verbosity
+
+    sym_spell = SymSpell(max_dictionary_edit_distance=3, prefix_length=15)
+    dictionary_path = pkg_resources.resource_filename("symspellpy_phonemes", "cmu_frequency.csv")
+    sym_spell.load_dictionary(dictionary_path, term_index=1, count_index=2)
+
+    input_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/spelling_correction_dicts"
+    dataset = dataset + "_phonemes_dict.txt"
+    phonemes_dict = Path(input_path_files) / dataset
+    phonemes_dict = pickle.load(open(phonemes_dict, "rb"))
+
+    input_path_csv = Path("C:/Users/robert/Documents/zeeko_nlp/input_files/") / "cmu_frequency.csv"
+    df = pd.read_csv(input_path_csv, names=['word', 'seq', 'count'])
+    counter = 0
+
+    for key in phonemes_dict.keys():
+        if counter % 100 == 0:
+            print('Iteration number:', counter)
+        input_term = phonemes_dict[key]['phoneme_rep']
+
+        if verbosity_level == 'TOP':
+            suggestions = sym_spell.lookup(input_term, Verbosity.TOP)
+        elif verbosity_level == 'CLOSEST':
+            suggestions = sym_spell.lookup(input_term, Verbosity.CLOSEST)
+        else:
+            suggestions = sym_spell.lookup(input_term, Verbosity.ALL)
+
+        phonemes_dict[key]['candidates'] = []
+
+        for suggestion in suggestions:
+            if len(phonemes_dict[key]['candidates']) >= 10:
+                break
+            phonemes_dict[key]['suggested_phoneme'] = str(suggestion).split(',')[0]
+            current_seq = phonemes_dict[key]['suggested_phoneme']
+            df_slice = df[df['seq'] == current_seq].sort_values(by=['count'], ascending=False)
+            if phonemes_dict[key]['suggested'] == '':
+                phonemes_dict[key]['suggested'] = df_slice.iloc[0]['word']
+            if len(df_slice) > 1 and len(phonemes_dict[key]['suggested_phoneme']) < 10:
+                phonemes_dict[key]['candidates'] += (list(df_slice[:5]['word']))
+        counter += 1
+
+    return phonemes_dict
+
+
 def pickle_output(dict_object, name):
     path = Path(output_path_files) / name
     pickle.dump(dict_object, open(path, "wb"))
 
 
 def main():
+<<<<<<< Updated upstream
     sym_spell = create_sym_object()
     #
     # birkbeck_template = create_default_dict(birkbeck_mispellings_path)
@@ -126,6 +183,32 @@ def main():
     pickle_output(holbrook_sym, 'holbrook_symspell_dict.txt')
     # holbrook_phonemes = add_phonemes(holbrook_template, 'holbrook')
     # pickle_output(holbrook_phonemes, 'holbrook_phonemes_dict.txt')
+=======
+
+    # sym_spell = create_sym_object()
+
+    birkbeck_template = create_default_dict(birkbeck_mispellings_path)
+    pyspell_dict(birkbeck_template, 'birkbeck')
+    # pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
+    # g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
+    # birkbeck_sym = symspell_word_dict('holbrook', sym_spell)
+    # pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
+    # birkbeck_phonemes = add_phonemes(birkbeck_template, 'birkbeck')
+    # pickle_output(birkbeck_phonemes, 'birkbeck_phonemes_dict.txt')
+    # birkbeck_phonemes_sym = symspell_phonemes('TOP', 'birkbeck')
+    # pickle_output(birkbeck_phonemes_sym, 'birkbeck_phonemes_sym.txt')
+
+    # holbrook_template = create_default_dict(holbrook_mispellings_path)
+    # pyspell_dict(holbrook_template, 'holbrook')
+    # pickle_output(holbrook_template, 'holbrook_template_dict.txt')
+    # g2p_word_list(holbrook_template, 'holbrook_word_list.txt')
+    # holbrook_sym = symspell_word_dict('holbrook', sym_spell)
+    # pickle_output(holbrook_sym, 'holbrook_symspell_dict.txt')
+    # holbrook_phonemes = add_phonemes(holbrook_template, 'holbrook')
+    # pickle_output(holbrook_phonemes, 'holbrook_phonemes_dict.txt')
+    # holbrook_phonemes_sym = symspell_phonemes('TOP', 'holbrook')
+    # pickle_output(holbrook_phonemes_sym, 'holbrook_phonemes_sym.txt')
+>>>>>>> Stashed changes
 
 
 if __name__ == "__main__":
