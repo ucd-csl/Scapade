@@ -4,6 +4,10 @@ import pkg_resources
 import pandas as pd
 from spellchecker import SpellChecker
 from symspellpy_words import SymSpell, Verbosity
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 
 # input_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/" # path format windows
@@ -166,6 +170,7 @@ def pickle_output(dict_object, name):
 
 def main():
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     sym_spell = create_sym_object()
     #
     # birkbeck_template = create_default_dict(birkbeck_mispellings_path)
@@ -184,6 +189,8 @@ def main():
     # holbrook_phonemes = add_phonemes(holbrook_template, 'holbrook')
     # pickle_output(holbrook_phonemes, 'holbrook_phonemes_dict.txt')
 =======
+=======
+>>>>>>> Stashed changes
 
     # sym_spell = create_sym_object()
 
@@ -208,6 +215,9 @@ def main():
     # pickle_output(holbrook_phonemes, 'holbrook_phonemes_dict.txt')
     # holbrook_phonemes_sym = symspell_phonemes('TOP', 'holbrook')
     # pickle_output(holbrook_phonemes_sym, 'holbrook_phonemes_sym.txt')
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 
