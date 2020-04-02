@@ -7,9 +7,11 @@ adault
 afect
 alll
 animaitons
+anoeing
 ansaring
 enybody
 appart
+apeal
 approch
 arent
 avitar
@@ -38,6 +40,7 @@ couse
 cus
 cuz
 comefortable
+comfertable
 communacation
 conplete
 confedence
@@ -52,6 +55,8 @@ cyberbullyin
 dans
 danses
 dangher
+detale
+detaled
 deetales
 dided
 differance
@@ -82,6 +87,7 @@ futprnt
 freind
 frend
 frendly
+freindly
 freinds
 frendes
 frends
@@ -130,6 +136,7 @@ lonley
 lonly
 loring
 minipulate
+meny
 macher
 mabe
 mabey
@@ -137,6 +144,7 @@ maby
 mabye
 maybey
 meen
+meet
 midia
 mellon
 messanger
@@ -150,6 +158,7 @@ netfilix
 niss
 normlly
 onllan
+opend
 overaged
 pasword
 poeple
@@ -158,6 +167,8 @@ phiscal
 porly
 posibly
 preaditor
+preffered
+preased
 petend
 pretenden
 prtending
@@ -169,6 +180,7 @@ raelistic
 reall
 relly
 recieved
+respound
 restrtictions
 rediculous
 saftety
@@ -206,6 +218,7 @@ trost
 chrust
 tring
 tyring
+vioce
 wonst
 wats
 whants
