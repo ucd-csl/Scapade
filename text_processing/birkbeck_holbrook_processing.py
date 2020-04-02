@@ -6,12 +6,15 @@ from spellchecker import SpellChecker
 from symspellpy_words import SymSpell, Verbosity
 
 
-# input_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/" # path format windows
-# output_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/spelling_correction_dicts"
-output_path_files = "/Users/robertyoung/git_repos/nlp_phoneme_spelling/input_files/spelling_correction_dicts"
-input_path_files = "/Users/robertyoung/git_repos/nlp_phoneme_spelling/input_files/" # path format mac
+input_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/" # path format windows
+output_path_files = "C:/Users/robert/Documents/zeeko_nlp/input_files/spelling_correction_dicts"
+# output_path_files = "/Users/robertyoung/git_repos/nlp_phoneme_spelling/input_files/spelling_correction_dicts"
+# input_path_files = "/Users/robertyoung/git_repos/nlp_phoneme_spelling/input_files/" # path format mac
 birkbeck_mispellings_path = Path(input_path_files) / 'birkbeck.txt'
 holbrook_mispellings_path = Path(input_path_files) / 'holbrook-missp.txt'
+zeeko_mispellings_path = Path(input_path_files) / 'zeeko_misspellings.txt'
+aspell_mispellings_path = Path(input_path_files) / 'aspell.txt'
+wiki_mispellings_path = Path(input_path_files) / 'wikipedia.txt'
 
 
 def create_sym_object():
@@ -164,15 +167,18 @@ def pickle_output(dict_object, name):
     pickle.dump(dict_object, open(path, "wb"))
 
 
-def main():
+def process_given_dataset():
     pass
-    # sym_spell = create_sym_object()
+
+
+def main():
+    sym_spell = create_sym_object()
 
     # birkbeck_template = create_default_dict(birkbeck_mispellings_path)
     # pyspell_dict(birkbeck_template, 'birkbeck')
     # pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
     # g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
-    # birkbeck_sym = symspell_word_dict('holbrook', sym_spell)
+    # birkbeck_sym = symspell_word_dict('birkbeck', sym_spell)
     # pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
     # birkbeck_phonemes = add_phonemes(birkbeck_template, 'birkbeck')
     # pickle_output(birkbeck_phonemes, 'birkbeck_phonemes_dict.txt')
@@ -189,6 +195,39 @@ def main():
     # pickle_output(holbrook_phonemes, 'holbrook_phonemes_dict.txt')
     # holbrook_phonemes_sym = symspell_phonemes('TOP', 'holbrook')
     # pickle_output(holbrook_phonemes_sym, 'holbrook_phonemes_sym.txt')
+
+    # zeeko_template = create_default_dict(zeeko_mispellings_path)
+    # pyspell_dict(zeeko_template, 'zeeko')
+    # pickle_output(zeeko_template, 'zeeko_template_dict.txt')
+    # g2p_word_list(zeeko_template, 'zeeko_word_list.txt')
+    # zeeko_sym = symspell_word_dict('zeeko', sym_spell)
+    # pickle_output(zeeko_sym, 'zeeko_symspell_dict.txt')
+    # zeeko_phonemes = add_phonemes(zeeko_template, 'zeeko')
+    # pickle_output(zeeko_phonemes, 'zeeko_phonemes_dict.txt')
+    # zeeko_phonemes_sym = symspell_phonemes('TOP', 'zeeko')
+    # pickle_output(zeeko_phonemes_sym, 'zeeko_phonemes_sym.txt')
+
+    aspell_template = create_default_dict(aspell_mispellings_path)
+    # pyspell_dict(aspell_template, 'aspell')
+    # pickle_output(aspell_template, 'aspell_template_dict.txt')
+    # g2p_word_list(aspell_template, 'aspell_word_list.txt')
+    aspell_sym = symspell_word_dict('aspell', sym_spell)
+    pickle_output(aspell_sym, 'aspell_symspell_dict.txt')
+    aspell_phonemes = add_phonemes(aspell_template, 'aspell')
+    pickle_output(aspell_phonemes, 'aspell_phonemes_dict.txt')
+    aspell_phonemes_sym = symspell_phonemes('TOP', 'aspell')
+    pickle_output(aspell_phonemes_sym, 'aspell_phonemes_sym.txt')
+
+    wiki_template = create_default_dict(wiki_mispellings_path)
+    # pyspell_dict(wiki_template, 'wiki')
+    # pickle_output(wiki_template, 'wiki_template_dict.txt')
+    # g2p_word_list(wiki_template, 'wiki_word_list.txt')
+    wiki_sym = symspell_word_dict('wiki', sym_spell)
+    pickle_output(wiki_sym, 'wiki_symspell_dict.txt')
+    wiki_phonemes = add_phonemes(wiki_template, 'wiki')
+    pickle_output(wiki_phonemes, 'wiki_phonemes_dict.txt')
+    wiki_phonemes_sym = symspell_phonemes('TOP', 'wiki')
+    pickle_output(wiki_phonemes_sym, 'wiki_phonemes_sym.txt')
 
 
 if __name__ == "__main__":
