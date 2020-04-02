@@ -14,9 +14,12 @@ elif [ "$str" == "holbrook" ]; then
 elif [  "$str" == "zeeko" ]; then
   word_list_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/zeeko_word_list.txt"
   output_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/zeeko_phonemes.txt"
-elif [ "$str" == "custom" ]; then
-  word_list_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/frequency_dict_word_list.txt"
-  output_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/frequency_dict_word_list_phonemes.txt"
+elif [ "$str" == "aspell" ]; then
+  word_list_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/aspell_word_list.txt"
+  output_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/aspell_phonemes.txt"
+elif [ "$str" == "wiki" ]; then
+  word_list_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/wiki_word_list.txt"
+  output_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/wiki_phonemes.txt"
 fi
 
 g2p-seq2seq --decode $word_list_path --model_dir $model_path --output "$output_path"
