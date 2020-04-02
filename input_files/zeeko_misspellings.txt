@@ -13,12 +13,16 @@ $all
 alll
 $animations
 animaitons
+$annoying
+anoeing
 $answering
 ansaring
 $anybody
 enybody
 $apart
 appart
+$appeal
+apeal
 $approach
 approch
 $aren't
@@ -59,6 +63,7 @@ cus
 cuz
 $comfortable
 comefortable
+comfertable
 $communication
 communacation
 $complete
@@ -84,6 +89,10 @@ $dances
 danses
 $danger
 dangher
+$detail
+detale
+$detailed
+detaled
 $details
 deetales
 $died
@@ -138,6 +147,7 @@ freind
 frend
 $friendly
 frendly
+freindly
 $friends
 freinds
 frendes
@@ -219,6 +229,8 @@ $luring
 loring
 $manipulate
 minipulate
+$many
+meny
 $mature
 macher
 $maybe
@@ -229,6 +241,8 @@ mabye
 maybey
 $mean
 meen
+$meet
+meet
 $media
 midia
 $melon
@@ -251,6 +265,8 @@ $normally
 normlly
 $online
 onllan
+$opened
+opend
 $overage
 overaged
 $password
@@ -267,6 +283,10 @@ $possibly
 posibly
 $predator
 preaditor
+$preferred
+preffered
+$pressed
+preased
 $pretend
 petend
 $pretending
@@ -284,6 +304,8 @@ reall
 relly
 $received
 recieved
+$respond
+respound
 $restrictions
 restrtictions
 $ridiculous
@@ -349,6 +371,8 @@ chrust
 $trying
 tring
 tyring
+$voice
+vioce
 $wants
 wonst
 wats
