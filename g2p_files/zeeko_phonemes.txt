@@ -7,9 +7,11 @@ adault AH D AO L T
 afect AH F EH K T
 alll AO L
 animaitons AE N AH M EY T AH N Z
+anoeing AH N UW IH NG
 ansaring AE N S EH R IH NG
 enybody EH N IY B AH D IY
 appart AH P AA R T
+apeal EY P IY L
 approch AE P R AH K
 arent EH R AH N T
 avitar AE V IH T AA R
@@ -38,6 +40,7 @@ couse K AW S
 cus K AH S
 cuz K AH Z
 comefortable K AH M F ER T AH B AH L
+comfertable K AH M F ER T AH B AH L
 communacation K AA M Y AH N AH K EY SH AH N
 conplete K AH N P L IY T
 confedence K AA N F EH D AH N S
@@ -52,6 +55,8 @@ cyberbullyin S AY B ER B AH L IY AH N
 dans D AE N Z
 danses D AE N S IH Z
 dangher D AE NG ER
+detale D IH T EY L
+detaled D IH T EY L D
 deetales D IY T EY L Z
 dided D AY D IH D
 differance D IH F ER AH N S
@@ -82,6 +87,7 @@ futprnt F AH T P R N T
 freind F R AY N D
 frend F R EH N D
 frendly F R EH N D L IY
+freindly F R AY N D L IY
 freinds F R AY N D Z
 frendes F R EH N D Z
 frends F R EH N D Z
@@ -130,6 +136,7 @@ lonley L AA N L IY
 lonly L AA N L IY
 loring L AO R IH NG
 minipulate M IH N IH P Y AH L EY T
+meny M EH N IY
 macher M AE K ER
 mabe M EY B
 mabey M EY B IY
@@ -137,6 +144,7 @@ maby M EY B IY
 mabye M AE B IY
 maybey M EY B IY
 meen M IY N
+meet M IY T
 midia M IH D IY AH
 mellon M EH L AH N
 messanger M EH S EY N JH ER
@@ -150,6 +158,7 @@ netfilix N EH T F IH L IH K S
 niss N IH S
 normlly N AO R M L IY
 onllan AO N L AH N
+opend OW P AH N D
 overaged OW V ER IH JH D
 pasword P AE S W ER D
 poeple P OW P AH L
@@ -158,6 +167,8 @@ phiscal F IH S K AH L
 porly P AO R L IY
 posibly P AA Z AH B L IY
 preaditor P R IY AE D AH T ER
+preffered P R EH F ER D
+preased P R IY S T
 petend P AH T EH N D
 pretenden P R IY T EH N D AH N
 prtending P R T EH N D IH NG
@@ -169,6 +180,7 @@ raelistic R EY L IH S T IH K
 reall R IY L
 relly R EH L IY
 recieved R IH S IY V D
+respound R IY S P AW N D
 restrtictions R EH S T R T IH K SH AH N Z
 rediculous R IY D IH K Y AH L AH S
 saftety S AE F T EH T IY
@@ -206,6 +218,7 @@ trost T R AA S T
 chrust K R AH S T
 tring T R IH NG
 tyring T AY R IH NG
+vioce V AY AH S
 wonst W AH N S T
 wats W AA T S
 whants W AE N T S
