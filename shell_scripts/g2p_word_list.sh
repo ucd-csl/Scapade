@@ -11,6 +11,9 @@ if [ "$str" == "birkbeck" ]; then
 elif [ "$str" == "holbrook" ]; then
   word_list_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/holbrook_word_list.txt"
   output_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/holbrook_phonemes.txt"
+elif [  "$str" == "zeeko" ]; then
+  word_list_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/zeeko_word_list.txt"
+  output_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/zeeko_phonemes.txt"
 elif [ "$str" == "custom" ]; then
   word_list_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/frequency_dict_word_list.txt"
   output_path="/c/Users/robert/Documents/zeeko_nlp/g2p_files/frequency_dict_word_list_phonemes.txt"
