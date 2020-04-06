@@ -165,7 +165,7 @@ class Levenshtein_Phoneme(AbstractDistanceComparer):
 
         **From**: https://github.com/softwx/SoftWx.Match
         """
-        input_path_files = "C:/Users/robert/Documents/zeeko_nlp/symspellpy_phonemes/"
+        input_path_files = "../symspellpy_phonemes/"
         file_name = 'acoustic_distributional_distance_matrix.csv'
         input_file = Path(input_path_files) / file_name
         similarities = pd.read_csv(input_file, index_col=0)
