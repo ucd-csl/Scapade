@@ -15,6 +15,8 @@ zeeko_mispellings_path = Path(input_path_files) / 'zeeko_misspellings.txt'
 aspell_mispellings_path = Path(input_path_files) / 'aspell.txt'
 wiki_mispellings_path = Path(input_path_files) / 'wikipedia.txt'
 
+dataset_paths = {'birkbeck':birkbeck_mispellings_path, 'holbrook':holbrook_mispellings_path,
+                 'zeeko':zeeko_mispellings_path, 'aspell':aspell_mispellings_path, 'wiki':wiki_mispellings_path}
 
 def create_sym_object():
     sym_spell = SymSpell(max_dictionary_edit_distance=3, prefix_length=15)
@@ -188,62 +190,9 @@ def process_given_dataset(path_mispellings, dataset_name, sym_spell):
 
 def main():
     sym_spell = create_sym_object()
-    process_given_dataset(holbrook_mispellings_path, 'holbrook', sym_spell)
-
-    # birkbeck_template = create_default_dict(birkbeck_mispellings_path)
-    # pyspell_dict(birkbeck_template, 'birkbeck')
-    # pickle_output(birkbeck_template, 'birkbeck_template_dict.txt')
-    # g2p_word_list(birkbeck_template, 'birkbeck_word_list.txt')
-    # birkbeck_sym = symspell_word_dict('birkbeck', sym_spell)
-    # pickle_output(birkbeck_sym, 'birkbeck_symspell_dict.txt')
-    # birkbeck_phonemes = add_phonemes(birkbeck_template, 'birkbeck')
-    # pickle_output(birkbeck_phonemes, 'birkbeck_phonemes_dict.txt')
-    # birkbeck_phonemes_sym = symspell_phonemes('TOP', 'birkbeck')
-    # pickle_output(birkbeck_phonemes_sym, 'birkbeck_phonemes_sym.txt')
-
-    # holbrook_template = create_default_dict(holbrook_mispellings_path)
-    # pyspell_dict(holbrook_template, 'holbrook')
-    # pickle_output(holbrook_template, 'holbrook_template_dict.txt')
-    # g2p_word_list(holbrook_template, 'holbrook_word_list.txt')
-    # holbrook_sym = symspell_word_dict('holbrook', sym_spell)
-    # pickle_output(holbrook_sym, 'holbrook_symspell_dict.txt')
-    # holbrook_phonemes = add_phonemes(holbrook_template, 'holbrook')
-    # pickle_output(holbrook_phonemes, 'holbrook_phonemes_dict.txt')
-    # holbrook_phonemes_sym = symspell_phonemes('TOP', 'holbrook')
-    # pickle_output(holbrook_phonemes_sym, 'holbrook_phonemes_sym.txt')
-
-    # zeeko_template = create_default_dict(zeeko_mispellings_path)
-    # pyspell_dict(zeeko_template, 'zeeko')
-    # pickle_output(zeeko_template, 'zeeko_template_dict.txt')
-    # g2p_word_list(zeeko_template, 'zeeko_word_list.txt')
-    # zeeko_sym = symspell_word_dict('zeeko', sym_spell)
-    # pickle_output(zeeko_sym, 'zeeko_symspell_dict.txt')
-    # zeeko_phonemes = add_phonemes(zeeko_template, 'zeeko')
-    # pickle_output(zeeko_phonemes, 'zeeko_phonemes_dict.txt')
-    # zeeko_phonemes_sym = symspell_phonemes('TOP', 'zeeko')
-    # pickle_output(zeeko_phonemes_sym, 'zeeko_phonemes_sym.txt')
-
-    # aspell_template = create_default_dict(aspell_mispellings_path)
-    # pyspell_dict(aspell_template, 'aspell')
-    # pickle_output(aspell_template, 'aspell_template_dict.txt')
-    # g2p_word_list(aspell_template, 'aspell_word_list.txt')
-    # aspell_sym = symspell_word_dict('aspell', sym_spell)
-    # pickle_output(aspell_sym, 'aspell_symspell_dict.txt')
-    # aspell_phonemes = add_phonemes(aspell_template, 'aspell')
-    # pickle_output(aspell_phonemes, 'aspell_phonemes_dict.txt')
-    # aspell_phonemes_sym = symspell_phonemes('TOP', 'aspell')
-    # pickle_output(aspell_phonemes_sym, 'aspell_phonemes_sym.txt')
-
-    # wiki_template = create_default_dict(wiki_mispellings_path)
-    # pyspell_dict(wiki_template, 'wiki')
-    # pickle_output(wiki_template, 'wiki_template_dict.txt')
-    # g2p_word_list(wiki_template, 'wiki_word_list.txt')
-    # wiki_sym = symspell_word_dict('wiki', sym_spell)
-    # pickle_output(wiki_sym, 'wiki_symspell_dict.txt')
-    # wiki_phonemes = add_phonemes(wiki_template, 'wiki')
-    # pickle_output(wiki_phonemes, 'wiki_phonemes_dict.txt')
-    # wiki_phonemes_sym = symspell_phonemes('TOP', 'wiki')
-    # pickle_output(wiki_phonemes_sym, 'wiki_phonemes_sym.txt')
+    data_to_process = ['birkbeck', 'holbrook', 'zeeko', 'aspell', 'wiki']
+    for dataset in data_to_process:
+        process_given_dataset(dataset_paths[dataset], dataset, sym_spell)
 
 
 if __name__ == "__main__":
