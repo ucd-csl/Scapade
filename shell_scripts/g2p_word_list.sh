@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 str=$1
+# edit this path to where the model rests in your file structure
 model_path="/c/Users/robert/Documents/zeeko_nlp/nlp/g2p-seq2seq-master/g2p-seq2seq-model-6.2-cmudict-nostress"
 
 if [ "$str" == "birkbeck" ]; then
