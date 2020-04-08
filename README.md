@@ -35,7 +35,7 @@ This initial study focuses purely on the correction of individual misspellings. 
 
 1. Misspellings are gathered as a word list which is passed to the [CMU Sequence-to-Sequence G2P toolkit](https://github.com/cmusphinx/g2p-seq2seq) for conversion into phoneme sequences.
 2. The resulting list of phonemes is structured into a Python dictionary for the dataset and method for easy access, lookup and corrections. 
-3. A fork of SymSpell is used, which instead of running symmetric delete operations on character strings (words), it works for phoneme sequences. This generates a candidate list of phoneme sequences for quick lookup and edit distance calculation.
+3. A fork of SymSpell is created and used, which instead of running symmetric delete operations on character strings (words), it works for phoneme sequences. This generates a candidate list of phoneme sequences for quick lookup and edit distance calculation.
 4. The acoustic edit distances of the candidate sequences is calculated against the matching entries in the [CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict). Results are scored by distance and then word frequency. The frequency values are taken from the SymSpell frequency dictionary found [here](https://raw.githubusercontent.com/wolfgarbe/SymSpell/master/SymSpell.FrequencyDictionary/en-80k.txt).
 5. The top result from the CMU dictionary is found and the resulting word returned and added to the dictionary item as the suggested correction.
  
