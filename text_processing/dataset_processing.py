@@ -1,3 +1,5 @@
+import subprocess
+from sys import platform
 from pathlib import Path
 import pickle
 import pkg_resources
@@ -68,6 +70,14 @@ def g2p_word_list(template_dict, name):
         for key, value in template_dict.items():
             key = key.replace('_', '')
             file.write(key+"\n")
+
+def g2p_phoneme_list(dataset_name):
+
+    if platform == "win32":
+        subprocess.Popen(["C:\Program Files\Git\git-bash.exe",
+                          "../shell_scripts/g2p_word_list.sh", dataset_name])
+    else:
+        subprocess.run(["../shell_scripts/g2p_word_list.sh", dataset_name])
 
 
 def symspell_word_dict(name, sym_spell):
@@ -208,16 +218,17 @@ def pickle_output(dict_object, name):
 
 def process_given_dataset(path_mispellings, dataset_name, sym_spell):
 
-    name_template_dict = dataset_name + "_template_dict_1.txt"
-    name_word_list = dataset_name + "_word_list_1.txt"
-    name_symspell_dict = dataset_name + "_symspell_dict_1.txt"
-    name_phonenems_dict = dataset_name + "_phonemes_dict_1.txt"
-    name_phonemes_sym = dataset_name + "_phonemes_sym_1.txt"
+    name_template_dict = dataset_name + "_template_dict.txt"
+    name_word_list = dataset_name + "_word_list.txt"
+    name_symspell_dict = dataset_name + "_symspell_dict.txt"
+    name_phonenems_dict = dataset_name + "_phonemes_dict.txt"
+    name_phonemes_sym = dataset_name + "_phonemes_sym.txt"
 
     template = create_default_dict(path_mispellings)
-    pyspell_dict(template, dataset_name)
+    # pyspell_dict(template, dataset_name)
     pickle_output(template, name_template_dict)
     g2p_word_list(template, name_word_list)
+    g2p_phoneme_list(dataset_name)
     sym = symspell_word_dict(dataset_name, sym_spell)
     pickle_output(sym, name_symspell_dict)
     phonemes = add_phonemes(template, dataset_name)
