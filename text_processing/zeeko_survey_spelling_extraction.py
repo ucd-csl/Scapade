@@ -5,7 +5,6 @@ import pandas as pd
 from pathlib import Path
 from os import listdir
 from os.path import isfile, join
-import re
 
 d = enchant.Dict("en_GB")
 

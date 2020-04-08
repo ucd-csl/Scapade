@@ -19,6 +19,10 @@ dataset_paths = {'birkbeck':birkbeck_mispellings_path, 'holbrook':holbrook_mispe
                  'zeeko':zeeko_mispellings_path, 'aspell':aspell_mispellings_path, 'wiki':wiki_mispellings_path}
 
 def create_sym_object():
+    """
+
+    :return:
+    """
     sym_spell = SymSpell(max_dictionary_edit_distance=3, prefix_length=15)
     dictionary_path = pkg_resources.resource_filename("symspellpy_phonemes", "frequency_dictionary_en_82_765.txt")
     sym_spell.load_dictionary(dictionary_path, term_index=0, count_index=1)
@@ -27,6 +31,11 @@ def create_sym_object():
 
 
 def create_default_dict(file_path):
+    """
+
+    :param file_path:
+    :return:
+    """
 
     dictionary_template = {}
     with open(file_path) as data_source:
@@ -47,6 +56,12 @@ def create_default_dict(file_path):
 
 
 def g2p_word_list(template_dict, name):
+    """
+
+    :param template_dict:
+    :param name:
+    :return:
+    """
     output_path = "../g2p_files/"
     file_name = Path(output_path) / name
     with open(file_name, 'w') as file:
@@ -56,6 +71,12 @@ def g2p_word_list(template_dict, name):
 
 
 def symspell_word_dict(name, sym_spell):
+    """
+
+    :param name:
+    :param sym_spell:
+    :return:
+    """
     name = name + "_template_dict.txt"
     full_path = Path(output_path_files) / name
     working_dict = pickle.load(open(full_path, "rb"))
@@ -80,6 +101,12 @@ def symspell_word_dict(name, sym_spell):
 
 
 def pyspell_dict(input_dict, name):
+    """
+
+    :param input_dict:
+    :param name:
+    :return:
+    """
     file_name = name + "_pyspell_dict.txt"
     spell = SpellChecker()
     working_dict = dict(input_dict)
@@ -95,6 +122,12 @@ def pyspell_dict(input_dict, name):
 
 
 def add_phonemes(input_dict, name):
+    """
+
+    :param input_dict:
+    :param name:
+    :return:
+    """
     input_path = "../g2p_files/"
     file_name = name + "_phonemes.txt"
     file = Path(input_path) / file_name
@@ -116,7 +149,12 @@ def add_phonemes(input_dict, name):
 
 
 def symspell_phonemes(verbosity_level, dataset):
+    """
 
+    :param verbosity_level:
+    :param dataset:
+    :return:
+    """
     from symspellpy_phonemes import symspellpy
     SymSpell = symspellpy.SymSpell
     Verbosity = symspellpy.Verbosity
