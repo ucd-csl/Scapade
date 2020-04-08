@@ -77,8 +77,23 @@ In the shell script [g2p_word_list.sh](https://github.com/robertyoung2/nlp_phone
 
 ### [input_files/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/input_files)
 
+
+
 ### [input_files/spelling_correction_dicts/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/input_files/spelling_correction_dicts)
+
+All required input files for the scripts to operate are placed here. These include:
+* The text files of misspellings to be processed eg. [holbrook-missp.txt](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/input_files/holbrook-missp.txt)
+* The acoustic distance matrix - [acoustic_distributional_distance_matrix.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/input_files/acoustic_distributional_distance_matrix.csv)
+* The CMU Pronunciation dictionary with word frequencies - [cmu_frequency.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/input_files/cmu_frequency.csv)
 
 ### [g2p_files/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/g2p_files)
 
+This contains the input and output for the g2p script which converts word lists into their phoneme representation.
+
+Example input word list - [aspell_word_list.txt](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/g2p_files/aspell_word_list.txt)<br/>
+Example output word-phoneme list - [aspell_phonemes.txt](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/g2p_files/aspell_phonemes.txt)
+
 ### [zeeko_surveys/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/zeeko_surveys)
+
+Contains 15 csv files provided from Zeeko with survey responses. Some of the responses are free text. These were used to
+extract misspellings and create the Zeeko dataset of misspellings. 
