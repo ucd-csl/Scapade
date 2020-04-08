@@ -22,11 +22,11 @@ dataset_paths = {'birkbeck':birkbeck_mispellings_path, 'holbrook':holbrook_mispe
 
 def create_sym_object():
     """
-
-    :return:
+    Initiates symspell phonemes object for use in lookup
+    :return: sym_spell
     """
     sym_spell = SymSpell(max_dictionary_edit_distance=3, prefix_length=15)
-    dictionary_path = pkg_resources.resource_filename("symspellpy_phonemes", "frequency_dictionary_en_82_765.txt")
+    dictionary_path = pkg_resources.resource_filename("symspellpy_words", "frequency_dictionary_en_82_765.txt")
     sym_spell.load_dictionary(dictionary_path, term_index=0, count_index=1)
 
     return sym_spell
@@ -34,9 +34,9 @@ def create_sym_object():
 
 def create_default_dict(file_path):
     """
-
-    :param file_path:
-    :return:
+    Creates a default dictionary Python object for the provided dataset
+    :param file_path: the file path that points to the input dataset
+    :return: Python dictionary template for the dataset
     """
 
     dictionary_template = {}
@@ -59,10 +59,10 @@ def create_default_dict(file_path):
 
 def g2p_word_list(template_dict, name):
     """
-
-    :param template_dict:
-    :param name:
-    :return:
+    Creates a file of words, each on a new line, to pass to g2p
+    :param template_dict: Python template dictionary for the provided dataset
+    :param name: name of the word list to write to
+    :return: None
     """
     output_path = "../g2p_files/"
     file_name = Path(output_path) / name
@@ -71,8 +71,14 @@ def g2p_word_list(template_dict, name):
             key = key.replace('_', '')
             file.write(key+"\n")
 
-def g2p_phoneme_list(dataset_name):
 
+def g2p_phoneme_list(dataset_name):
+    """
+    Calls the shell script which executes g2p, converting a list of words into a list of words with their phoneme
+    representation
+    :param dataset_name: dataset to execute in g2p eg. "zeeko"
+    :return: None.
+    """
     if platform == "win32":
         subprocess.Popen(["C:\Program Files\Git\git-bash.exe",
                           "../shell_scripts/g2p_word_list.sh", dataset_name])
@@ -80,14 +86,14 @@ def g2p_phoneme_list(dataset_name):
         subprocess.run(["../shell_scripts/g2p_word_list.sh", dataset_name])
 
 
-def symspell_word_dict(name, sym_spell):
+def symspell_word_dict(dataset_name, sym_spell):
     """
-
-    :param name:
-    :param sym_spell:
+    Adds suggested correction using symspell to the provided dictionary
+    :param name: Name of the dataset to be added to output file
+    :param sym_spell: sym_spell object
     :return:
     """
-    name = name + "_template_dict.txt"
+    name = dataset_name + "_template_dict.txt"
     full_path = Path(output_path_files) / name
     working_dict = pickle.load(open(full_path, "rb"))
     for misspelling, details in working_dict.items():
@@ -112,10 +118,10 @@ def symspell_word_dict(name, sym_spell):
 
 def pyspell_dict(input_dict, name):
     """
-
-    :param input_dict:
-    :param name:
-    :return:
+    Adds suggested corrections to provided dictionary
+    :param input_dict: input dictionary template
+    :param name: name of dataset for use in file output write
+    :return: None
     """
     file_name = name + "_pyspell_dict.txt"
     spell = SpellChecker()
@@ -133,10 +139,10 @@ def pyspell_dict(input_dict, name):
 
 def add_phonemes(input_dict, name):
     """
-
-    :param input_dict:
-    :param name:
-    :return:
+    Adds phoneme representation of misspelling to provided dictionary
+    :param input_dict: Input template dictionary
+    :param name: name of the input phoneme list to read from
+    :return: Updated dictionary with phoneme rep of misspellings added
     """
     input_path = "../g2p_files/"
     file_name = name + "_phonemes.txt"
@@ -160,9 +166,11 @@ def add_phonemes(input_dict, name):
 
 def symspell_phonemes(verbosity_level, dataset):
     """
-
-    :param verbosity_level:
-    :param dataset:
+    Gets suggested word correction for misspelling phoneme representation and updates the dictionary with the
+    suggested corrections
+    :param verbosity_level: What level of correction and return required. TOP, CLOSE, ALL. See symspell code
+    editdistance.py
+    :param dataset: Which dictionary dataset to write to.
     :return:
     """
     from symspellpy_phonemes import symspellpy
@@ -212,11 +220,24 @@ def symspell_phonemes(verbosity_level, dataset):
 
 
 def pickle_output(dict_object, name):
+    """
+    Pickle dump the Python object
+    :param dict_object: dictionary to be serialised
+    :param name: name of the dataset for file writing
+    :return: None
+    """
     path = Path(output_path_files) / name
     pickle.dump(dict_object, open(path, "wb"))
 
 
 def process_given_dataset(path_mispellings, dataset_name, sym_spell):
+    """
+    Calls all the functions in the correct order start to finish to process text, update dicts, and provide results
+    :param path_mispellings: The location of misspellings input document
+    :param dataset_name: The dataset being used
+    :param sym_spell: Passing the SymSpell object
+    :return: None
+    """
 
     name_template_dict = dataset_name + "_template_dict.txt"
     name_word_list = dataset_name + "_word_list.txt"
