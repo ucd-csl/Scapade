@@ -8,7 +8,7 @@ Looking at the phoneme sequences for the correct spelling of the word and the in
 * sichweshen - S IH CH W EH SH AH N
 * situation - S IH CH UW EY SH AH N
 
-We can see from the above that although the word difference by edit distance is vastly different (7 operations), the phoneme sequence is not very different at all (2 edits). However, there is a better way to measure phoneme sequence edit distance rather than using the traditional insert, delete, transpose, replace of traditional edit distance methods. Instead we can measure the similarity or dissimilarity based on *acoustic similarity*. To do achieve this, Emma O'Neil's work on phoneme edit distance and acoustic similarity was used in this project. Using this edit distance work, the two above phoneme sequences achieve an acoustic similarity edit distance of *0.27*, much closer, and a good match for the correct word and the attempted spelling.
+We can see from the above that although the word difference by edit distance is vastly different (7 operations), the phoneme sequence is not very different at all (2 edits). However, there is a better way to measure phoneme sequence edit distance rather than using the traditional insert, delete, transpose, replace of traditional edit distance methods. Instead we can measure the similarity or dissimilarity based on *acoustic similarity*. To do achieve this, Emma O'Neil's work on phoneme edit distance and acoustic similarity was used in this project. Using this edit distance work, the two above phoneme sequences achieve an acoustic similarity edit distance of **0.27**, much closer, and a good match for the correct word and the attempted spelling.
 
 This initial study focuses purely on the correction of individual misspellings. It does not take into account the word context in a given sentence and does not cover other errors such as grammatical or malapropisms. 
 
@@ -40,20 +40,25 @@ A total of five corporas of misspellings were used. Four of these were publicly 
 
 Publicly available corpora from [Birkbeck University of London](https://www.dcs.bbk.ac.uk/~ROGER/corpora.html):
 
-* Birkbeck – 36,133 misspellings of 6,136 words. Errors amalgamated from native-speaker section of the Birkbeck spelling corpus. Includes results of spelling tests and errors from free writing taken mostly from schoolchildren, university students or adult literacy students.
-* Holbrook – 1,791 misspellings of 1,200 words. Extracts of writings of secondary-school children in their penultimate year of school.
-* Aspell – 531 misspellings of 450 words. Used for testing GNU Aspell spellchecker.
-* Wikipedia – 2,455 misspellings of 1,922 words. List of misspellings made by Wikipedia editors
+* **Birkbeck** – 36,133 misspellings of 6,136 words. Errors amalgamated from native-speaker section of the Birkbeck spelling corpus. Includes results of spelling tests and errors from free writing taken mostly from schoolchildren, university students or adult literacy students.
+* **Holbrook** – 1,791 misspellings of 1,200 words. Extracts of writings of secondary-school children in their penultimate year of school.
+* **Aspell** – 531 misspellings of 450 words. Used for testing GNU Aspell spellchecker.
+* **Wikipedia** – 2,455 misspellings of 1,922 words. List of misspellings made by Wikipedia editors
 
 Data provided by [Zeeko](https://zeeko.ie), a bullying education company in Nova UCD: 
 
-* Zeeko Dataset – 232 misspellings of 163 words. Gathered from 15 Zeeko surveys carried out by school children in Ireland. Free-text field input on a submitted survey. Due to it being submitted the dataset may be more susceptible to typos (keyboard strokes) or auto corrects.
+* **Zeeko Dataset** – 232 misspellings of 163 words. Gathered from 15 Zeeko surveys carried out by school children in Ireland. Free-text field input on a submitted survey. Due to it being submitted the dataset may be more susceptible to typos (keyboard strokes) or auto corrects.
 * Misspellings were hand labelled by referencing the context of the misspelling and interpreting the presumed correct spelling.
 * Where a judgment could not be made, the misspelling was excluded from the dataset.
 
 ### Preprocessing 
 
+The scripts to pre-processing the input data found in [/text_processing/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/text_processing) are as follows:
 
+* [dataset_processing.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/dataset_processing.py) - Preprocesses each dataset creating the required word list for g2p and corresponding dictionary objects for each spelling tool to use as input and output.
+* [cmu_preprocess.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/cmu_preprocess.py) - Updates the CMU dictionary to contain frequencies for each word from the SymSpell word dictionary.
+* [valid_word_process.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/valid_word_process.py) - Creates a list of valid words that the enchant dictionary does no recognised. Used to ensure only spelling mistakes are extracted from the Zeeko dataset, not valid but unrecognised words such as 'Snapchat'.
+* [/zeeko_survey_spelling_extraction.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/zeeko_survey_spelling_extraction.py) - Extracts the spelling mistakes from all 15 Zeeko surveys.
 
 ## Results
 
@@ -64,13 +69,16 @@ To view the word corrections for each dataset and comparison method, navigate to
 * Dataset eg. Birkbeck, Aspell, Zeeko, Holbrook, Wikipedia.
 * Within each dataset is a sub-directory of the compared methods. For example, for the dataset birkbeck, comparing SymSpell against the CMU Phonemes method you would go to [/results/birkbeck/symspell_cmu_phonemes/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results/birkbeck/symspell_cmu_phonemes). In here there are three csv file which show the words corrected by both methods, and the unique word corrections by one or other methods.
 
-## Set up
+## Word List to Phoneme Sequence - G2P Files
 
-## Input Files
+In the shell script [g2p_word_list.sh](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/shell_scripts/g2p_word_list.sh), please edit this script with your correct G2P model path on line 4.
 
-## G2P Files
+## Other Folder Information
 
-## Key Scripts
+### [input_files/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/input_files)
 
+### [input_files/spelling_correction_dicts/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/input_files/spelling_correction_dicts)
 
+### [g2p_files/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/g2p_files)
 
+### [zeeko_surveys/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/zeeko_surveys)
