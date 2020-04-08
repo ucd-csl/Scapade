@@ -17,7 +17,7 @@
     5.4 [zeeko_surveys/](#zeeko_surveys) <br/>
 
 
-## 1.0 Introduction <a name="introduction"></a>
+## 1.0 - Introduction <a name="introduction"></a>
 
 This project is a continuation of the work first started by Elsa Thiaville. The aim of this work is to establish if a phoneme based approach to spelling correction can result in corrections that are not picked up by traditional spelling checker tools. An example of a phonetic misspelling is the word 'situation' written by a user as ‘sichweshen'.
 Looking at the phoneme sequences for the correct spelling of the word and the incorrect phonetic spelling of the word below:
@@ -29,9 +29,9 @@ We can see from the above that although the word difference by edit distance is 
 
 This initial study focuses purely on the correction of individual misspellings. It does not take into account the word context in a given sentence and does not cover other errors such as grammatical or malapropisms. 
 
-## 2.0 Methodology <a name="methodology"><a/>
+## 2.0 - Methodology <a name="methodology"><a/>
 
-### 2.1 How the Phoneme Sequence Spelling Corrector Works <a name="how_works"><a/>
+### 2.1 - How the Phoneme Sequence Spelling Corrector Works <a name="how_works"><a/>
 
 1. Misspellings are gathered as a word list which is passed to the [CMU Sequence-to-Sequence G2P toolkit](https://github.com/cmusphinx/g2p-seq2seq) for conversion into phoneme sequences.
 2. The resulting list of phonemes is structured into a Python dictionary for the dataset and method for easy access, lookup and corrections. 
@@ -40,7 +40,7 @@ This initial study focuses purely on the correction of individual misspellings. 
 5. The top result from the CMU dictionary is found and the resulting word returned and added to the dictionary item as the suggested correction.
  
 
-### 2.2 Tools <a name="tools"><a/>
+### 2.2 - Tools <a name="tools"><a/>
 
 For comparison with the phoneme sequence spelling corrector, two Python spell checker tools were used. These are:
 
@@ -51,7 +51,7 @@ PySpellChecker - Generates all possible terms for a word with an edit distance (
 
 SymSpell – Generates terms with an edit distance (deletes only) from the dictionary, and then adds these terms along with the original term to the dictionary.
 
-### 2.3 Datasets of Misspellings <a name="misspellings"></a>
+### 2.3 - Datasets of Misspellings <a name="misspellings"></a>
 
 A total of five corporas of misspellings were used. Four of these were publicly available, the fifth was provided by an educational company.
 
@@ -68,7 +68,7 @@ Data provided by [Zeeko](https://zeeko.ie), a bullying education company in Nova
 * Misspellings were hand labelled by referencing the context of the misspelling and interpreting the presumed correct spelling.
 * Where a judgment could not be made, the misspelling was excluded from the dataset.
 
-### 2.4 Preprocessing <a name="preprocessing"><a/>
+### 2.4 - Preprocessing <a name="preprocessing"><a/>
 
 The scripts to pre-processing the input data found in [/text_processing/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/text_processing) are as follows:
 
@@ -77,7 +77,7 @@ The scripts to pre-processing the input data found in [/text_processing/](https:
 * [valid_word_process.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/valid_word_process.py) - Creates a list of valid words that the enchant dictionary does no recognised. Used to ensure only spelling mistakes are extracted from the Zeeko dataset, not valid but unrecognised words such as 'Snapchat'.
 * [/zeeko_survey_spelling_extraction.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/zeeko_survey_spelling_extraction.py) - Extracts the spelling mistakes from all 15 Zeeko surveys.
 
-## 3.0 Results <a name="results"><a/>
+## 3.0 - Results <a name="results"><a/>
 
 All accuracy and overlap results for each dataset using each of the three methods (SymSpell, PySpellChecker and CMU Phoneme sequence) can be seen in the Jupyter Notebook [results_spelling_correction_overlap_and_scores.ipynb](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results_spelling_correction_overlap_and_scores.ipynb)
 
@@ -86,31 +86,31 @@ To view the word corrections for each dataset and comparison method, navigate to
 * Dataset eg. Birkbeck, Aspell, Zeeko, Holbrook, Wikipedia.
 * Within each dataset is a sub-directory of the compared methods. For example, for the dataset birkbeck, comparing SymSpell against the CMU Phonemes method you would go to [/results/birkbeck/symspell_cmu_phonemes/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results/birkbeck/symspell_cmu_phonemes). In here there are three csv file which show the words corrected by both methods, and the unique word corrections by one or other methods.
 
-## 4.0 Word List to Phoneme Sequence - G2P <a name="g2p_update"><a/>
+## 4.0 - Word List to Phoneme Sequence - G2P <a name="g2p_update"><a/>
 
 In the shell script [g2p_word_list.sh](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/shell_scripts/g2p_word_list.sh), please edit this script with your correct G2P model path on line 4.
 
-## 5.0 Other Folder Information <a name="other_folders"><a/>
+## 5.0 - Other Folder Information <a name="other_folders"><a/>
 
-### 5.1 [input_files/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/input_files) <a name="input_files"><a/>
+### 5.1 - [input_files/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/input_files) <a name="input_files"><a/>
 
 All required input files for the scripts to operate are placed here. These include:
 * The text files of misspellings to be processed eg. [holbrook-missp.txt](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/input_files/holbrook-missp.txt)
 * The acoustic distance matrix - [acoustic_distributional_distance_matrix.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/input_files/acoustic_distributional_distance_matrix.csv)
 * The CMU Pronunciation dictionary with word frequencies - [cmu_frequency.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/input_files/cmu_frequency.csv)
 
-### 5.2 [input_files/spelling_correction_dicts/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/input_files/spelling_correction_dicts) <a name="spell_dicts"><a/>
+### 5.2 - [input_files/spelling_correction_dicts/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/input_files/spelling_correction_dicts) <a name="spell_dicts"><a/>
 
 Contains all the dictionaries with the suggested corrections from each dataset for each method. Used to obtain and compare the results. 
 
-### 5.3 [g2p_files/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/g2p_files) <a name="g2p_files"><a/>
+### 5.3 - [g2p_files/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/g2p_files) <a name="g2p_files"><a/>
 
 This contains the input and output for the g2p script which converts word lists into their phoneme representation.
 
 Example input word list - [aspell_word_list.txt](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/g2p_files/aspell_word_list.txt)<br/>
 Example output word-phoneme list - [aspell_phonemes.txt](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/g2p_files/aspell_phonemes.txt)
 
-### 5.4 [zeeko_surveys/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/zeeko_surveys) <a name="zeeko_surveys"><a/>
+### 5.4 - [zeeko_surveys/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/zeeko_surveys) <a name="zeeko_surveys"><a/>
 
 Contains 15 csv files provided from Zeeko with survey responses. Some of the responses are free text. These were used to
 extract misspellings and create the Zeeko dataset of misspellings. 
