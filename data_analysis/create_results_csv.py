@@ -34,5 +34,16 @@ def create_df_output(input_dict):
         output = output.append(input_dict[key], ignore_index=True)
     return output
 
-def save_to_csv():
-    pass
+
+def save_to_csv(df, save_path):
+    df.to_csv(save_path, index=False)
+
+
+def main():
+    for dataset in dataset_names:
+        results = load_results(complete_results[dataset])
+        results_updated = update_results_dict(results)
+        df = create_df_output(results_updated)
+        save_to_csv(df, output_paths[dataset])
+
+main()
