@@ -1,0 +1,1563 @@
+correct,correct_spelling,misspelling,phoneme_rep,suggested,suggested_phoneme
+0.0,adam's,adam,AE D AH M,adam,AE D AH M
+0.0,after,artair,AA R T EH R,artur,AA R T UH R
+0.0,america,american,AH M EH R IH K AH N,american,AH M EH R IH K AH N
+0.0,and,ane,EY N,ane,EY N
+1.0,apprenticeship,apprentiship,AH P R EH N T IH SH IH P,apprenticeship,AH P R EH N T AH S SH IH P
+0.0,april,apirl,AE P ER L,parole,P ER OW L
+0.0,audrey,audre,AO D ER,dougher,D OW ER
+0.0,austin,autin,AO T IH N,tinch,T IH N CH
+0.0,baby,babys,B EY B IY Z,babies,B EY B IY Z
+0.0,bang,bankg,B AE NG K G,backlog,B AE K L AA G
+0.0,beryl,beryil,B EH R Y IH L,barillari,B EH R IH L EH R IY
+0.0,bicycle,bicyle,B AY S AH L,beisel,B AY S AH L
+1.0,boss,bos,B AA S,boss,B AA S
+0.0,boys,boy,B OY,boy,B OY
+0.0,brabham,barham,B AA R HH AH M,barham,B AA R HH AH M
+0.0,butlins,butlins,B AH T L IH N Z,bolivians,B AH L IH V IY AH N Z
+0.0,castle's,castels,K EY S T AH L Z,castel,K EY S T AH L
+0.0,characters,chartors,CH AA R T ER Z,charters,CH AA R T ER Z
+0.0,cheerio,cheere_ho,CH IH R IY HH OW,cheerios,CH IH R IY OW S
+0.0,cheetah,cheter,CH EH T ER,tschetter,CH EH T ER
+1.0,commentary,comentary,K AA M AH N T EH R IY,commentary,K AA M AH N T EH R IY
+0.0,cooper,copper,K AA P ER,copper,K AA P ER
+0.0,cynthia's,cynthia,S IH N TH IY AH,cynthia,S IH N TH IY AH
+0.0,death,dearth,D ER TH,dearth,D ER TH
+1.0,doctor,docter,D AA K T ER,doctor,D AA K T ER
+0.0,dog's,dog,D AO G,dog,D AO G
+0.0,durex,durxer,D ER K S ER,mercosur,M ER K OW S ER
+0.0,are,and,AE N D,and,AE N D
+0.0,end,edh,EH D,ed,EH D
+1.0,head,hed,HH EH D,head,HH EH D
+0.0,every,evey,IY V IY,v.a.,V IY EY
+1.0,factory,facttoer,F AE K T OW ER,factory,F AE K T ER IY
+0.0,farmer,frameman,F R EY M AH N,freyman,F R EY M AH N
+0.0,father,farther,F AA R DH ER,farther,F AA R DH ER
+0.0,ferrari,farrari,F AA R AA R IY,fogarty,F AA G AA R T IY
+1.0,fire,fiyer,F AY ER,fire,F AY ER
+0.0,france,fance,F AE N S,ants,AE N T S
+0.0,frogmen's,frgmens,F R G M EH N Z,fermenta's,F ER M EH N T AH Z
+1.0,garden,gardon,G AA R D AH N,garden,G AA R D AH N
+0.0,geoff,goef,G OW F,ofer,OW F ER
+1.0,goodbye,good_by,G UH D B AY,goodbye,G UH D B AY
+0.0,her,here,HH IH R,ierne,IH R N
+1.0,him,im,IH M,him,IH M
+0.0,there,he,HH IY,he,HH IY
+0.0,his,he's,HH IY Z,he's,HH IY Z
+1.0,holiday,holliday,HH AA L IH D EY,holiday,HH AA L IH D EY
+0.0,honda,hondor,HH AA N D ER,condors,K AA N D ER Z
+0.0,i'd,id,IH D,id,IH D
+0.0,it,i,AY,i,AY
+0.0,i'll,ill,IH L,ill,IH L
+0.0,i'll,ile,AY L,isle,AY L
+1.0,i've,ive,AY V,i've,AY V
+0.0,italy,itlay,IH T L EY,imlay,IH M L EY
+0.0,james,jame,JH EY M,am,EY EH M
+1.0,jane's,janes,JH EY N Z,jane's,JH EY N Z
+0.0,japanese,japannese,JH AH P AE N IY Z,japans,JH AH P AE N Z
+0.0,jean's,jeans,JH IY N Z,genes,JH IY N Z
+1.0,joan,jone,JH OW N,joan,JH OW N
+0.0,john's,john,JH AA N,john,JH AA N
+0.0,john's,johns,JH AA N Z,johns,JH AA N Z
+1.0,jones,johnes,JH OW N Z,jones,JH OW N Z
+1.0,jones's,joneses,JH OW N Z IH Z,jones's,JH OW N Z IH Z
+0.0,joyce's,joyce,JH OY S,joyce,JH OY S
+0.0,july,jluy,JH L AY,liar,L AY ER
+0.0,kidneys,kidney,K IH D N IY,kidney,K IH D N IY
+1.0,lead,led,L EH D,lead,L EH D
+0.0,let's,lets,L EH T S,lets,L EH T S
+1.0,london,londen,L AH N D AH N,london,L AH N D AH N
+0.0,london,londod,L AH N D AH D,bundled,B AH N D AH L D
+0.0,lone,long,L AO NG,long,L AO NG
+0.0,lucky,luckily,L AH K AH L IY,luckily,L AH K AH L IY
+1.0,macwilliams,macwillaims,M AH K W IH L EY M Z,macwilliams,M AH K W IH L Y AH M Z
+0.0,married,marrid,M EH R IH D,aramid,EH R AH M IH D
+1.0,mary,marry,M EH R IY,mary,M EH R IY
+1.0,meanwhile,mean_while,M IY N W AY L,meanwhile,M IY N W AY L
+0.0,monkeys,munces,M AH N S IH Z,eminences,EH M AH N AH N S IH Z
+0.0,motorbike,motor-bikes,M OW T ER B AY K S,motorbikes,M OW T ER B AY K S
+0.0,be,by,B AY,by,B AY
+1.0,next,nexe,N EH K S,next,N EH K S
+0.0,nicholls,nickals,N IH K AH L Z,nichols,N IH K AH L Z
+0.0,nose,nos,N AA S,maass,M AA S
+0.0,note,noet,N OW AH T,nuts,N AH T S
+0.0,oh,ow,OW,eau,OW
+0.0,once,ones,W AH N Z,ones,W AH N Z
+0.0,won't,won,W AA N,won,W AA N
+1.0,outside,out_side,AW T S AY D,outside,AW T S AY D
+0.0,pleased,please,P L IY Z,please,P L IY Z
+0.0,poem,pome,P OW M,omer,OW M ER
+0.0,police,pollce,P OW L S,polce,P OW L S
+0.0,porky,paulkey,P AO L K IY,plucky,P L AH K IY
+1.0,prison,prisern,P R IH Z ER N,prison,P R IH Z AH N
+0.0,ranger,rango,R AE NG G OW,anglo,AE NG G L OW
+0.0,roy,roys,R OY Z,roy's,R OY Z
+0.0,royal,royl,R OY L,roil,R OY L
+0.0,shall,she,SH IY,she,SH IY
+1.0,slaughterhouse,slaughthouse,S L AO T HH AW S,slaughterhouse,S L AO T ER HH AW S
+0.0,smoking,smocking,S M AA K IH NG,marking,M AA R K IH NG
+0.0,so,show,SH OW,show,SH OW
+1.0,someone,some_one,S AH M W AH N,someone,S AH M W AH N
+0.0,southwold,suothwode,S UW TH W OW D,swallowed,S W AA L OW D
+0.0,stanley,stanlay,S T AE N L EY,stanway,S T AE N W EY
+1.0,stranded,stranden,S T R AE N D AH N,stranded,S T R AE N D AH D
+0.0,stuart,sturt,S T ER T,turret,T ER AH T
+1.0,switzerland,swizaland,S W IH Z AH L AH N D,switzerland,S W IH T S ER L AH N D
+0.0,sylvia,sylver,S IH L V ER,silver,S IH L V ER
+1.0,tv,tv,T IY V IY,tv,T IY V IY
+1.0,that's,thats,DH AE T S,that's,DH AE T S
+0.0,they're,there,DH EH R,their,DH EH R
+0.0,there,they,DH EY,they,DH EY
+0.0,they'll,their,DH EH R,their,DH EH R
+0.0,there,ther,DH ER,thur,DH ER
+0.0,thinking,thinkng,TH IH NG K NG,thinks,TH IH NG K S
+0.0,toby,tobe,T OW B,tobe,T OW B
+0.0,tom's,toms,T AA M Z,toms,T AA M Z
+0.0,tommy,tomy,T OW M IY,tomey,T OW M IY
+0.0,tonner,toner,T OW N ER,toner,T OW N ER
+0.0,triumph,triumh,T R AY AH M,trump,T R AH M P
+0.0,triumph,trumh,T R AH M,rumph,R AH M F
+0.0,troy,toy,T OY,toy,T OY
+0.0,to,tow,T OW,toe,T OW
+0.0,watson,watston,W AA T S T AH N,wattleton,W AA T AH L T AH N
+0.0,what,wh't,W AH N T,annette,AH N EH T
+0.0,what's,what,W AH T,what,W AH T
+1.0,which,wiich,W IH CH,which,W IH CH
+0.0,we'll,will,W IH L,will,W IH L
+0.0,whoever's,whos_evers,HH UW S EH V ER Z,whosoever,HH UW S OW EH V ER
+0.0,wings,wing,W IH NG,wing,W IH NG
+0.0,yard,ysid,IY S IH D,seared,S IH R D
+0.0,you're,your,Y UH R,your,Y UH R
+0.0,and,an,AH N,an,AH N
+0.0,aboard,abroard,AH B R AO R D,abhorred,AH B HH AO R D
+0.0,about,a_bat,AH B AE T,bast,B AE S T
+1.0,about,a_bout,AH B AW T,about,AH B AW T
+1.0,absolutely,absolutly,AE B S AH L UW T L IY,absolutely,AE B S AH L UW T L IY
+0.0,ache,ack,AE K,ack,AE K
+0.0,after,half,HH AE F,half,HH AE F
+1.0,again,a_gain,AH G EH N,again,AH G EH N
+0.0,again,agan,EY G AH N,agan,EY G AH N
+0.0,again,agian,EY JH IY AH N,aegean,EY JH IY AH N
+1.0,ago,a_go,AH G OW,ago,AH G OW
+0.0,air,hare,HH EH R,hair,HH EH R
+0.0,alive,alife,AH L AY F,life's,L AY F S
+0.0,alley,ally,AH L AY,ally,AH L AY
+0.0,allowed,alloud,AE L AW D,lougheed,L AW IY D
+0.0,almighty,almity,AA L M AH T IY,cometary,K AA M AH T EH R IY
+1.0,alone,a_lone,AH L OW N,alone,AH L OW N
+1.0,along,a_long,AH L AO NG,along,AH L AO NG
+1.0,alright,allright,AO L R AY T,alright,AO L R AY T
+0.0,alright,arigh,ER AY,awry,ER AY
+0.0,alright,aright,ER AY T,iott,AY AH T
+0.0,alright,arigth,ER AY TH,bayouth,B AY UW TH
+0.0,alright,or_rit,AO R IH T,rindt,R IH N T
+0.0,alright,orrigh,AO R AY,ryer,R AY ER
+0.0,alright,orright,AO R AY T,riot,R AY AH T
+1.0,also,allso,AO L S OW,also,AO L S OW
+0.0,else,als,AE L Z,al's,AE L Z
+0.0,altar,alter,AO L T ER,alter,AO L T ER
+1.0,always,all_ways,AO L W EY Z,always,AO L W EY Z
+1.0,always,allways,AO L W EY Z,always,AO L W EY Z
+1.0,ambulance,amberless,AE M B ER L AH S,ambulance,AE M B Y AH L AH N S
+1.0,ambulance,amblance,AE M B L AE N S,ambulance,AE M B Y AH L AH N S
+0.0,ambulance,amerless,AH M ER L AH S,merlots,M ER L AH T S
+0.0,amusements,amusments,AH M AH S M AH N T S,adjustments,AH JH AH S T M AH N T S
+0.0,at,a,EY,ae,EY
+0.0,and,aud,AO D,aud,AO D
+0.0,hands,hand,HH AE N D,hand,HH AE N D
+0.0,animals,animl,AE N IH M AH L,nimble,N IH M B AH L
+1.0,another,a_nother,AH N AH DH ER,another,AH N AH DH ER
+1.0,another,a_nouther,AH N AH DH ER,another,AH N AH DH ER
+0.0,another,aner,EY N ER,aigner,EY N ER
+1.0,answered,anwerd,AE N W ER D,answered,AE N S ER D
+1.0,any,eney,EH N IY,any,EH N IY
+0.0,anyone,any_on,EH N IY AH N,nealon,N IY L AH N
+1.0,anyone,any_one,EH N IY W AH N,anyone,EH N IY W AH N
+0.0,anyone,any_own,EH N Y OW N,menzione,M EH N Z Y OW N IY
+1.0,anything,any_thing,EH N IY TH IH NG,anything,EH N IY TH IH NG
+0.0,anything,anythink,EH N IY TH IH NG K,anything's,EH N IY TH IH NG Z
+0.0,anything,anyting,EH N IY T IH NG,entering,EH N T ER IH NG
+0.0,anything,enthing,EH N TH IH NG,ensing,EH N S IH NG
+0.0,apple,apply,AH P L AY,apply,AH P L AY
+0.0,apples,apple,AE P AH L,apple,AE P AH L
+0.0,area,airaear,EH R AH R EH R,raineri,R AH N EH R IY
+0.0,aren't,arent,EH R AH N T,errant,EH R AH N T
+0.0,army,hrmehn,R M EH N,mensch,M EH N SH
+0.0,army,hrmehr,R M EH R,mehrer,M EH R ER
+1.0,around,a_round,ER AW N D,around,ER AW N D
+1.0,arrived,arived,ER AY V D,arrived,ER AY V D
+0.0,as,ass,AE S,ass,AE S
+0.0,have,has,HH AH Z,has,HH AH Z
+0.0,asked,arsed,AA R S T,obst,AA B S T
+0.0,asks,ask,AE S K,ask,AE S K
+0.0,asking,arsking,AA R S K IH NG,rescuing,R EH S K Y UW IH NG
+0.0,asleep,a_seph,AH S EH F,self,S EH L F
+1.0,asleep,a_sleep,AH S L IY P,asleep,AH S L IY P
+0.0,at,are,AA R,are,AA R
+0.0,ate,eat,IY T,eat,IY T
+0.0,ate,et,EH T,et,EH T
+0.0,ate,ete,IY T,eat,IY T
+0.0,attack,atack,EY T AE K,task,T AE S K
+0.0,attend,atened,EY T AH N D,maitland,M EY T L AH N D
+0.0,author's,others,AH DH ER Z,others,AH DH ER Z
+0.0,autumn,aount,AW N T,knit,N IH T
+0.0,autumn,autunm,AO T AH N M,autumn's,AO T AH M Z
+1.0,away,a_way,AH W EY,away,AH W EY
+0.0,awful,alfull,AE L F AH L,algal,AE L G AH L
+1.0,babies,babyes,B EY B IY Z,babies,B EY B IY Z
+0.0,babies,babyis,B EY B IY IH S,cabiness,K EY B IY N IH S
+0.0,baby,babby,B AE B IY,asby,AE S B IY
+0.0,back,bake,B EY K,bake,B EY K
+1.0,back,bakh,B AE K,back,B AE K
+0.0,back,doc,D AA K,doc,D AA K
+0.0,barbed,barb,B AA R B,barb,B AA R B
+0.0,bare,bear,B EH R,bear,B EH R
+0.0,barn,bran,B R AE N,bran,B R AE N
+0.0,basket,barscket,B AA R S K AH T,riskiest,R IH S K IY AH S T
+0.0,basket,basckek,B AE S K EH K,banctec,B AE NG K T EH K
+0.0,basket,baskek,B AE S K IH K,baskett,B AE S K IH T
+0.0,baths,bath,B AE TH,bath,B AE TH
+0.0,meet,me,M IY,me,M IY
+0.0,was,we,W IY,we,W IY
+0.0,beat,pit,P IH T,pit,P IH T
+0.0,beating,beting,B EH T IH NG,betting,B EH T IH NG
+0.0,beautiful,beaufiful,B OW F IH F AH L,fistful,F IH S T F AH L
+0.0,became,bacam,B AE K AH M,axsom,AE K S AH M
+1.0,because,becaues,B IH K AW Z,because,B IH K AA Z
+0.0,because,becouse,B IH K AW S,brickhouse,B R IH K HH AW S
+0.0,bedrooms,bed_room,B EH D R UW M,bedroom,B EH D R UW M
+0.0,beef,bf,B IY EH F,cfo,S IY EH F OW
+0.0,been,bean,B IY N,bean,B IY N
+0.0,been,bine,B AY N,iron,AY ER N
+1.0,before,be_for,B IH F AO R,before,B IH F AO R
+1.0,before,befor,B IH F AO R,before,B IH F AO R
+0.0,behind,behed,B EH HH EH D,airheadz,EH R HH EH D Z
+0.0,behind,behism,B IH HH IH Z AH M,elysium,IH L IH Z IY AH M
+0.0,being,been,B IH N,been,B IH N
+0.0,bellringing,bell_ringing,B EH L R IH NG IH NG,blinking,B L IH NG K IH NG
+0.0,belongs,belong,B IH L AO NG,belong,B IH L AO NG
+0.0,bending,bend_in,B EH N D IH N,beldin,B EH L D IH N
+0.0,best,beets,B IY T S,beats,B IY T S
+0.0,better,bet,B EH T,bet,B EH T
+0.0,better,beter,B IY T ER,beater,B IY T ER
+0.0,better,beththe,B EH TH,beth,B EH TH
+0.0,beverley,beverly,B EH V ER L IY,beverly,B EH V ER L IY
+0.0,beware,bewere,B Y UW ER,buehrer,B Y UW ER
+0.0,bicycles,bciyle,B S IY L,celo,S IY L OW
+0.0,big,bing,B IH NG,bing,B IH NG
+0.0,big-headed,big_haded,B AY G EY D IH D,migrated,M AY G R EY T IH D
+0.0,bigger,biger,B AY G ER,eigner,AY G N ER
+0.0,biggest,bigest,B AY JH EH S T,digests,D AY JH EH S T S
+0.0,billed,build,B IH L D,build,B IH L D
+0.0,bird,brid,B R IH D,reared,R IH R D
+0.0,biscuits,biccuits,B IH K AH T S,bigots,B IH G AH T S
+0.0,bitten,biten,B AY T AH N,aitken,AY T K AH N
+0.0,blew,blow,B L OW,blow,B L OW
+0.0,bloody,bludy,B L UW D IY,luedke,L UW D K IY
+0.0,blossom,blossm,B L AO S AH M,balsam,B AO L S AH M
+0.0,boasting,bosting,B AA S T IH NG,ostling,AA S T L IH NG
+1.0,bodies,bodys,B AA D IY Z,bodies,B AA D IY Z
+0.0,body,bod,B AA D,baade,B AA D
+0.0,booze,bouse,B AW S,bouse,B AW S
+1.0,borrowed,borrowd,B AA R OW D,borrowed,B AA R OW D
+0.0,bottom,botton,B AA T AH N,botten,B AA T AH N
+0.0,boy,buy,B AY,by,B AY
+0.0,boy's,boys,B OY Z,boys,B OY Z
+1.0,boyfriend,boy_friend,B OY F R EH N D,boyfriend,B OY F R EH N D
+1.0,boyfriend,boyfreind,B OY F R AY N D,boyfriend,B OY F R EH N D
+1.0,boyfriend,boyfrend,B OY F R EH N D,boyfriend,B OY F R EH N D
+0.0,boyfriend's,boyfrends,B OY F R EH N D Z,boyfriends,B OY F R EH N D Z
+1.0,boys,boy's,B OY Z,boys,B OY Z
+0.0,brakes,breaks,B R EY K S,breaks,B R EY K S
+0.0,bran,brain,B R EY N,brain,B R EY N
+0.0,bravest,bravist,B R AE V IH S T,savviest,S AE V IY IH S T
+0.0,breadcrumbs,bred_crumes,B R EH D K R UW M Z,bedrooms,B EH D R UW M Z
+0.0,break,brack,B R AE K,braque,B R AE K
+0.0,break,brick,B R IH K,brick,B R IH K
+1.0,breakfast,brecfast,B R EH K F AH S T,breakfast,B R EH K F AH S T
+1.0,breaks,brakes,B R EY K S,breaks,B R EY K S
+1.0,breeze,breez,B R IY Z,breeze,B R IY Z
+0.0,broken,brocken,B R AA K AH N,rockman,R AA K M AH N
+1.0,brother,borther,B AO R DH ER,brother,B R AH DH ER
+0.0,brothers,brother,B R AH DH ER,brother,B R AH DH ER
+0.0,brought,broug,B R AW G,trauger,T R AW G ER
+0.0,brought,brough,B R AW,brow,B R AW
+0.0,brussels,brus,B R AH S,brus,B R AH S
+0.0,brussels,brusels,B R UW S AH L Z,brutalize,B R UW T AH L AY Z
+1.0,brussels,brusls,B R AH S AH L Z,brussels,B R AH S AH L Z
+0.0,brussels,brust,B R AH S T,brust,B R AH S T
+1.0,bubbles,bubbals,B AH B AH L Z,bubbles,B AH B AH L Z
+1.0,build,billd,B IH L D,build,B IH L D
+1.0,build,billed,B IH L D,build,B IH L D
+0.0,build,buld,B AH L D,allowed,AH L AW D
+1.0,building,billding,B IH L D IH NG,building,B IH L D IH NG
+1.0,built,bilt,B IH L T,built,B IH L T
+0.0,built,buit,B Y UW T,butte,B Y UW T
+0.0,bullet,bolot,B OW L AH T,olcott,OW L K AH T
+0.0,bullet,bulet,B UW L IH T,bullitt,B UW L IH T
+0.0,bullet,bulete,B UW L IY T,julieta,Y UW L IY T AH
+0.0,buried,bered,B IH R D,beard,B IH R D
+0.0,burn,brun,B R AH N,bruhn,B R AH N
+0.0,by,bihr,B IH R,beer,B IH R
+0.0,knife,kiffe,K IH F,kiff,K IH F
+1.0,called,cald,K AO L D,called,K AO L D
+0.0,could,call,K AO L,call,K AO L
+1.0,called,calld,K AO L D,called,K AO L D
+0.0,called,could,K UH D,could,K UH D
+0.0,calmed,carmd,K AA R M D,armored,AA R M ER D
+0.0,calmer,comer,K AH M ER,comer,K AH M ER
+0.0,came,cam,K AE M,cam,K AE M
+0.0,coming,come,K AH M,come,K AH M
+0.0,came,kom,K AA M,com,K AA M
+0.0,came,kum,K AH M,come,K AH M
+0.0,can,came,K EY M,came,K EY M
+0.0,can,cane,K EY N,kane,K EY N
+0.0,can't,cant,K AE N T,cant,K AE N T
+0.0,can't,canth,K AE N TH,knuth,K N UW TH
+0.0,can't,carn't,K AA R N T,arant,AA R AH N T
+0.0,can't,carnt,K AA R N T,arant,AA R AH N T
+1.0,candlestick,candle_stick,K AE N D AH L S T IH K,candlestick,K AE N D AH L S T IH K
+0.0,cane,cain,K EY N,kane,K EY N
+0.0,cannot,can_not,K AE N AH T,knust,K N AH S T
+0.0,cannot,connot,K AA N AH T,honest,AA N AH S T
+0.0,captain,captian,K AE P SH AH N,caption,K AE P SH AH N
+0.0,captain,captman,K AE P T M AH N,katzman,K AE T S M AH N
+0.0,captain,catptman,K AE T M AH N,attermann,AE T ER M AH N
+0.0,captain,cpn,S IY P IY EH N,cps,S IY P IY EH S
+0.0,car,star,S T AA R,star,S T AA R
+0.0,career,carrer,K AA R ER,karrer,K AA R ER
+1.0,careful,carefull,K EH R F AH L,careful,K EH R F AH L
+0.0,careful,carful,K AA R F AH L,artful,AA R T F AH L
+0.0,careful,carfull,K AA R F AH L,artful,AA R T F AH L
+0.0,carefully,caresll,K EH R AH S AH L,crustal,K R AH S T AH L
+0.0,carried,cared,K EH R D,cared,K EH R D
+0.0,carried,carred,K AA R D,card,K AA R D
+0.0,carried,carrid,K AE R IH D,averaged,AE V R IH JH D
+0.0,carrying,carring,K AA R IH NG,arming,AA R M IH NG
+0.0,castle,carlsat,K AA R L S AE T,karstadt,K AA R S T AE T
+0.0,castle,carsal,K AA R S AH L,consul,K AA N S AH L
+0.0,castle,carsell,K AA R S AH L,consul,K AA N S AH L
+0.0,castle,cartal,K AA R T AH L,artful,AA R T F AH L
+0.0,castle,cartill,K AA R T IH L,cotterill,K AA T ER IH L
+0.0,castle,cartsel,K AA R T S AH L,cartilage,K AA R T AH L AH JH
+0.0,castle,catal,K AH T AA L,attali,AH T AA L IY
+0.0,castle,catsal,K AE T S AH L,tattersall,T AE T ER S AH L
+0.0,cat's,cats,K AE T S,cats,K AE T S
+0.0,catch,cash,K AE SH,cash,K AE SH
+0.0,catch,chach,CH AE CH,achey,AE CH IY
+0.0,caught,caugh,K AO,caw,K AO
+0.0,caught,cort,K AO R T,court,K AO R T
+1.0,caught,cought,K AO T,caught,K AO T
+0.0,celebrated,celebrate,S EH L AH B R EY T,celebrate,S EH L AH B R EY T
+0.0,chain,choin,CH OY N,oyen,OY IH N
+1.0,chair,chere,CH EH R,chair,CH EH R
+0.0,changed,cage,K EY JH,cage,K EY JH
+0.0,character,characte,K EH R IH K T,cricket,K R IH K IH T
+1.0,character,charickter,K EH R IH K T ER,character,K EH R IH K T ER
+0.0,charged,change,CH EY N JH,change,CH EY N JH
+0.0,cheerio,cheeroh,CH IH R OW,erode,IH R OW D
+0.0,chew,chow,CH AW,ciao,CH AW
+1.0,children,chidren,CH IH D R AH N,children,CH IH L D R AH N
+0.0,children's,childrenes,CH AY L D R IY N Z,childraising,CH AY L D R EY Z IH NG
+0.0,chimney,cimbenr,S IH M B EH N ER,debentures',D IH B EH N CH ER Z
+0.0,chirped,cherped,CH ER P T,chipped,CH IH P T
+0.0,choosing,ching,CH IH NG,ching,CH IH NG
+0.0,chosen,choosen,CH UW Z AH N,couzens,K UW Z AH N Z
+0.0,christmas,christman,K R IH S T M AH N,christman,K R IH S T M AH N
+0.0,cinema,cinama,S IH N AE M AH,enamel,IH N AE M AH L
+0.0,cinema,cinma,S IH N M AH,inman,IH N M AH N
+1.0,circus,sercus,S ER K AH S,circus,S ER K AH S
+0.0,classes,classis,K L AE S IH S,clarisse,K L AE R IH S
+0.0,clatter,clater,K L EY T ER,claytor,K L EY T ER
+0.0,claws,clors,K L AO R Z,clore's,K L AO R Z
+0.0,clean,clearn,K L IH R N,cyran,K IH R AH N
+0.0,clean,glean,G L IY N,glean,G L IY N
+0.0,cleaned,clean,K L IY N,clean,K L IY N
+1.0,cleaned,cleand,K L IY N D,cleaned,K L IY N D
+0.0,climb,clim,K L IH M,clim,K L IH M
+1.0,climb,clime,K L AY M,climb,K L AY M
+0.0,climbed,cimed,S AY M D,smid,S M IH D
+0.0,climbed,climb,K L AY M,climb,K L AY M
+0.0,closed,closd,K L AA S D,clots,K L AA T S
+0.0,clothes,clous,K L AW S,klaus,K L AW S
+0.0,clothes,cloths,K L AO TH S,cloths,K L AO TH S
+0.0,clothes,colhes,K OW L HH IH S,kohlhepp,K OW L HH IH P
+0.0,clouds,couldes,K UH D Z,koors,K UH R Z
+0.0,clouds,coulds,K UH D Z,koors,K UH R Z
+0.0,club,clob,K L AA B,lobbed,L AA B D
+0.0,club,colbe,K OW L B,kolb,K OW L B
+1.0,coat,cote,K OW T,coat,K OW T
+0.0,coffins,cofens,K OW F AH N Z,sofians,S OW F IY AH N Z
+0.0,colour,colur,K OW L ER,coler,K OW L ER
+0.0,come,com,K AA M,com,K AA M
+0.0,come,comr,K AA M ER,calmer,K AA M ER
+0.0,come,coum,K UW M,coombe,K UW M
+1.0,come,kumh,K AH M,come,K AH M
+0.0,comfortable,comvatable,K AH M V EY T AH B AH L,available,AH V EY L AH B AH L
+0.0,coming,comeing,K AH M IY IH NG,cummings,K AH M IH NG Z
+0.0,common,comon,K OW M AH N,coman,K OW M AH N
+0.0,company,coperney,K AH P ER N IY,co.,K AH P AH N IY
+1.0,concentrate,consantrate,K AA N S AH N T R EY T,concentrate,K AA N S AH N T R EY T
+0.0,confide,cornfield,K AO R N F IY L D,cornfield,K AO R N F IY L D
+0.0,cops,caps,K AE P S,caps,K AE P S
+1.0,coral,corral,K AO R AH L,coral,K AO R AH L
+0.0,cores,corres,K AO R Z,corps,K AO R Z
+0.0,corner,corer,K AO R ER,orser,AO R S ER
+0.0,corner,croner,K R OW N ER,kroner,K R OW N ER
+0.0,could,cod,K AA D,cod,K AA D
+1.0,couldn't,couldnt,K UH D N T,couldn't,K UH D AH N
+0.0,couldn't,count,K AW N T,count,K AW N T
+1.0,council,counsall,K AW N S AH L,council,K AW N S AH L
+1.0,council,counsel,K AW N S AH L,council,K AW N S AH L
+0.0,council,cousall,K AW S AH L,austell,AW S T AH L
+1.0,covered,coverd,K AH V ER D,covered,K AH V ER D
+1.0,cowboys,cow_boys,K AW B OY Z,cowboys,K AW B OY Z
+0.0,crapped,crept,K R EH P T,crept,K R EH P T
+0.0,crash,crush,K R AH SH,crush,K R AH SH
+0.0,crawling,crowling,K R AW L IH NG,cowling's,K AW L IH NG Z
+0.0,creak,creek,K R IY K,creek,K R IY K
+1.0,creeps,creaps,K R IY P S,creeps,K R IY P S
+0.0,creeps,creps,K R EH P S,creps,K R EH P S
+0.0,creepy,crepy,K R EH P IY,kepley,K EH P L IY
+0.0,crept,creeped,K R IY P T,repeat,R IY P IY T
+1.0,cried,cryed,K R AY D,cried,K R AY D
+0.0,cries,crys,K R IH S,chris,K R IH S
+0.0,crikey,crigckey,K R IH G K IY,critically,K R IH T IH K L IY
+1.0,crisp,cresp,K R EH S P,crisp,K R IH S P
+1.0,crowd,croud,K R AW D,crowd,K R AW D
+0.0,cruel,corller,K AO R L ER,kalter,K AO L T ER
+0.0,cuddling,cuddly,K AH D L IY,cuddly,K AH D L IY
+0.0,cupboard,cobard,K OW B ER D,koshered,K OW SH ER D
+0.0,curled,cerled,S ER L D,slowed,S L OW D
+1.0,cylinders,silinders,S IH L AH N D ER Z,cylinders,S IH L AH N D ER Z
+0.0,dad,bad,B AE D,bad,B AE D
+0.0,dad's,dads,D AE D Z,dads,D AE D Z
+0.0,daddy's,dadies,D EY D IY Z,daisies,D EY Z IY Z
+0.0,daffodils,daffodill,D AE F AH D IH L,daffodil,D AE F AH D IH L
+0.0,dance,dane,D EY N,dane,D EY N
+0.0,dancing,pncing,P AH N S IH NG,pulsing,P AH L S IH NG
+0.0,dangerous,dangers,D EY N JH ER Z,dangers,D EY N JH ER Z
+1.0,dangerous,dangerus,D EY N JH ER AH S,dangerous,D EY N JH ER AH S
+0.0,dared,dere,D IH R,dear,D IH R
+0.0,daren't,darnt,D AA R N T,arant,AA R AH N T
+1.0,dark,darck,D AA R K,dark,D AA R K
+0.0,dark,dork,D AO R K,dorch,D AO R K
+0.0,daughter,dauter,D AW T ER,doubter,D AW T ER
+0.0,days',day's,D EY Z,days,D EY Z
+0.0,dear,dead,D EH D,dead,D EH D
+0.0,death,deat,D IY T,deet,D IY T
+0.0,decided,decider,D IH S AY D ER,decider,D IH S AY D ER
+0.0,decided,desided,D IH Z AY D IH D,resided,R IH Z AY D IH D
+0.0,decided,dicide,D IH S AY D,decide,D IH S AY D
+1.0,decided,dicided,D IH S AY D IH D,decided,D IH S AY D IH D
+0.0,decided,dicider,D IH S AY D ER,decider,D IH S AY D ER
+1.0,decided,disided,D IH S AY D IH D,decided,D IH S AY D IH D
+0.0,decision,disson,D IH S AH N,dishon,D IH S AH N
+0.0,delicate,dellitent,D EH L IH T AH N T,enlistment,EH N L IH S T M AH N T
+0.0,den,dener,D EH N ER,dehner,D EH N ER
+1.0,dense,dence,D EH N S,dense,D EH N S
+1.0,department,departent,D IH P AA R T AH N T,department,D IH P AA R T M AH N T
+0.0,department,depatment,D IH P AE T M AH N T,detachment,D IH T AE CH M AH N T
+1.0,destroyed,distrod,D IH S T R AA D,destroyed,D IH S T R OY D
+0.0,died,ded,D EH D,dead,D EH D
+0.0,didn't,dednt,D EH D N T,dennett,D EH N IH T
+0.0,didn't,denat,D IH N AE T,enact,IH N AE K T
+1.0,didn't,didden,D IH D AH N,didn't,D IH D AH N
+0.0,didn't,dident,D AY D AH N T,hydrants,HH AY D R AH N T S
+0.0,didn't,dind,D AY N D,dined,D AY N D
+0.0,die,diy,D IH,des,D IH
+0.0,died,diad,D AY AE D,dyad,D AY AE D
+0.0,diesel,disel,D IH S AH L,dippel,D IH P AH L
+1.0,different,diffrent,D IH F R AH N T,different,D IH F R AH N T
+1.0,different,difrent,D IH F R EH N T,different,D IH F R AH N T
+1.0,difficult,differcult,D IH F ER K AH L T,difficult,D IH F AH K AH L T
+0.0,dirty,driy,D R IY,roehi,R OW IY
+1.0,disappeared,disapeared,D IH S AH P IY R D,disappeared,D IH S AH P IY R D
+0.0,disappeared,disaperd,D IH S AH P ER D,discolored,D IH S K AH L ER D
+1.0,discovered,dicuverd,D IH K AH V ER D,discovered,D IH S K AH V ER D
+1.0,displaying,dispiaying,D IH S P IY EY IH NG,displaying,D IH S P L EY IH NG
+1.0,disposal,disposol,D IH S P OW Z AA L,disposal,D IH S P OW Z AH L
+0.0,disturb,distrebe,D IH S T R IY B,dissymmetry,D IH S IH M AH T R IY
+1.0,ditch,dich,D IH CH,ditch,D IH CH
+0.0,done,don,D AA N,don,D AA N
+0.0,down,done,D AH N,done,D AH N
+0.0,got,go,G OW,go,G OW
+0.0,two,to,T UW,to,T UW
+0.0,down,dus,D AH S,utz,AH T S
+1.0,doesn't,does'nt,D AH S AH N T,doesn't,D AH Z AH N T
+0.0,doesn't,does_on,D OW S AH N,dotan,D OW T AH N
+0.0,doesn't,doesnet,D OW S N EH T,docent,D OW S AH N T
+0.0,doesn't,donsent,D AA N S AH N T,consonant,K AA N S AH N AH N T
+0.0,doesn't,dosnt,D AA S N T,assante,AA S AA N T IY
+0.0,doing,dowing,D AW IH NG,outing,AW T IH NG
+0.0,don't,dont,D AA N T,aren't,AA R N T
+0.0,what,want,W AO N T,want,W AO N T
+1.0,done,dun,D AH N,done,D AH N
+0.0,door,boor,B UH R,boor,B UH R
+1.0,door,dor,D AO R,door,D AO R
+0.0,door,down,D AW N,down,D AW N
+0.0,double,doudle,D AW D AH L,dowdall,D AW D AH L
+0.0,douche,back,B AE K,back,B AE K
+0.0,down,donw,D OW N W,don't,D OW N T
+0.0,downstairs,dau_sosys,D AO S AH S AH S,acidosis,AE S AH D OW S AH S
+1.0,downstairs,down_stairs,D AW N S T EH R Z,downstairs,D AW N S T EH R Z
+0.0,drain,drian,D R AY AH N,ripen,R AY P AH N
+0.0,draw,drew,D R UW,drew,D R UW
+0.0,dream,drem,D R EH M,realm,R EH L M
+0.0,dreaming,dreming,D R EH M IH NG,drenning,D R EH N IH NG
+1.0,driven,drivern,D R IH V ER N,driven,D R IH V AH N
+0.0,drivers,divers,D AY V ER Z,divers,D AY V ER Z
+0.0,drives,drive,D R AY V,drive,D R AY V
+1.0,drowned,dround,D R AW N D,drowned,D R AW N D
+0.0,drunk,druck,D R AH K,druck,D R AH K
+1.0,dry,drye,D R AY,dry,D R AY
+0.0,dumb,doum,D UW M,doom,D UW M
+0.0,dump,pump,P AH M P,pump,P AH M P
+1.0,dying,dieing,D AY IH NG,dying,D AY IH NG
+0.0,earwigs,eyewigs,AY W IH G Z,wiggers,W IH G ER Z
+1.0,eat,eate,IY T,eat,IY T
+0.0,electrician,elecenician,EH L AH S AH N IH SH AH N,asuncion,AH S AH N SH AH N
+0.0,else,eles,EH L EH S,ellesse,EH L EH S
+0.0,else,els,EH L Z,els,EH L Z
+1.0,employment,imployment,IH M P L OY M AH N T,employment,IH M P L OY M AH N T
+1.0,empty,emty,EH M T IY,empty,EH M T IY
+0.0,engaged,enaged,EH N IH JH D,enjoyed,EH N JH OY D
+0.0,engaged,ingaged,IH NG G IH JH D,ingrid,IH NG G R IH D
+0.0,engagement,enagement,EH N IH JH M AH N T,enjoyment,EH N JH OY M AH N T
+0.0,engines,egreers,IH G R IH R Z,reveres,R IH V IH R Z
+0.0,enjoyed,injoid,IH N JH OY D,injured,IH N JH ER D
+0.0,enjoys,enyays,EH N Y EY Z,anyways,EH N IY W EY Z
+0.0,enough,a_nougth,AH N AO TH,north,N AO R TH
+0.0,enough,a_nuff,AE N AH F,nulph,N AH L F
+0.0,enough,engouh,EH NG G UW,ngo,EH NG G OW
+0.0,enough,nuff,N AH F,ulf,AH L F
+1.0,entered,enterd,EH N T ER D,entered,EH N T ER D
+0.0,equipment,aquitment,AH K W IH T M AH N T,equipments,IH K W IH P M AH N T S
+0.0,especially,a_specally,AE S P EH K L IY,poetically,P OW EH T IH K L IY
+0.0,evening,evining,IH V AY N IH NG,vining,V AY N IH NG
+0.0,evening,evning,EH V N IH NG,ensing,EH N S IH NG
+1.0,every,evry,EH V R IY,every,EH V R IY
+1.0,everyone,every_one,EH V R IY W AH N,everyone,EH V R IY W AH N
+0.0,everyone,evry_on,EH V R IY AH N,aeriens,EH R IY AH N Z
+1.0,everywhere,every_were,EH V R IY W EH R,everywhere,EH V R IY W EH R
+0.0,everywhere,evry_were,IH V R AY W IH R,fryrear,F R AY R IH R
+0.0,excited,exited,EH G Z AH T IH D,exited,EH G Z AH T IH D
+0.0,explore,expore,IH K S P AO R,expire,IH K S P AY R
+0.0,explored,expord,IH K S P AO R D,expired,IH K S P AY R D
+0.0,eyes,eye,AY,i,AY
+0.0,eyes,eyey,AY,i,AY
+1.0,eyes,iyes,AY Z,eyes,AY Z
+0.0,factory,factoy,F AE K T OY,fantroy,F AE N T R OY
+0.0,fainted,fanded,F AE N D IH D,anhydride,AE N HH AY D R IH D
+0.0,falls,forls,F AO R L Z,frills,F R IH L Z
+1.0,families,familys,F AE M AH L IY Z,families,F AE M AH L IY Z
+0.0,far,fare,F EH R,fair,F EH R
+0.0,farmer,frm,F R AH M,from,F R AH M
+0.0,farmer,farm,F AA R M,farm,F AA R M
+0.0,farmer,framh,F R AE M,frahm,F R AE M
+0.0,farmer's,frmh,F R AH M,from,F R AH M
+0.0,farmer's,farmers,F AA R M ER Z,farmers,F AA R M ER Z
+0.0,fashioned,fashion,F AE SH AH N,fashion,F AE SH AH N
+0.0,fast,farst,F AA R S T,arnst,AA R N S T
+0.0,father's,farther's,F AA R DH ER Z,foreigners,F AA R N ER Z
+0.0,fattening,fating,F EY T IH NG,fading,F EY D IH NG
+1.0,fault,falt,F AO L T,fault,F AO L T
+1.0,feel,feal,F IY L,feel,F IY L
+1.0,feeling,feling,F IY L IH NG,feeling,F IY L IH NG
+0.0,feet,fee,F IY,fee,F IY
+0.0,feet,fet,F EH T,fett,F EH T
+0.0,full,fall,F AO L,fall,F AO L
+1.0,female,feemale,F IY M EY L,female,F IY M EY L
+0.0,ferrari,ferrary,F EH R ER IY,airworthy,EH R W ER DH IY
+0.0,few,faw,F AO,faw,F AO
+0.0,found,fed,F EH D,fed,F EH D
+1.0,field,feild,F IY L D,field,F IY L D
+0.0,field,fild,F AY L D,filed,F AY L D
+0.0,fight,figth,F AY G TH,feith's,F AY TH S
+0.0,fighting,figthing,F IH G TH IH NG,figuring,F IH G Y ER IH NG
+0.0,final,fianl,F IY AE N EH L,vandaele,V AE N D EH L
+0.0,found,find,F AY N D,find,F AY N D
+0.0,fins,finse,F IH N S,ines,IH N IH S
+1.0,fire,fiar,F AY ER,fire,F AY ER
+0.0,fire,fre,F R IY,free,F R IY
+0.0,fired,fiyed,F AY D,fide,F AY D
+0.0,firms,ferman,F ER M AH N,ferman,F ER M AH N
+0.0,first,fast,F AE S T,fast,F AE S T
+0.0,fish,fsh,F SH,scheu,SH OY
+1.0,fishy,fishey,F IH SH IY,fishy,F IH SH IY
+0.0,fit,fanit,F AE N IH T,fassett,F AE S IH T
+0.0,flash,flass,F L AE S,laps,L AE P S
+0.0,flick,fick,F IH K,fick,F IH K
+0.0,flies,fies,F AY Z,ayers,AY ER Z
+1.0,floor,flor,F L AO R,floor,F L AO R
+0.0,floor,foor,F UH R,foor,F UH R
+0.0,flowers,flower,F L AW ER,flower,F L AW ER
+0.0,fly,fie,F AY,phi,F AY
+0.0,followed,fellowed,F EH L OW D,elbowed,EH L B OW D
+0.0,fool,full,F UH L,full,F UH L
+1.0,foot-and-mouth,footandmouth,F UH T AH N D M AW TH,foot-and-mouth,F UH T AH N D M AW TH
+1.0,foot-and-mouth,footanmouth,F UH T AH N M AW TH,foot-and-mouth,F UH T AH N D M AW TH
+0.0,footprints,foodprints,F UW D P R IH N T S,printemps,P R IH N T EH M P S
+0.0,for,fo,F OW,faux,F OW
+0.0,four,fore,F AO R,for,F AO R
+1.0,for,four,F AO R,for,F AO R
+0.0,for,fro,F R OW,fro,F R OW
+1.0,for,fur,F ER,for,F ER
+0.0,on,of,AH V,of,AH V
+0.0,fork,falk,F AO K,falk,F AO K
+0.0,form,frame,F R EY M,frame,F R EY M
+1.0,forward,forword,F AO R W ER D,forward,F AO R W ER D
+0.0,forward,fowd,F AW D,audi,AW D IY
+0.0,found,feod,F IY AA D,fond,F AA N D
+0.0,found,fond,F AA N D,fond,F AA N D
+0.0,from,for,F ER,for,F ER
+0.0,freezing,frizing,F R AY Z IH NG,fryling,F R AY L IH NG
+0.0,friend,fenird,F IY N ER D,fevered,F IY V ER D
+0.0,friends,frend,F R EH N D,friend,F R EH N D
+1.0,friendly,frendly,F R EH N D L IY,friendly,F R EH N D L IY
+0.0,friends,freinds,F R AY N D Z,grinders,G R AY N D ER Z
+1.0,friends,frends,F R EH N D Z,friends,F R EH N D Z
+0.0,friends,frens,F R EH N Z,frenz,F R EH N Z
+1.0,frightened,frightend,F R AY T AH N D,frightened,F R AY T AH N D
+0.0,frightened,frigtend,F R IH G T EH N D,crittenden,K R IH T EH N D AH N
+0.0,frogs,frog,F R AA G,frog,F R AA G
+0.0,frogs,rogs,R AA G Z,robs,R AA B Z
+0.0,frogspawn,frogsporn,F R AA G S P AO R N,,
+0.0,from,fom,F AA M,palm,P AA M
+0.0,from,form,F AO R M,form,F AO R M
+1.0,front,frount,F R AW N T,front,F R AH N T
+1.0,front,frunt,F R AH N T,front,F R AH N T
+0.0,fruit,frit,F R IH T,rindt,R IH N T
+0.0,full,ful,F AH L,ulm,AH L M
+1.0,funeral,funerl,F Y UW N ER L,funeral,F Y UW N ER AH L
+0.0,funeral,funrel,F AH N R AH L,futral,F AH T R AH L
+1.0,funny,funney,F AH N IY,funny,F AH N IY
+1.0,gamekeeper,gamekeeps,G EY M K IY P S,gamekeeper,G EY M K IY P ER
+0.0,gang,ganer,G EY N ER,gainer,G EY N ER
+0.0,garage,carage,K EH R IH JH,kerridge,K EH R IH JH
+1.0,gas,gass,G AE S,gas,G AE S
+1.0,gate,gait,G EY T,gate,G EY T
+0.0,gave,cave,K EY V,cave,K EY V
+0.0,gay,jay,JH EY,jay,JH EY
+0.0,gear,gere,JH EH R,gehr,JH EH R
+0.0,geared,gird,G ER D,gird,G ER D
+0.0,gears,girse,G ER S,aris,ER IY S
+0.0,the,ge,JH EY,jay,JH EY
+1.0,get,gett,G EH T,get,G EH T
+0.0,got,get,G IH T,get,G IH T
+1.0,getting,geting,G EH T IH NG,getting,G EH T IH NG
+0.0,girl,gell,JH EH L,gel,JH EH L
+0.0,girl's,girls,G ER L Z,girls,G ER L Z
+0.0,girlfriend's,girl_friend,G ER L F R EH N D,girlfriend,G ER L F R EH N D
+0.0,girlfriends,girlfriend,G ER L F R EH N D,girlfriend,G ER L F R EH N D
+1.0,girls,gerls,G ER L Z,girls,G ER L Z
+0.0,girls,girl,G ER L,girl,G ER L
+0.0,gives,give,G IH V,give,G IH V
+0.0,go,do,D UW,do,D UW
+0.0,go,got,G AA T,got,G AA T
+0.0,going,gying,JH AY IH NG,icing,AY S IH NG
+0.0,gun,gon,G AA N,gohn,G AA N
+1.0,goodbye,good-by,G UH D B AY,goodbye,G UH D B AY
+1.0,goodbye,goodby,G UH D B AY,goodbye,G UH D B AY
+0.0,got,gnt,JH IY EH N T,events,IY V EH N T S
+0.0,grabbed,grab,G R AE B,grab,G R AE B
+0.0,grabbed,grabed,G R EY B D,rabid,R EY B IH D
+1.0,grandpa's,grandpas,G R AE N P AA Z,grandpa's,G R AE N P AA Z
+0.0,grated,grete,G R IY T,greet,G R IY T
+0.0,grave,crave,K R EY V,crave,K R EY V
+1.0,great,grait,G R EY T,great,G R EY T
+0.0,greenhouse,gnenhouen,N EH N HH AW N,enhance,EH N HH AE N S
+1.0,grieve,greive,G R IY V,grieve,G R IY V
+0.0,grocer,grouser,G R AW S ER,grasser,G R AE S ER
+0.0,ground,gound,G AW N D,gouged,G AW JH D
+1.0,ground,grouned,G R AW N D,ground,G R AW N D
+0.0,grow,grows,G R OW Z,grows,G R OW Z
+0.0,grown,groon,G R UW N,gruen,G R UW N
+0.0,guided,guard,G AA R D,guard,G AA R D
+0.0,guilty,guilt,G IH L T,guilt,G IH L T
+0.0,gutter,guter,G Y UW T ER,buettner,B Y UW T N ER
+0.0,had,hab,HH AE B,abs,AE B Z
+0.0,had,hade,HH EY D,hade,HH EY D
+0.0,had,have,HH AE V,have,HH AE V
+0.0,hadn't,hadnt,HH AE D N T,hanft,HH AE N F T
+0.0,hair,hire,HH AY R,hire,HH AY R
+0.0,hairdresser,hair_dreser,HH EH R D R IY Z ER,hendry's,HH EH N D R IY Z
+0.0,hallo,alloe,AH L OW,luo,L W OW
+0.0,hallo,halloe,HH AE L OW,hallow,HH AE L OW
+0.0,hammering,hemmsering,HH EH M Z ER IH NG,hemmerling,HH EH M ER L IH NG
+0.0,handed,hang,HH AE NG,hang,HH AE NG
+0.0,hang,hung,HH AH NG,hung,HH AH NG
+0.0,hanging,haing,HH AA IH NG,awning,AA N IH NG
+0.0,happened,hapend,HH EY P AH N D,hastened,HH EY S AH N D
+0.0,happened,hapends,HH EY P AH N D Z,sapiens,S EY P IY AH N Z
+0.0,happened,happen,HH AE P AH N,happen,HH AE P AH N
+1.0,happened,happend,HH AE P AH N D,happened,HH AE P AH N D
+0.0,happened,happon,HH AE P AH N,happen,HH AE P AH N
+0.0,happened,heap,HH IY P,heap,HH IY P
+0.0,happening,happing,HH AE P IH NG,appling,AE P L IH NG
+0.0,happens,happends,HH AE P AH N D Z,hammonds,HH AE M AH N D Z
+0.0,happily,happly,HH AE P L IY,aptly,AE P T L IY
+0.0,hard,had,HH AE D,had,HH AE D
+0.0,has,as,AE Z,as,AE Z
+0.0,has,hase,HH EY Z,hayes,HH EY Z
+0.0,hates,hate,HH EY T,hate,HH EY T
+1.0,have,hav,HH AE V,have,HH AE V
+0.0,haven't,haven's,HH AE V AH N Z,avenues,AE V AH N UW Z
+1.0,haven't,havn't,HH AE V AH N T,haven't,HH AE V AH N T
+1.0,having,haveing,HH AE V IH NG,having,HH AE V IH NG
+0.0,he's,his,HH IH Z,his,HH IH Z
+0.0,to,the,DH AH,the,DH AH
+0.0,healthy,hethy,HH EH TH IY,ethier,EH TH IY ER
+1.0,heap,heep,HH IY P,heap,HH IY P
+0.0,hear,haer,HH EH R,hair,HH EH R
+0.0,heard,her,HH ER,her,HH ER
+0.0,heard,heared,HH IY R D,erode,IY R OW D
+1.0,heard,herd,HH ER D,heard,HH ER D
+0.0,heard,hered,HH IH R D,erode,IH R OW D
+1.0,heart,hart,HH AA R T,heart,HH AA R T
+0.0,heartbreak,hertbreake,HH ER T B R EY K,vertibrak,V ER T AH B R AE K
+0.0,hurt,heart,HH AA R T,heart,HH AA R T
+0.0,heavy,hevey,HH IH V EY,hevey,HH IH V EY
+0.0,hedge,heg,HH EH G,hegg,HH EH G
+0.0,heifer,effer,EH F ER,for,F R ER
+0.0,held,hasld,HH AE S AH L D,hassled,HH AE S AH L D
+0.0,help,held,HH EH L D,held,HH EH L D
+1.0,here,hear,HH IY R,here,HH IY R
+0.0,herself,he_slef,HH EH S L IH F,heathcliff,HH EH TH K L IH F
+0.0,hidden,hidon,HH AY D AH N,haydn,HH AY D AH N
+0.0,him,hm,HH M,myrrh,M ER
+1.0,himself,him_self,HH IH M S EH L F,himself,HH IH M S EH L F
+0.0,himself,his_self,HH IH S EH L F,hisself,HH IH S EH L F
+0.0,its,is,IH Z,is,IH Z
+0.0,hit,hiter,HH AY T ER,hater,HH EY T ER
+0.0,hole,holler,HH AA L ER,holler,HH AA L ER
+0.0,home,hime,HH AY M,haim,HH AY M
+0.0,home,hom,HH AA M,halm,HH AA M
+0.0,home,homse,HH AA M S IY,hoxie,HH AA K S IY
+0.0,honeymoon,honymoon,HH AA N IY M UW N,honeyman,HH AA N IY M AH N
+1.0,honeymoon,hunemoon,HH AH N IH M UW N,honeymoon,HH AH N IY M UW N
+0.0,hook,hock,HH AA K,hock,HH AA K
+0.0,hopped,hop,HH AA P,hop,HH AA P
+0.0,horns,horn,HH AO R N,horn,HH AO R N
+1.0,horrid,horid,HH AO R AH D,horrid,HH AO R AH D
+1.0,horrified,horrieyfide,HH AO R IY AH F AY D,horrified,HH AO R AH F AY D
+0.0,houses,houes,HH AW Z,houghs,HH AW Z
+1.0,houseboat,house_boat,HH AW S B OW T,houseboat,HH AW S B OW T
+0.0,housebreaking,house_braking,HH AW S B R EY K IH NG,houseraising,HH AW S R EY Z IH NG
+1.0,housework,housee_work,HH AW S W ER K,housework,HH AW S W ER K
+1.0,hungry,hungrey,HH AH NG G R IY,hungry,HH AH NG G R IY
+0.0,hurt,hearte,HH AA R T,heart,HH AA R T
+1.0,hurt,hert,HH ER T,hurt,HH ER T
+1.0,husband,husbon,HH AH Z B AH N,husband,HH AH Z B AH N D
+0.0,hutch,hudge,HH AH JH,adjoin,AH JH OY N
+1.0,hydraulic,high_drollit,HH AY D R AO L IH T,hydraulic,HH AY D R AO L IH K
+0.0,idea,ida,IY D AH,eda,IY D AH
+0.0,indian,inded,IH N D IH D,indeed,IH N D IY D
+1.0,indiscreet,indiscrest,IH N D IH S K R EH S T,indiscreet,IH N D IH S K R IY T
+0.0,inject,injeck,IH N JH EH K,eject,IH JH EH K T
+1.0,injuries,injurys,IH N JH ER IY Z,injuries,IH N JH ER IY Z
+0.0,insects,insexs,IH N S EH K S IH Z,sexism,S EH K S IH Z AH M
+1.0,inside,in_side,IH N S AY D,inside,IH N S AY D
+0.0,instance,instace,IH N S T EY S,inserts,IH N S ER T S
+0.0,instance,instead,IH N S T EH D,instead,IH N S T EH D
+1.0,intercourse,intercors,IH N T ER K AO R Z,intercourse,IH N T ER K AO R S
+0.0,interned,intended,IH N T EH N D IH D,intended,IH N T EH N D IH D
+0.0,introduced,interdust,IH N T ER D AH S T,interests,IH N T ER AH S T S
+0.0,introduced,introducted,IH N T R OW D AH K T IH D,introductory,IH N T R OW D AH K T ER IY
+0.0,is,us,Y UW EH S,us,Y UW EH S
+0.0,isn't,in'sen't,IH N S AH N T,infant,IH N F AH N T
+0.0,isn't,isant,AY Z AH N T,wisest,W AY Z AH S T
+0.0,isn't,isten,IH S T AH N,stuns,S T AH N Z
+0.0,it,hit,HH IH T,hit,HH IH T
+0.0,its,it,IH T,it,IH T
+0.0,it's,its,IH T S,its,IH T S
+1.0,its,it's,IH T S,its,IH T S
+0.0,jail,jaell,JH EH L,gel,JH EH L
+0.0,jar,gare,G EH R,gair,G EH R
+0.0,jogged,joged,JH OW JH D,judged,JH AH JH D
+0.0,join,goin,G OY N,goin,G OY N
+1.0,join,joine,JH OY N,join,JH OY N
+0.0,juicy,juiciy,JH UW IH S IY,gypsy,JH IH P S IY
+0.0,jumped,jump,JH AH M P,jump,JH AH M P
+0.0,jumped,jumth,JH AH M TH,cometh,K AH M IH TH
+1.0,jungle,jungel,JH AH NG G AH L,jungle,JH AH NG G AH L
+0.0,just,gust,G AH S T,gust,G AH S T
+0.0,keep,geep,G IY P,epes,IY P S
+0.0,keeps,keep,K IY P,keep,K IY P
+0.0,kept,keept,K IY P T,kieft,K IY F T
+0.0,kept,kep,K EH P,kepp,K EH P
+1.0,keys,kees,K IY Z,keys,K IY Z
+0.0,kicking,kiging,K AY G IH NG,kiting,K AY T IH NG
+0.0,killed,kid,K IH D,kid,K IH D
+0.0,killed,kild,K AY L D,eyelid,AY L IH D
+0.0,killed,kill,K IH L,kill,K IH L
+1.0,killed,killd,K IH L D,killed,K IH L D
+0.0,kissed,kiss,K IH S,kiss,K IH S
+0.0,kitchen,kichen,K IH K AH N,kitten,K IH T AH N
+0.0,kitchen,kitchin,K IH CH IH N,kitchin,K IH CH IH N
+0.0,kitchen,kitching,K IH CH IH NG,kitching,K IH CH IH NG
+0.0,knew,new,N Y UW,new,N Y UW
+0.0,no,now,N AW,now,N AW
+0.0,knew,nowe,N AW,now,N AW
+0.0,knife,kniffe,N IH F,ifs,IH F S
+1.0,knit,knitt,N IH T,knit,N IH T
+0.0,knocked,nock,N AA K,knock,N AA K
+0.0,knocked,knock,N AA K,knock,N AA K
+1.0,knocked,knokt,N AA K T,knocked,N AA K T
+1.0,no,know,N OW,no,N OW
+0.0,not,no,N OW,no,N OW
+0.0,one,on,AO N,on,AO N
+1.0,knows,knowes,N OW Z,knows,N OW Z
+0.0,lady,ladys,L EY D IY Z,ladies,L EY D IY Z
+0.0,lay,ladh,L AE D,lad,L AE D
+1.0,laid,laide,L EY D,laid,L EY D
+0.0,lake,lack,L AE K,lack,L AE K
+1.0,lamb,lam,L AE M,lamb,L AE M
+0.0,landed,laded,L EY D IH D,laidig,L EY D IH G
+0.0,large,larg,L AA R G,argo,AA R G OW
+0.0,lately,latley,L AE T L IY,atalie,AE T AH L IY
+0.0,later,lated,L EY T IH D,plaisted,P L EY S T IH D
+0.0,later,latter,L AE T ER,latter,L AE T ER
+0.0,laughing,lauging,L EY JH IH NG,lading,L EY D IH NG
+0.0,laundry,lordery,L AO R D ER IY,orderly,AO R D ER L IY
+0.0,lay,laid,L EY D,laid,L EY D
+0.0,layby,la-by,L EY B IY,ably,EY B L IY
+0.0,lead,leeding,L IY D IH NG,leading,L IY D IH NG
+0.0,leading,lead,L IY D,lead,L IY D
+1.0,leave,leav,L IY V,leave,L IY V
+0.0,leave,lefnr,L EH F N ER,gefinor,G EH F IH N ER
+1.0,leave,leve,L IY V,leave,L IY V
+0.0,leave,life,L AY F,life,L AY F
+1.0,leaves,leavs,L IY V Z,leaves,L IY V Z
+0.0,left,lift,L IH F T,lift,L IH F T
+0.0,leg,lege,L IY JH,liege,L IY JH
+0.0,letter,teller,T EH L ER,teller,T EH L ER
+0.0,lie,liy,L IY,lee,L IY
+1.0,lifeboat,life_boat,L AY F B OW T,lifeboat,L AY F B OW T
+0.0,lightning,ligthing,L IH G TH IH NG,lingering,L IH NG G ER IH NG
+0.0,like,lichr,L IH K ER,liquor,L IH K ER
+0.0,like,lik,L IH K,lick,L IH K
+0.0,looks,look,L UH K,look,L UH K
+0.0,liked,lick,L IH K,lick,L IH K
+0.0,likes,like,L AY K,like,L AY K
+0.0,listen,listern,L IH S T ER N,liston,L IH S T AH N
+0.0,listened,lisinid,L IH S IH N IH D,rescinded,R IH S IH N D IH D
+0.0,listening,lsning,L UW EH S N IH NG,lessening,L EH S AH N IH NG
+0.0,little,litel,L AY T EH L,libel,L AY B EH L
+0.0,little,litte,L IH T,lit,L IH T
+1.0,lived,lifd,L IH F D,lived,L IH V D
+0.0,lived,live,L IH V,live,L IH V
+0.0,old,lod,L AA D,wad,W AA D
+1.0,loads,loades,L OW D Z,loads,L OW D Z
+0.0,locked,lock,L AA K,lock,L AA K
+1.0,locked,locked,L AA K T,locked,L AA K T
+0.0,locker,loker,L OW K ER,loker,L OW K ER
+0.0,loneliest,lonlest,L AO N L AH S T,holocaust,HH AO L AH K AO S T
+1.0,lorries,lorry's,L AO R IY Z,lorries,L AO R IY Z
+0.0,lorry,lord,L AO R D,lord,L AO R D
+0.0,lorry,lory,L AO R IY,lori,L AO R IY
+1.0,lose,loos,L UW Z,lose,L UW Z
+0.0,lose,los,L AO S,loss,L AO S
+0.0,loved,love,L AH V,love,L AH V
+1.0,lovely,lovyley,L AH V IH L IY,lovely,L AH V L IY
+0.0,lying,laying,L EY IH NG,laying,L EY IH NG
+1.0,made,mayd,M EY D,made,M EY D
+1.0,main,mane,M EY N,main,M EY N
+0.0,makes,mack,M AE K,mac,M AE K
+0.0,make-up,macke_up,M AE K AH P,backups,B AE K AH P S
+0.0,man,mae,M EY,may,M EY
+0.0,man,mand,M AE N D,manned,M AE N D
+1.0,man,manh,M AE N,man,M AE N
+0.0,my,may,M EY,may,M EY
+0.0,men,man,M AE N,man,M AE N
+0.0,man's,mans,M AE N Z,mans,M AE N Z
+0.0,manager,maneger,M AE N IH G ER,danziger,D AE N Z IH G ER
+0.0,mangels,manggles,M AE NG G AH L Z,mangles,M AE NG G AH L Z
+0.0,manifold,many_fold,M EH N IY F OW L D,merryfield,M EH R IY F IY L D
+0.0,many,meay,M EY,may,M EY
+1.0,many,meny,M EH N IY,many,M EH N IY
+0.0,marge,marg,M AA R G,argo,AA R G OW
+0.0,married,marrede,M AA R EY D IY,arkady,AA R K EY D IY
+0.0,married,marreid,M AA R AY D,marder,M AA R D ER
+0.0,married,marryid,M EH R IY IH D,meredith,M EH R IH D IH TH
+0.0,marshland,marshladn,M AA R SH L AE D AH N,marshlands,M AA R SH L AE N D Z
+0.0,mask,marsk,M AA R S K,masek,M AA S EH K
+0.0,masks,marsks,M AA R S K S,marcus,M AA R K AH S
+0.0,matter,mater,M AA T ER,mater,M AA T ER
+0.0,meadow,meadoy,M IY D OY,midi,M IY D IY
+1.0,meadow,meddow,M EH D OW,meadow,M EH D OW
+1.0,meadow,medow,M EH D OW,meadow,M EH D OW
+0.0,meant,mean't,M IY N T,meert,M IY R T
+0.0,metals,metet,M EH T AH T,methot,M EH TH AH T
+0.0,middle,midal,M IH D AA L,mittal,M IH T AA L
+1.0,middle,middal,M IH D AH L,middle,M IH D AH L
+1.0,midsummer,midsummer's,M IH D S AH M ER Z,midsummer,M IH D S AH M ER
+0.0,might,migth,M IH G TH,myths,M IH TH S
+1.0,might,mite,M AY T,might,M AY T
+0.0,mine,my,M AY,my,M AY
+0.0,minutes,mine,M AY N,mine,M AY N
+1.0,minutes,minetes,M IH N IY T S,minutes,M IH N AH T S
+0.0,miring,morning,M AO R N IH NG,morning,M AO R N IH NG
+0.0,misfiring,miss_fireing,M IH S F AY ER IH NG,mystifying,M IH S T AH F AY IH NG
+0.0,missed,miss,M IH S,miss,M IH S
+1.0,missed,mist,M IH S T,missed,M IH S T
+0.0,model,modal,M OW D AH L,modal,M OW D AH L
+0.0,model,molad,M OW L AE D,monad,M OW N AE D
+0.0,modelled,malod,M AE L AH D,aland,AE L AH N D
+0.0,monsieur,missiour,M IH SH ER,mischer,M IH SH ER
+0.0,months,month,M AH N TH,month,M AH N TH
+0.0,months,monsth,M AA N SH,marsh,M AA R SH
+0.0,months,mouth,M AW TH,mouth,M AW TH
+0.0,more,moor,M UH R,moore,M UH R
+0.0,morning,moning,M OW N IH NG,moaning,M OW N IH NG
+0.0,morning,morring,M AO R IH NG,moehring,M AO R IH NG
+0.0,mother,morther,M AO R DH ER,mourner,M AO R N ER
+0.0,mother,mothers,M AH DH ER Z,mothers,M AH DH ER Z
+1.0,mother,mouthr,M AH DH ER,mother,M AH DH ER
+0.0,motor-cruiser,motor-cruisr,M OW T ER K R UW S ER,motorbikes,M OW T ER B AY K S
+1.0,motorbike,moter_bike,M OW T ER B AY K,motorbike,M OW T ER B AY K
+1.0,motorbike,motor_bike,M OW T ER B AY K,motorbike,M OW T ER B AY K
+0.0,mouse,moues,M UW Z,moos,M UW Z
+0.0,much,mush,M AH SH,mush,M AH SH
+0.0,mum's,mums,M AH M Z,mums,M AH M Z
+1.0,murder,murber,M ER B ER,murder,M ER D ER
+0.0,murdered,murbur,M ER B ER,murder,M ER D ER
+0.0,muscles,musirls,M Y UW Z ER AH L Z,musicals,M Y UW Z IH K AH L Z
+1.0,myself,my_self,M AY S EH L F,myself,M AY S EH L F
+0.0,myself,my_shelf,M IH SH EH L F,michel's,M IH SH EH L Z
+0.0,mystery,mistory,M IH S T R IY,mistry,M IH S T R IY
+0.0,nanny,nana,N AE N AH,nanna,N AE N AH
+1.0,near,nere,N IH R,near,N IH R
+0.0,nearer,nerer,N EH R ER,ehrler,EH R L ER
+0.0,nearest,nearst,N IH R S T,erased,IH R EY S T
+0.0,nearly,kneeling,N IY L IH NG,kneeling,N IY L IH NG
+0.0,nearly,neally,N IY L IY,nealey,N IY L IY
+0.0,nearly,nealy,N IY L IY,nealey,N IY L IY
+0.0,nearly,nely,N EH L IY,nelly,N EH L IY
+0.0,nearly,nerly,N ER L IY,eardley,ER D L IY
+0.0,nearly,niely,N IY L IY,nealey,N IY L IY
+1.0,need,nede,N IY D,need,N IY D
+0.0,needn't,nedent,N EH D AH N T,negent,N EH G AH N T
+1.0,needn't,needent,N IY D AH N T,needn't,N IY D AH N T
+1.0,neighbour,nabour,N EY B ER,neighbour,N EY B ER
+0.0,nerves,nerve,N ER V,nerve,N ER V
+0.0,nervous,nerves,N ER V Z,nerves,N ER V Z
+0.0,never,knver,K AH N V ER,culver,K AH L V ER
+0.0,never,nether,N EH DH ER,nether,N EH DH ER
+0.0,never,neve,N IY V,naeve,N IY V
+1.0,nevertheless,never_the_less,N EH V ER DH AH L EH S,nevertheless,N EH V ER DH AH L EH S
+0.0,next,nest,N EH S T,nest,N EH S T
+0.0,night,tonight,T UH N AY T,nightshirt,N AY CH ER T
+0.0,nights,night,N AY T,night,N AY T
+0.0,nights,nigth,N AY TH,knoth,N AA TH
+0.0,ninety,ninty,N IH N T IY,intrie,IH N T R IY
+0.0,nipped,niped,N AY P T,knifed,N AY F T
+0.0,noise,nose,N OW Z,knows,N OW Z
+1.0,nor,nore,N AO R,nor,N AO R
+0.0,notes,nots,N AA T S,knots,N AA T S
+0.0,nuisance,nousant,N UW Z AH N T,neugent,N UW JH AH N T
+1.0,nurses,nurse's,N ER S IH Z,nurses,N ER S IH Z
+0.0,o'clock,o_clock,AA K L AH K,clunk,K L AH NG K
+0.0,o'clock,"o,_clock",AA K L AH K,clunk,K L AH NG K
+0.0,o'clock,oclock,AA K L AH K,clunk,K L AH NG K
+0.0,of,off,AO F,off,AO F
+0.0,old,ol,OW L,ole,OW L
+0.0,oldest,olddis,OW L D IH S,boldest,B OW L D IH S T
+0.0,on,hn,EY CH EH N,chen's,CH EH N Z
+0.0,on,hon,HH AA N,hon,HH AA N
+0.0,won,one,W AH N,one,W AH N
+0.0,once,own,OW N,own,OW N
+0.0,once,wons,W AA N Z,ions,AY AA N Z
+0.0,ones,wones,W OW N Z,owens,OW AH N Z
+0.0,only,ony,OW N IY,oney,OW N IY
+0.0,opened,oped,OW P T,pate,P EY T
+0.0,opened,open,OW P AH N,open,OW P AH N
+1.0,opened,opend,OW P AH N D,opened,OW P AH N D
+0.0,opened,opon,OW P AA N,pion,P AY AA N
+0.0,or,ot,AA T,ott,AA T
+0.0,orchard,orcher,AO R CH ER,orser,AO R S ER
+0.0,ordinary,ordenrey,AO R D IH N R IY,ordinaries,AO R D AH N EH R IY Z
+0.0,orphaned,ophoned,AH F OW N D,foland,F OW L AH N D
+0.0,orphaned,orphaed,AO R F IY D,orford,AO R F ER D
+0.0,others,other,AH DH ER,other,AH DH ER
+1.0,otherwise,other_wise,AH DH ER W AY Z,otherwise,AH DH ER W AY Z
+1.0,our,hour,AW ER,our,AW ER
+0.0,our,ous,UW S,suh,S AH
+0.0,our,out,AW T,out,AW T
+0.0,ourselves,and_selve,AE N D S EH L V,anselm,AE N S EH L M
+0.0,out,hot,HH AA T,hot,HH AA T
+0.0,out,ou,UW,ooh,UW
+1.0,out,ouht,AW T,out,AW T
+1.0,out,owt,AW T,out,AW T
+0.0,outbreak,outdrak,AW T D R AE K,drawback,D R AO B AE K
+1.0,outfit,out_fit,AW T F IH T,outfit,AW T F IH T
+1.0,outfits,out_fits,AW T F IH T S,outfits,AW T F IH T S
+0.0,outside,out_sild,AW T S AY L D,outsold,AW T S OW L D
+0.0,over,hover,HH AH V ER,hover,HH AH V ER
+0.0,over,ove,OW V,vous,V UW
+0.0,over,overy,OW V ER IY,ovary,OW V ER IY
+1.0,paid,payed,P EY D,paid,P EY D
+0.0,painted,panted,P AE N T IH D,panted,P AE N T IH D
+0.0,pair,per,P ER,per,P ER
+0.0,paralysed,paralised,P EH R AH L AY Z D,paralyzed,P EH R AH L AY Z D
+0.0,parent's,parents,P EH R AH N T S,parents,P EH R AH N T S
+0.0,parents,prarents,P R EH R AH N T S,presents,P R EH Z AH N T S
+0.0,parents,prerents,P R IY R EH N T S,presents,P R IY Z EH N T S
+0.0,parts,pars,P AA R Z,pars,P AA R Z
+1.0,party,partey,P AA R T IY,party,P AA R T IY
+0.0,past,pass,P AE S,pass,P AE S
+0.0,pathway,parth_way,P AA R TH W EY,garthwaite,G AA R TH W EY T
+0.0,pavement,pathment,P AE TH M AH N T,rampant,R AE M P AH N T
+0.0,pay,paid,P EY D,paid,P EY D
+1.0,pearls,pirls,P ER L Z,pearls,P ER L Z
+1.0,peep,peope,P IY P,peep,P IY P
+0.0,peeped,peped,P EH P T,empt,EH M P T
+0.0,people,peolpe,P IY OW L P IY,piccoli,P IY K OW L IY
+0.0,people,pople,P AA P AH L,popple,P AA P AH L
+0.0,perhaps,prasp,P R AE S P,grasped,G R AE S P T
+0.0,person,peason,P EH Z AH N,esmine,EH Z M AH N
+0.0,peter's,peter,P IY T ER,peter,P IY T ER
+0.0,peter's,peters,P IY T ER Z,peters,P IY T ER Z
+0.0,petrol,petal,P EH T AH L,petal,P EH T AH L
+0.0,phoned,phone,F OW N,phone,F OW N
+0.0,photo,phto,F T OW,tso,T S OW
+0.0,picked,pick,P IH K,pick,P IH K
+0.0,picked,picted,P IH K T IH D,pictet,P IH K T IH T
+0.0,picked,piked,P AY K T,deichert,D AY K ER T
+0.0,pickpocketing,pick_poketin,P IH K P OW K AH T IH N,pickpockets,P IH K P AA K AH T S
+1.0,picture,pictuou,P IH K CH UW,picture,P IH K CH ER
+0.0,pictures,picture,P IH K CH ER,picture,P IH K CH ER
+0.0,pictures,pictyres,P IH K T AY R Z,retiree's,R IH T AY R IY Z
+0.0,pictures,pitures,P IH CH ER Z,pitchers,P IH CH ER Z
+0.0,piece,pese,P IY S,peace,P IY S
+0.0,piece,pice,P AY S,ios,AY OW S
+0.0,pigs',pigs,P IH G Z,pigs,P IH G Z
+0.0,playing,play,P L EY,play,P L EY
+0.0,play,payer,P EY ER,payer,P EY ER
+0.0,player,playa,P L AY AH,playa,P L AY AH
+0.0,please,pleace,P L IY S,leitz,L IY T S
+1.0,please,pleas,P L IY Z,please,P L IY Z
+1.0,ploughed,ploud,P L AW D,ploughed,P L AW D
+0.0,pockets,pocket,P AA K AH T,pocket,P AA K AH T
+0.0,pointing,pooting,P UW T IH NG,neutering,N UW T ER IH NG
+0.0,police,poicle,P OY K AH L,beucler,B OY K AH L ER
+0.0,police,poilice,P OY L IH S,palisade,P AE L IH S EY D
+0.0,police,polic,P AA L IH K,polich,P AA L IH K
+1.0,policeman,police_man,P AH L IY S M AH N,policeman,P AH L IY S M AH N
+0.0,policeman,policman,P AA L IH K M AH N,lichterman,L IH K T ER M AH N
+0.0,policemen,polce_men,P OW L S M EH N,polimeni,P OW L IY M EH N IY
+0.0,policemen,police_men,P AH L IY S M EH N,policeman,P AH L IY S M AH N
+0.0,policemen,policeman,P AH L IY S M AH N,policeman,P AH L IY S M AH N
+1.0,pony,poney,P OW N IY,pony,P OW N IY
+0.0,popped,poped,P OW P T,co-opt,K OW AA P T
+0.0,possess,passess,P AE S EH S,assets,AE S EH T S
+1.0,postcards,post_cards,P OW S K AA R D Z,postcards,P OW S K AA R D Z
+0.0,potatoes,potates,P OW T EY T S,postdates,P OW S T D EY T S
+0.0,potatoes,potato,P AH T EY T OW,potato,P AH T EY T OW
+0.0,pounds,ponds,P AA N D Z,ponds,P AA N D Z
+0.0,pounds,ponud,P OW N AH D,ponied,P OW N IY D
+1.0,powder,pouder,P AW D ER,powder,P AW D ER
+0.0,prayer-book,prayerbook,P R EY ER B UH K,razorback,R EY Z ER B AE K
+0.0,pregnant,pregant,P R IY G AH N T,reaganite,R IY G AH N AY T
+1.0,pregnant,pregnet,P R EH G N EH T,pregnant,P R EH G N AH N T
+0.0,presents,present,P R IY Z EH N T,present,P R IY Z EH N T
+0.0,prettiest,pretiest,P R IY T IY AH S T,prescience,P R IY SH IY AH N S
+0.0,prettiest,prettest,P R EH T AH S T,premised,P R EH M AH S T
+0.0,pretty,preety,P R IY T IY,petri,P IY T R IY
+0.0,prey,pray,P R EY,pray,P R EY
+0.0,principle,principl,P R IH N S AH P AH L,principal,P R IH N S AH P AH L
+0.0,prison,prisin,P R IH Z IH N,brisbin,B R IH Z B IH N
+0.0,private,privait,P R AY V EY T,primate,P R AY M EY T
+1.0,probably,probally,P R AA B AH L IY,probably,P R AA B AH B L IY
+1.0,proceeded,proceded,P R AH S IY D IH D,proceeded,P R AH S IY D AH D
+0.0,programme,programe,P R OW G R EY M,program,P R OW G R AE M
+0.0,programmes,programes,P R OW G R EY M Z,programs,P R OW G R AE M Z
+0.0,prostitute,prostut,P R AA S T UW T,prostate,P R AA S T EY T
+0.0,prowls,prouls,P R AW L Z,crowley's,K R AW L IY Z
+0.0,pulled,pull,P UH L,pull,P UH L
+0.0,punctuation,puntuation,P AH N CH UW EY SH AH N,punishment,P AH N IH SH M AH N T
+0.0,push-bicycle,pusbycile,P AH S B AY S AH L,biaxial,B AY AE K S IY AH L
+0.0,put,but,B AH T,but,B AH T
+0.0,put,pht,P IY EY CH T IY,peachtree,P IY CH T R IY
+0.0,put,pot,P AA T,pot,P AA T
+0.0,quarrel,qurral,K UH R AH L,crowell,K R OW AH L
+0.0,queer,quere,K W EH R,wearer,W EH R ER
+0.0,questioned,question,K W EH S CH AH N,question,K W EH S CH AH N
+0.0,quiet,quiert,K W IH R T,weerts,W IH R T S
+0.0,quietly,quily,K W IY L IY,quealy,K W IY L IY
+1.0,quietly,quitely,K W AY T L IY,quietly,K W AY AH T L IY
+0.0,quit,quite,K W AY T,quite,K W AY T
+0.0,quite,quit,K W IH T,quit,K W IH T
+0.0,rabbits,rabbit,R AE B AH T,rabbit,R AE B AH T
+1.0,racing,raceing,R EY S IH NG,racing,R EY S IH NG
+0.0,radiator,radyator,R AE D Y EY T ER,granddaughter,G R AE N D AO T ER
+0.0,running,run,R AH N,run,R AH N
+0.0,rapidly,raperly,R EY P ER L IY,draperies,D R EY P ER IY Z
+1.0,reading,reding,R IY D IH NG,reading,R IY D IH NG
+1.0,really,realy,R IY L IY,really,R IY L IY
+1.0,ready,reddy,R EH D IY,ready,R EH D IY
+0.0,ready,redey,R IY D IY,reedy,R IY D IY
+0.0,realized,realise,R IY AH L AY Z,realize,R IY AH L AY Z
+1.0,really,reley,R IH L IY,really,R IH L IY
+0.0,reap,reper,R IY P ER,reaper,R IY P ER
+0.0,recognized,reconnised,R IY K AH N AY Z D,regionalized,R IY JH AH N AH L AY Z D
+0.0,refreshing,refection,R IH F EH K SH AH N,reflections,R IH F L EH K SH AH N Z
+1.0,registry,registery,R EH JH IH S T R IY,registry,R EH JH IH S T R IY
+0.0,replied,replid,R IY P L IH D,relived,R IY L IH V D
+1.0,reply,replie,R IH P L AY,reply,R IH P L AY
+0.0,retire,retier,R IY T IY ER,regier,R IY G IY ER
+0.0,reverse,reveirse,R IH V IH R S,rivest,R IH V IH S T
+0.0,richer,recher,R EH K ER,wrecker,R EH K ER
+0.0,right,rigth,R AY TH,raith,R EY TH
+0.0,ring,rings,R IH NG Z,rings,R IH NG Z
+0.0,ripper's,ripper,R IH P ER,ripper,R IH P ER
+0.0,road,rad,R AE D,rad,R AE D
+0.0,road,raod,R AE AO D,achord,AE K AO R D
+0.0,road,rod,R AA D,rod,R AA D
+0.0,roars,rorse,R AO R S,orris,AO R IH S
+0.0,roof,rhfn,R AH F N,affine,AH F AY N
+0.0,rough,rought,R AO T,wrought,R AO T
+0.0,rough,rougth,R AH F TH,roughed,R AH F T
+0.0,round,rownd,R OW N D,roamed,R OW M D
+1.0,rounds,rouns,R AW N Z,rounds,R AW N Z
+0.0,rowed,rowd,R AW D,audi,AW D IY
+1.0,rumour,rumer,R UW M ER,rumour,R UW M ER
+0.0,run,ran,R AE N,ran,R AE N
+0.0,runway,runaway,R AH N AH W EY,runaway,R AH N AH W EY
+0.0,rushed,rust,R AH S T,rust,R AH S T
+0.0,rustle,rusall,R UW Z AH L,rudel,R UW D AH L
+0.0,safely,safaly,S AE F AH L IY,affably,AE F AH B L IY
+0.0,said,sald,S AO L D,aulds,AO L D Z
+1.0,said,sed,S EH D,said,S EH D
+0.0,said,sedn,S EH D AH N,seddon,S EH D AH N
+0.0,said,seid,S AY D,side,S AY D
+0.0,said,siad,S IY AA D,evald,IY V AA L D
+0.0,said,sid,S IH D,sid,S IH D
+0.0,said,sidn,S IH D AH N,sidden,S IH D AH N
+1.0,sailed,saled,S EY L D,sailed,S EY L D
+0.0,sallies,sally,S AE L IY,sally,S AE L IY
+0.0,save,safe,S EY F,safe,S EY F
+0.0,sees,see,S IY,see,S IY
+0.0,saw,soor,S UH R,suhr,S UH R
+0.0,saw,sor,S AO R,sore,S AO R
+0.0,saw,sore,S AO R,sore,S AO R
+0.0,saw,sorw,S AO R W,sawa,S AO W AH
+0.0,sows,sow,S OW,so,S OW
+0.0,say,said,S EH D,said,S EH D
+0.0,says,sais,S EY Z,sais,S EY Z
+0.0,says,say,S EY,say,S EY
+0.0,says,seis,S IY S,cease,S IY S
+0.0,scares,scards,S K AA R D Z,kardos,K AA R D OW Z
+0.0,school,shool,SH UW L,schuele,SH UW L
+0.0,scream,scem,S K EH M,kelm,K EH L M
+0.0,screen,seveen,S EH V IY N,evian,EH V IY AH N
+0.0,sculpture,sculptor,S K AH L P T ER,sculptor,S K AH L P T ER
+0.0,search,seach,S IY CH,ichi,IY CH IY
+0.0,seat,sat,S AE T,sat,S AE T
+0.0,second,sexeon,S EH K S IY AH N,sexton,S EH K S T AH N
+0.0,secretary,secutery,S IH K Y UW T ER IY,security,S IH K Y UH R AH T IY
+0.0,see,se,S EY,say,S EY
+0.0,seemed,semed,S EH M D,emard,EH M ER D
+0.0,selfish,slevish,S L EH V IH SH,slevin,S L EH V IH N
+1.0,selling,seling,S EH L IH NG,selling,S EH L IH NG
+0.0,senor,senour,S EH N UH R,ensure,EH N SH UH R
+0.0,sex,ses,S IY Z,sees,S IY Z
+0.0,sexton,sixty_one,S IH K S T IY OW N IY,sixteenths,S IH K S T IY N TH S
+0.0,sexual,exual,EH K SH UW AH L,sexually,S EH K SH UW AH L IY
+0.0,sexual,sexul,S EH K S AH L,sesler,S EH S AH L ER
+0.0,shillings,shilling,SH IH L IH NG,shilling,SH IH L IH NG
+0.0,shining,shinning,SH IH N IH NG,inching,IH N CH IH NG
+1.0,shipwreck,ship_wreck,SH IH P R EH K,shipwreck,SH IH P R EH K
+0.0,shone,shon,SH AA N,schon,SH AA N
+0.0,shoot,shot,SH AA T,shot,SH AA T
+0.0,shop,shap,SH AE P,schapp,SH AE P
+1.0,shortened,shortend,SH AO R T EH N D,shortened,SH AO R T AH N D
+0.0,shot,sot,S AO T,sought,S AO T
+0.0,should,shod,SH AA D,shod,SH AA D
+0.0,should,shoold,SH UH L D,bullard,B UH L ER D
+0.0,should,shoud,SH AW D,audi,AW D IY
+0.0,should,sould,S OW L D,sold,S OW L D
+0.0,shouting,shout,SH AW T,shout,SH AW T
+0.0,shuffling,shufarling,SH UW F AA R L IH NG,farling,F AA R L IH NG
+0.0,shy,shiy,SH IY,she,SH IY
+0.0,sidecar,side_car,S AY D K AA R,sidebar,S AY D B AA R
+0.0,sidecar,side_care,S AY D K EH R,cycare,S AY K EH R
+1.0,signpost,sine_post,S AY N P OW S T,signpost,S AY N P OW S T
+0.0,signpost,sing_post,S IH NG P OW S T,sposito,S P OW S IY T OW
+1.0,simple,simpl,S IH M P AH L,simple,S IH M P AH L
+0.0,sing,sings,S IH NG Z,sings,S IH NG Z
+1.0,single,singl,S IH NG G AH L,single,S IH NG G AH L
+0.0,siren,satren,S AE T R AH N,straughan,S T R AO AH N
+0.0,sister,siter,S AY T ER,seiter,S AY T ER
+0.0,sisters,sister,S IH S T ER,sister,S IH S T ER
+0.0,sitting,siting,S AY T IH NG,citing,S AY T IH NG
+0.0,skilfully,scill_filly,S IH L F AH L IY,skillfully,S K IH L F AH L IY
+0.0,slammed,slander,S L AE N D ER,slander,S L AE N D ER
+0.0,sleep,seph,S EH F,seff,S EH F
+0.0,sleep,slip,S L IH P,slip,S L IH P
+1.0,sleepy,sleepey,S L IY P IY,sleepy,S L IY P IY
+0.0,slowly,slolly,S L AA L IY,lodley,L AA D L IY
+0.0,snakes,snake,S N EY K,snake,S N EY K
+1.0,sneaking,sneking,S N IY K IH NG,sneaking,S N IY K IH NG
+0.0,snooty,snoty,S N AO T IY,snotty,S N AO T IY
+1.0,snow,snowe,S N OW,snow,S N OW
+1.0,soap,soape,S OW P,soap,S OW P
+1.0,soap,sope,S OW P,soap,S OW P
+1.0,sold,soled,S OW L D,sold,S OW L D
+0.0,some,shm,SH M,myrrh,M ER
+0.0,some,somes,S AH M Z,sums,S AH M Z
+1.0,some,sum,S AH M,some,S AH M
+0.0,someone,some_on,S AH M AO N,amborn,AH M B AO R N
+1.0,something,some_thing,S AH M TH IH NG,something,S AH M TH IH NG
+0.0,something,somethick,S AH M TH IH K,samojlik,S AH M OY L IH K
+0.0,something,somethink,S AH M TH IH NG K,somethings,S AH M TH IH NG Z
+0.0,something,somthing,S AA M TH IH NG,stomping,S T AA M P IH NG
+0.0,something,sothing,S AA TH IH NG,sobbing,S AA B IH NG
+0.0,sometimes,some_thime,S AH M TH AY M,sometime,S AH M T AY M
+0.0,sometimes,some_time,S AH M T AY M,sometime,S AH M T AY M
+1.0,sometimes,some_times,S AH M T AY M Z,sometimes,S AH M T AY M Z
+0.0,sometimes,sometime,S AH M T AY M,sometime,S AH M T AY M
+0.0,sometimes,sone_theme,S AH N TH IY M,sunbeam,S AH N B IY M
+1.0,somewhere,some_were,S AH M W EH R,somewhere,S AH M W EH R
+1.0,sun,son,S AH N,sun,S AH N
+0.0,soon,sone,S OW N,sewn,S OW N
+0.0,sooner,sonner,S AH N ER,unser,AH N S ER
+0.0,sore,saw,S AO,saw,S AO
+1.0,sound,sownd,S AW N D,sound,S AW N D
+1.0,souvenir,suvenere,S UW V AH N IH R,souvenir,S UW V AH N IH R
+0.0,spawn,sporn,S P AO R N,sporn,S P AO R N
+0.0,speaking,seking,S IY K IH NG,seeking,S IY K IH NG
+0.0,special,spicil,S P IH S AH L,piersall,P IH R S AH L
+1.0,spectators,spectatoes,S P EH K T EY T OW Z,spectators,S P EH K T EY T ER Z
+0.0,spies,spys,S P IH S,pierce,P IH R S
+1.0,splendid,splended,S P L EH N D IH D,splendid,S P L EH N D IH D
+0.0,springs,spring,S P R IH NG,spring,S P R IH NG
+0.0,spun,spund,S P AH N D,sunder,S AH N D ER
+0.0,spy,spiy,S P IY,spie,S P IY
+0.0,square,squar,S K W AO R,quora,K W AO R AH
+0.0,squeak,squick,S K W IH K,quicker,K W IH K ER
+0.0,stabbed,stabed,S T EY B D,stubbed,S T AH B D
+0.0,stairs,sairs,S EH R Z,sayres,S EH R Z
+0.0,stairs,stars,S T AA R Z,stars,S T AA R Z
+0.0,stairs,sters,S T ER Z,stirs,S T ER Z
+0.0,standard,stardnd,S T AA R D AH N D,soderlund,S AA D ER L AH N D
+0.0,standing,staning,S T EY N IH NG,staining,S T EY N IH NG
+1.0,steering,stearing,S T IH R IH NG,steering,S T IH R IH NG
+0.0,stars,stare,S T EH R,stair,S T EH R
+1.0,start,starte,S T AA R T,start,S T AA R T
+0.0,started,startes,S T AA R T S,starts,S T AA R T S
+0.0,started,straghted,S T R AO T IH D,frosted,F R AO S T IH D
+0.0,starts,starst,S T AA R S T,stressed,S T R EH S T
+0.0,starts,start,S T AA R T,start,S T AA R T
+0.0,statement,statmeant,S T AE T M IY N T,tantamount,T AE N T AH M AW N T
+0.0,station,stastione,S T AE S CH OW N IY,stastny,S T AE S T N IY
+0.0,stayed,stad,S T AE D,tanned,T AE N D
+1.0,stayed,stayd,S T EY D,stayed,S T EY D
+0.0,steak,stack,S T AE K,stack,S T AE K
+0.0,steal,still,S T IH L,still,S T IH L
+0.0,step,stepe,S T IY P,steep,S T IY P
+0.0,stewing,stawing,S T AO IH NG,talking,T AO K IH NG
+0.0,stiff,stive,S T IH V,tivo,T IH V OW
+0.0,still,sill,S IH L,sill,S IH L
+0.0,stimulated,simulated,S IH M Y AH L EY T IH D,simulated,S IH M Y AH L EY T IH D
+0.0,stinks,sticks,S T IH K S,sticks,S T IH K S
+1.0,stole,stowl,S T OW L,stole,S T OW L
+1.0,stolen,stolon,S T OW L AH N,stolen,S T OW L AH N
+0.0,stolen,stowle,S T OW L,stole,S T OW L
+1.0,stolen,stowlen,S T OW L AH N,stolen,S T OW L AH N
+0.0,stopped,stop,S T AA P,stop,S T AA P
+0.0,stopped,stoped,S T OW P T,stepped,S T EH P T
+0.0,stories,story,S T AO R IY,story,S T AO R IY
+1.0,storms,stormes,S T AO R M Z,storms,S T AO R M Z
+0.0,story,hio,HH AY OW,ilo,AY L OW
+0.0,story,shio,SH IY OW,eeo,IY IY OW
+0.0,story,sory,S AO R IY,sorey,S AO R IY
+0.0,story,stors,S T AO R Z,stores,S T AO R Z
+0.0,straight,staidght,S T EY D G T,tailgate,T EY L G EY T
+1.0,straight,strate,S T R EY T,straight,S T R EY T
+0.0,straight,stright,S T R AY T,streit,S T R AY T
+0.0,straw,storw,S T AO R W,stairway,S T EH R W EY
+0.0,straw,strow,S T R OW,stroh,S T R OW
+0.0,street,sterret,S T EH R AH T,terraced,T EH R AH S T
+1.0,struggled,strogald,S T R OW G AA L D,struggled,S T R AH G AH L D
+1.0,stuffy,stufy,S T UW F IY,stuffy,S T AH F IY
+0.0,sudden,suden,S UW D AH N,susan,S UW Z AH N
+0.0,suddenly,senddly,S EH N D L IY,endsley,EH N D S L IY
+0.0,suddenly,suddenel,S AH D N AH L,sundell,S AH N D AH L
+0.0,suitable,surtebull,S ER T IH B AH L,stibel,S T IH B AH L
+1.0,sunk,sunck,S AH NG K,sunk,S AH NG K
+1.0,suppose,sopose,S AH P OW Z,suppose,S AH P OW Z
+0.0,suppose,surpose,S ER P AH S,surface,S ER F AH S
+0.0,sure,shore,SH AO R,shore,SH AO R
+0.0,swans,swan,S W AA N,swan,S W AA N
+0.0,sweets,swet,S W EH T,sweat,S W EH T
+0.0,swirling,swaling,S W AO L IH NG,watling,W AO T L IH NG
+0.0,switched,switch,S W IH CH,switch,S W IH CH
+1.0,tadpoles,tadpolls,T AE D P OW L Z,tadpoles,T AE D P OW L Z
+0.0,take,tack,T AE K,tack,T AE K
+0.0,take,thack,TH AE K,ask,AE S K
+0.0,takes,thak,TH AE K,ask,AE S K
+0.0,taken,tackon,T AE K AH N,actin,AE K T AH N
+0.0,takes,tacks,T AE K S,tax,T AE K S
+1.0,taking,takeing,T EY K IH NG,taking,T EY K IH NG
+0.0,taking,thaing,TH AA IH NG,awning,AA N IH NG
+0.0,talk,tallk,T AO L K,torque,T AO R K
+0.0,talk,torck,T AO R K,torque,T AO R K
+0.0,talked,tork,T AO R K,torque,T AO R K
+0.0,tape,tipped,T IH P T,tipped,T IH P T
+0.0,taste,tast,T AE S T,axed,AE K S T
+0.0,teachers,teacher,T IY CH ER,teacher,T IY CH ER
+0.0,teaches,teset,T EH S AH T,escott,EH S K AH T
+0.0,teeth,theeat,TH IY T,eked,IY K T
+0.0,telephoned,telephone,T EH L AH F OW N,telephone,T EH L AH F OW N
+0.0,telephoned,telphoned,T EH L F OW N D,telephone,T EH L AH F OW N
+0.0,tell,teel,T IY L,teal,T IY L
+0.0,tense,tens,T EH N Z,tens,T EH N Z
+0.0,think,thank,TH AE NG K,thank,TH AE NG K
+0.0,that,theat,TH IY T,eked,IY K T
+0.0,the,th,TH,or,ER
+0.0,three,thee,DH IY,thee,DH IY
+0.0,the,thoy,DH OY,oyer,OY ER
+0.0,their,theer,TH IH R,ierne,IH R N
+0.0,their,thire,DH AY R,ira,AY R AH
+0.0,them,theme,TH IY M,theme,TH IY M
+0.0,them,then,DH EH N,then,DH EH N
+0.0,themselves,them_souve,TH EH M S UW V,suv,EH S Y UW V IY
+0.0,themselves,they_self,DH EY S EH L F,setliff,S EH T L IH F
+0.0,then,than,TH AE N,thanh,TH AE N
+0.0,then,them,DH EH M,them,DH EH M
+0.0,there,thaw,TH AO,thaw,TH AO
+0.0,they,thrar,TH R AA R,rara,R AA R AH
+0.0,there,thre,TH R IY,three,TH R IY
+1.0,there'll,therell,DH EH R AH L,there'll,DH EH R AH L
+0.0,there's,theres,DH EH R Z,theirs,DH EH R Z
+0.0,these,thoese,TH OW S,oats,OW T S
+0.0,they,thror,TH R AO R,rorrer,R AO ER R
+0.0,they'll,theile,TH AY L,theil,TH AY L
+0.0,thief,thif,TH IH F,ifs,IH F S
+1.0,thieves,theves,TH IY V Z,thieves,TH IY V Z
+0.0,things,think,TH IH NG K,think,TH IH NG K
+0.0,things,thinks,TH IH NG K S,thinks,TH IH NG K S
+0.0,think,thing,TH IH NG,thing,TH IH NG
+0.0,think,tink,T IH NG K,inks,IH NG K S
+0.0,thinking,tinking,T IH NG K IH NG,inkling,IH NG K L IH NG
+0.0,thomas,thomes,TH OW M Z,thomes,TH OW M Z
+0.0,thought,thort,TH AO R T,orct,AO R K T
+0.0,thought,thorugh,TH AO R UW,throop,TH R UW P
+0.0,thought,thot,DH AA T,voght,V AA T
+0.0,thought,though,TH AO F,orf,AO R F
+0.0,thought,throught,TH R UW T,roost,R UW S T
+0.0,threw,frow,F R AW,frau,F R AW
+0.0,threw,through,TH R UW,through,TH R UW
+0.0,through,throw,TH R OW,throw,TH R OW
+0.0,through,thruogth,TH R UW OW TH,growths,G R OW TH S
+0.0,throw,thorght,TH AO R T,orct,AO R K T
+0.0,tied,tired,T AY ER D,tired,T AY ER D
+0.0,till,utill,Y UW T IH L,hukill,Y UW K IH L
+0.0,time,thim,TH IH M,imp,IH M P
+0.0,time,tim,T IH M,tim,T IH M
+0.0,tinned,tin,T IH N,tin,T IH N
+0.0,tip,tiper,T AY P ER,tiber,T AY B ER
+0.0,tip,tope,T OW P,tope,T OW P
+0.0,tipped,tipe,T AY P,type,T AY P
+0.0,to,qu,K UW,coup,K UW
+0.0,took,too,T UW,to,T UW
+0.0,too,two,T UW,to,T UW
+1.0,together,to_gether,T AH G EH DH ER,together,T AH G EH DH ER
+0.0,told,tod,T AA D,todd,T AA D
+1.0,told,toled,T OW L D,told,T OW L D
+1.0,tomorrow,to_morrow,T UW M AA R OW,tomorrow,T UW M AA R OW
+1.0,tomorrow,tommorrow,T UW M AA R OW,tomorrow,T UW M AA R OW
+1.0,tongue,tung,T AH NG,tongue,T AH NG
+0.0,tonight,to_night,T UH N AY T,nightshirt,N AY CH ER T
+0.0,tonight,to_nigth,T AH N IH G TH,dunegan,D AH N IH G AE N
+0.0,tonight,tonigth,T AH N IH G TH,dunegan,D AH N IH G AE N
+0.0,took,thc,TH S IY EH R EH,serres,S EH R EH S
+0.0,took,tuck,T AH K,tuck,T AH K
+0.0,touched,toch,T AA K,tock,T AA K
+1.0,towards,towords,T AO R D Z,towards,T AO R D Z
+0.0,towel,towe,T OW,toe,T OW
+0.0,towers,tower,T AW ER,tower,T AW ER
+0.0,tractor,trator,T R EY T ER,traitor,T R EY T ER
+0.0,tramp,tamp,T AE M P,tamp,T AE M P
+0.0,tramps,trmp,T ER M P,terms,T ER M Z
+0.0,trap,crat,K R AE T,krat,K R AE T
+0.0,trashy,tashie,T AE SH IY,ashley,AE SH L IY
+0.0,treasure,thresher,TH R EH SH ER,thresher,TH R EH SH ER
+1.0,treasure,tresure,T R EH ZH ER,treasure,T R EH ZH ER
+0.0,tree,three,TH R IY,three,TH R IY
+1.0,tree,treee,T R IY,tree,T R IY
+0.0,trees,tree,T R IY,tree,T R IY
+0.0,tried,trid,T R IH D,reared,R IH R D
+0.0,trouble,trobel,T R OW B AH L,robles,R OW B AH L Z
+0.0,trouble,troefle,T R OW F AH L,trokel,T R OW K AH L
+0.0,trouble,truble,T R UW B AH L,ruble's,R UW B AH L Z
+0.0,trying,traing,T R EY NG,reinke,R EY NG K
+0.0,trying,tring,T R IH NG,rings,R IH NG Z
+0.0,trying,trining,T R AY N IH NG,ripening,R AY P N IH NG
+0.0,trying,try,T R AY,try,T R AY
+1.0,turn,tern,T ER N,turn,T ER N
+1.0,turn,turne,T ER N,turn,T ER N
+0.0,uncle,unlce,AH N L S,aloyse,AH L OY S
+0.0,unconscious,uncoshers,AH N K AH SH ER Z,uncovers,AH N K AH V ER Z
+0.0,uncovered,an_cafferd,AE N K AE F ER D,cranford,K R AE N F ER D
+1.0,undergrowth,undergroth,AH N D ER G R AO TH,undergrowth,AH N D ER G R OW TH
+0.0,underneath,under_nethe,AH N D ER N EH DH,undersell,AH N D ER S EH L
+0.0,unexpected,unispected,AH N IH S P EH K T IH D,unexpectedly,AH N IH K S P EH K T IH D L IY
+1.0,unfit,unfitt,AH N F IH T,unfit,AH N F IH T
+1.0,unhealthy,on_hethy,AA N HH IY TH IY,unhealthy,AH N HH EH L TH IY
+0.0,until,uatill,Y UW AH T IH L,cuticle,K Y UW T IH K AH L
+1.0,until,untill,AH N T IH L,until,AH N T IH L
+0.0,upon,apen,EY P AH N,punch,P AH N CH
+0.0,upon,apone,AH P OW N,pony,P OW N IY
+1.0,upstairs,up_stairs,AH P S T EH R Z,upstairs,AH P S T EH R Z
+0.0,us,hus,HH AH S,huss,HH AH S
+0.0,us,use,Y UW Z,use,Y UW Z
+0.0,used,use't,Y UW S T,ewart,Y UW ER T
+0.0,used,ust,Y UW EH S T,hulette,Y UW L EH T
+0.0,useful,usfull,AH S F UH L,shuffling,SH AH F UH L IH NG
+1.0,usually,usally,Y UW Z AH L IY,usually,Y UW ZH AH L IY
+1.0,vernacular,veracular,V ER AE K Y AH L ER,vernacular,V ER N AE K Y AH L ER
+0.0,very,every,EH V ER IY,every,EH V ER IY
+0.0,vet,vent,V EH N T,vent,V EH N T
+0.0,vet,vethn,V EH TH N,ethene,EH TH IY N
+0.0,vet,vethu,V EH TH UW,nethuva,N EH TH UW V AH
+0.0,vet,vetin,V EH T AH N,veron,V EH R AH N
+0.0,volunteered,volonteered,V AH L AA N T IH R D,avant-garde,AH V AA N T G AA R D
+0.0,waggon,wagon,W AE G AH N,wagon,W AE G AH N
+0.0,what,wat,W AA T,watt,W AA T
+0.0,what,wate,W EY T,weight,W EY T
+0.0,wait,weight,W EY T,weight,W EY T
+0.0,waited,wated,W AO T IH D,watered,W AO T ER D
+0.0,wanted,whated,W EY T IH D,weighted,W EY T IH D
+0.0,waiting,waten,W AO T AH N,watton,W AO T AH N
+0.0,waiting,wating,W AO T IH NG,walking,W AO K IH NG
+1.0,waiting,whating,W EY T IH NG,waiting,W EY T IH NG
+0.0,walked,walk,W AO K,walk,W AO K
+0.0,walked,wark,W AO R K,wark,W AO R K
+0.0,walked,warked,W AO R K T,orcutt,AO R K AH T
+0.0,walked,wocer,W OW S ER,woehler,W OW L ER
+0.0,walking,warking,W AO R K IH NG,warping,W AO R P IH NG
+0.0,wall,molh,M OW L,mole,M OW L
+0.0,wall,wah,W AA,wa,W AA
+0.0,want,wand,W AA N D,wand,W AA N D
+0.0,wasn't,whan't,W AE N T,ants,AE N T S
+0.0,want,whant,W AE N T,ants,AE N T S
+0.0,want,whon,W AH N,one,W AH N
+1.0,want,whont,W AA N T,want,W AA N T
+0.0,want,won't,W OW N T,wont,W OW N T
+0.0,won't,wont,W OW N T,wont,W OW N T
+0.0,want,woth,W AA TH,loth,L AA TH
+0.0,wanted,whanted,W AE N T IH D,anted,AE N T IH D
+0.0,wanted,wonted,W AH N T IH D,anointed,AH N OY N T IH D
+0.0,warned,wornd,W ER N D,arend,ER EH N D
+0.0,was,wos,W AA S,wass,W AA S
+0.0,washed,wosh,W AA SH,wash,W AA SH
+0.0,wasn't,wasnt,W AO Z N T,wants,W AO N T S
+0.0,wasn't,wastent,W EY S T AH N T,stamant,S T AE M AH N T
+0.0,wasn't,whdn't,W IH D AH N T,widman,W IH D M AH N
+1.0,watch,wach,W AO CH,watch,W AO CH
+0.0,watch,wacth,W AE K TH,whacked,W AE K T
+0.0,watch,wakh,W AE K,whack,W AE K
+0.0,watch,wash,W AA SH,wash,W AA SH
+1.0,watching,watcheing,W AA CH IY IH NG,watching,W AA CH IH NG
+0.0,water-rat,waterrat,W AO T ER R AE T,waterfront,W AO T ER F R AH N T
+1.0,wavy,wavey,W EY V IY,wavy,W EY V IY
+0.0,we'll,wel,W EH L,well,W EH L
+0.0,we'll,well,W EH L,well,W EH L
+0.0,where,were,W ER,were,W ER
+0.0,weasel,wasel,W AO S AH L,wasil,W AO S AH L
+0.0,weed,wead,W EH D,wed,W EH D
+1.0,week,weeke,W IY K,week,W IY K
+1.0,weekends,week_ends,W IY K EH N D Z,weekends,W IY K EH N D Z
+0.0,weekends,weekend,W IY K EH N D,weekend,W IY K EH N D
+0.0,weeks,week,W IY K,week,W IY K
+0.0,weeping,weping,W EH P IH NG,epting,EH P T IH NG
+0.0,weighed,wade,W EY D,wade,W EY D
+0.0,weighed,waid,W EY D,wade,W EY D
+1.0,weighing,waying,W EY IH NG,weighing,W EY IH NG
+0.0,went,sent,S EH N T,sent,S EH N T
+1.0,when,wen,W EH N,when,W EH N
+0.0,went,wend,W EH N D,wend,W EH N D
+0.0,went,wens,W EH N Z,wenz,W EH N Z
+0.0,went,wet,W EH T,wet,W EH T
+0.0,went,weth,W EH TH,nth,EH N TH
+0.0,went,wetn,W EH T AH N,whedon,W EH D AH N
+0.0,went,when,W EH N,when,W EH N
+0.0,went,whenet,W EH N IH T,wentz,W EH N T S
+1.0,went,whent,W EH N T,went,W EH N T
+0.0,went,wit,W IH T,wit,W IH T
+0.0,went,wnet,W N EH T,nest,N EH S T
+1.0,were,wher,W ER,were,W ER
+0.0,when,where,W EH R,where,W EH R
+0.0,weren't,were'nt,W EH R AH N T,wehunt,W EH HH AH N T
+1.0,weren't,wern't,W ER N T,weren't,W ER N T
+1.0,weren't,whernt,W ER N T,weren't,W ER N T
+0.0,wet,weat,W IY T,wheat,W IY T
+0.0,what,wath,W AO TH,orth,AO R TH
+0.0,what,wha't,W AA T,watt,W AA T
+0.0,what,whate,W EY T,weight,W EY T
+0.0,what's,whats,W AH T S,whats,W AH T S
+0.0,what,whot,W AA T,watt,W AA T
+0.0,what,wot,W AA T,watt,W AA T
+1.0,whatever,what_ever,W AH T EH V ER,whatever,W AH T EH V ER
+1.0,wheel,weel,W IY L,wheel,W IY L
+0.0,when,went,W EH N T,went,W EH N T
+0.0,when,whe,W IY,we,W IY
+0.0,wherever,were_ever,W ER IY V ER,weavers,W IY V ER Z
+1.0,wherever,where_ever,W EH R IY V ER,wherever,W EH R EH V ER
+0.0,witch,wich,W IH CH,which,W IH CH
+1.0,which,witch,W IH CH,which,W IH CH
+0.0,while,wil,W IH L,will,W IH L
+0.0,whiskey,wiskey,W IH S K IY,whisky,W IH S K IY
+1.0,whistle,wiscell,W IH S AH L,whistle,W IH S AH L
+0.0,whistled,wisheld,W IH SH EH L D,disheveled,D IH SH EH V AH L D
+0.0,white,withe,W IH TH,with,W IH TH
+0.0,who,how,HH AW,how,HH AW
+1.0,whoever's,who_evers,HH UW EH V ER Z,whoever's,HH UW EH V ER Z
+0.0,whose,hows,HH AW Z,houghs,HH AW Z
+0.0,whose,who,HH UW,who,HH UW
+1.0,will,we'll,W IH L,will,W IH L
+0.0,wiped,wippd,W IH P D,wind,W IH N D
+0.0,witch,wiche,W IH CH,which,W IH CH
+0.0,with,wiht,W IH T,wit,W IH T
+0.0,with,wis,W IH S,wis,W IH S
+1.0,without,with_out,W IH TH AW T,without,W IH TH AW T
+0.0,woke,wok,W AA K,walk,W AA K
+0.0,woman,wamon,W AA M AH N,omron,AA M R AH N
+0.0,woman,women,W IH M AH N,women,W IH M AH N
+1.0,woman,womon,W UH M AH N,woman,W UH M AH N
+0.0,wonder,wund,W AH N D,annaud,AH N OW D
+1.0,wonder,wunder,W AH N D ER,wonder,W AH N D ER
+0.0,wondered,wonder,W AH N D ER,wonder,W AH N D ER
+1.0,wonderful,wondoful,W AH N D OW F AH L,wonderful,W AH N D ER F AH L
+0.0,works,work,W ER K,work,W ER K
+1.0,workmen,work_men,W ER K M IH N,workmen,W ER K M IH N
+0.0,works,wonrs,W AH N ER Z,wonder,W AH N D ER
+0.0,works,wors,W ER Z,wirz,W ER Z
+1.0,worm,worme,W ER M,worm,W ER M
+0.0,worried,worid,W AO R AH D,orchid,AO R K AH D
+0.0,worried,worred,W ER D,word,W ER D
+1.0,worry,worye,W ER IY,worry,W ER IY
+0.0,write,rite,R AY T,right,R AY T
+1.0,writing,writeing,R AY T IH NG,writing,R AY T IH NG
+0.0,wrong,ron,R AA N,ron,R AA N
+1.0,wrong,rong,R AO NG,wrong,R AO NG
+0.0,wrong,wong,W AO NG,wong,W AO NG
+1.0,wrote,roat,R OW T,wrote,R OW T
+1.0,yankee,yanky,Y AE NG K IY,yankee,Y AE NG K IY
+0.0,years,year,Y IH R,year,Y IH R
+0.0,years,yers,Y ER Z,yours,Y ER Z
+1.0,yes,yess,Y EH S,yes,Y EH S
+0.0,yes,yet,Y EH T,yet,Y EH T
+0.0,yet,yeth,Y EH TH,nth,EH N TH
+1.0,you,yew,Y UW,you,Y UW
+0.0,you're,yow,Y OW,yau,Y OW
+0.0,yours,you,Y UW,you,Y UW
+1.0,young,yung,Y AH NG,young,Y AH NG
+1.0,your,yor,Y AO R,your,Y AO R
+1.0,your,youre,Y UH R,your,Y UH R
+0.0,yours,yourns,Y AO R N Z,orens,AO R AH N Z
+1.0,yourself,your_self,Y AO R S EH L F,yourself,Y AO R S EH L F
+0.0,yourself,your_sleve,Y AO R S L IY V,yourselves,Y AO R S EH L V Z
+1.0,yourself,yourseff,Y AO R S EH F,yourself,Y AO R S EH L F

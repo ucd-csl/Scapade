@@ -1,0 +1,233 @@
+correct,correct_spelling,misspelling,phoneme_rep,suggested,suggested_phoneme
+1.0,actually,achuly,AE CH UW L IY,actually,AE K CH UW AH L IY
+0.0,actually,acualy,AE K Y UW W AH L IY,annualize,AE N Y UW W AH L AY Z
+0.0,address,addres,AE D R EY Z,drains,D R EY N Z
+0.0,address,adres,EY D R EY Z,drains,D R EY N Z
+0.0,address,adress,AH D R EH S,dressed,D R EH S T
+1.0,adult,adault,AH D AO L T,adult,AH D AH L T
+0.0,affect,afect,AH F EH K T,effect,AH F EH K T
+1.0,all,alll,AO L,all,AO L
+1.0,animations,animaitons,AE N AH M EY T AH N Z,animations,AE N AH M EY SH AH N Z
+1.0,annoying,anoeing,AH N UW IH NG,annoying,AH N OY IH NG
+0.0,answering,ansaring,AE N S EH R IH NG,sparingly,S P EH R IH NG L IY
+1.0,anybody,enybody,EH N IY B AH D IY,anybody,EH N IY B AH D IY
+1.0,apart,appart,AH P AA R T,apart,AH P AA R T
+0.0,appeal,apeal,EY P IY L,peeler,P IY L ER
+0.0,approach,approch,AE P R AH K,apricot,EY P R AH K AA T
+0.0,aren't,arent,EH R AH N T,errant,EH R AH N T
+1.0,avatar,avitar,AE V IH T AA R,avatar,AE V AH T AA R
+0.0,because,beacause,B IY K AO Z,recalls,R IY K AO L Z
+0.0,because,beaccause,B IY K AO Z,recalls,R IY K AO L Z
+0.0,because,beacouse,B IY K AH S,beavis,B IY V AH S
+0.0,because,beacuse,B IY K Y UW Z,bbq,B IY B IY K Y UW
+1.0,because,becaes,B IH K EY Z,because,B IH K AH Z
+0.0,because,becase,B IH K EY S,became,B IH K EY M
+1.0,because,becauase,B IH K AO Z,because,B IH K AO Z
+1.0,because,becauce,B IH K AO S,because,B IH K AO Z
+0.0,because,becouse,B IH K AW S,brickhouse,B R IH K HH AW S
+0.0,because,becuase,B IH K W EY Z,equations,IH K W EY ZH AH N Z
+0.0,because,becuos,B EH K Y UW OW Z,cuso's,K Y UW S OW Z
+0.0,because,becus,B IH K AH S,icarus,IH K ER AH S
+0.0,because,becuse,B IH K Y UW Z,excuse,IH K S K Y UW Z
+0.0,because,bekos,B IY K OW S,biko's,B IY K OW Z
+0.0,being,bein,B IY N,bean,B IY N
+0.0,bored,bord,B AO R D,board,B AO R D
+1.0,bullies,bullys,B UH L IY Z,bullies,B UH L IY Z
+0.0,bullying,bulying,B Y UW L IY IH NG,bugling,B Y UW G L IH NG
+1.0,bystander,bystader,B AY S T EY D ER,bystander,B AY S T AE N D ER
+0.0,bystander,pstander,S T AE N D ER,stander,S T AE N D ER
+0.0,careful,kafull,K AE F AH L,cappel,K AE P AH L
+0.0,cause,couse,K AW S,couse,K AW S
+0.0,cause,cus,K AH S,cuss,K AH S
+0.0,cause,cuz,K AH Z,unz,AH N Z
+1.0,comfortable,comefortable,K AH M F ER T AH B AH L,comfortable,K AH M F ER T AH B AH L
+1.0,comfortable,comfertable,K AH M F ER T AH B AH L,comfortable,K AH M F ER T AH B AH L
+0.0,communication,communacation,K AA M Y AH N AH K EY SH AH N,communization,K AA M Y AH N AH Z EY SH AH N
+0.0,complete,conplete,K AH N P L IY T,completed,K AH M P L IY T AH D
+0.0,confidence,confedence,K AA N F EH D AH N S,confederacy,K AH N F EH D ER AH S IY
+1.0,consequences,consiqences,K AA N S AH K AH N S IH Z,consequences,K AA N S AH K W EH N S AH Z
+0.0,contact,cintact,S IH N T AE K T,interact,IH N T ER AE K T
+1.0,controls,controlles,K AH N T R OW L Z,controls,K AH N T R OW L Z
+1.0,cyber,ciber,S AY B ER,cyber,S AY B ER
+0.0,cyberbullying,ciberbulling,S AY B ER B AH L IH NG,seiberling,S AY B ER L IH NG
+0.0,cyberbullying,caberbulling,K EY B ER B AH L IH NG,verbalizing,V ER B AH L AY Z IH NG
+0.0,cyberbullying,cyberbulling,S AY B ER B UH L IH NG,seiberling,S AY B ER L IH NG
+0.0,cyberbullying,cyberbullyin,S AY B ER B AH L IY AH N,babylonian,B AE B AH L OW N IY AH N
+0.0,dance,dans,D AE N Z,dan's,D AE N Z
+1.0,dances,danses,D AE N S IH Z,dances,D AE N S IH Z
+0.0,danger,dangher,D AE NG ER,anger,AE NG G ER
+1.0,detail,detale,D IH T EY L,detail,D IH T EY L
+1.0,detailed,detaled,D IH T EY L D,detailed,D IH T EY L D
+1.0,details,deetales,D IY T EY L Z,details,D IY T EY L Z
+0.0,died,dided,D AY D IH D,ididerod,AY D IH D ER AA D
+1.0,difference,differance,D IH F ER AH N S,difference,D IH F ER AH N S
+1.0,different,difrunt,D IH F R AH N T,different,D IH F R AH N T
+1.0,digital,digitle,D IH JH AH T AH L,digital,D IH JH AH T AH L
+0.0,digital,ditull,D IH T AH L,italy,IH T AH L IY
+0.0,discussions,dicussions,D IH K AH SH AH N Z,deductions,D IH D AH K SH AH N Z
+0.0,doesn't,doest,D OW S T,oest,OW IH S T
+0.0,doesn't,donet,D OW N EY,onate,OW N EY T
+0.0,don't,dont,D AA N T,aren't,AA R N T
+0.0,don't,dount,D AW N T,aument,AW M AH N T
+0.0,don't,downt,D AW N T,aument,AW M AH N T
+1.0,downloading,downlding,D AW N L D IH NG,downloading,D AW N L OW D IH NG
+1.0,easier,easyer,IY Z IY ER,easier,IY Z IY ER
+0.0,educational,edcautional,EH D K AO SH AH N AH L,actionable,AE K SH AH N AH B AH L
+1.0,educational,egicasinol,EH JH AH K EY S IH N AO L,educational,EH JH AH K EY SH AH N AH L
+0.0,effect,effcet,EH F S AH T,escott,EH S K AH T
+0.0,else,eles,EH L EH S,ellesse,EH L EH S
+0.0,emails,emales,IH M EY L Z,mailers,M EY L ER Z
+1.0,entertaining,entertaning,EH N T ER T EY N IH NG,entertaining,EH N T ER T EY N IH NG
+1.0,environment,enviroment,IH N V AY R OW M AH N T,environment,IH N V AY R AH N M AH N T
+1.0,environments,enviroments,IH N V AY R OW M AH N T S,environments,IH N V AY R AH N M AH N T S
+1.0,every,evry,EH V R IY,every,EH V R IY
+1.0,everyone's,everyones,EH V R IY W AH N Z,everyone's,EH V R IY W AH N Z
+0.0,example,egsample,EH G S AE M P AH L,sampsel,S AE M P S AH L
+0.0,favourite,favouate,F EY V W AH T,favorite,F EY V R AH T
+0.0,footprint,futprnt,F AH T P R N T,footprints,F UH T P R IH N T S
+0.0,friend,freind,F R AY N D,freind,F R AY N D
+1.0,friend,frend,F R EH N D,friend,F R EH N D
+1.0,friendly,frendly,F R EH N D L IY,friendly,F R EH N D L IY
+0.0,friendly,freindly,F R AY N D L IY,mindedly,M AY N D IH D L IY
+0.0,friends,freinds,F R AY N D Z,grinders,G R AY N D ER Z
+1.0,friends,frendes,F R EH N D Z,friends,F R EH N D Z
+1.0,friends,frends,F R EH N D Z,friends,F R EH N D Z
+0.0,friends,frenids,F R EH N IH D Z,french's,F R EH N CH IH Z
+0.0,friends,frens,F R EH N Z,frenz,F R EH N Z
+0.0,friends,fridnds,F R IH D AH N D Z,redemptions,R IH D EH M SH AH N Z
+1.0,gain,gane,G EY N,gain,G EY N
+1.0,genuinely,genuilly,JH EH N Y UW AH L IY,genuinely,JH EH N Y UW AH N L IY
+0.0,going,goning,G OW N IH NG,goering,G OW ER IH NG
+0.0,gonna,gona,G OW N AH,onus,OW N AH S
+1.0,graphics,grafics,G R AE F IH K S,graphics,G R AE F IH K S
+0.0,guy,guyy,G AY IY,ip,AY P IY
+0.0,hackers,hakers,HH EY K ER Z,haters,HH EY T ER Z
+0.0,happening,happing,HH AE P IH NG,appling,AE P L IH NG
+0.0,harrassed,harrased,HH EH R AH S T,harriet,HH EH R IY AH T
+1.0,having,haveing,HH AE V IH NG,having,HH AE V IH NG
+1.0,he,hee,HH IY,he,HH IY
+1.0,honestly,honastly,AA N AH S T L IY,honestly,AA N AH S T L IY
+1.0,important,importent,IH M P AO R T EH N T,important,IH M P AO R T AH N T
+1.0,inappropriate,innapropriate,IH N AH P R OW P R IY AH T,inappropriate,IH N AH P R OW P R IY IH T
+0.0,inappropriate,innipropiet,IH N IH P R AH P IY T,incomplete,IH N K AH M P L IY T
+0.0,instagram,innteraction,IH N T ER AE K SH AH N,interaction,IH N T ER AE K SH AH N
+0.0,instagram,instagram,IH N S T EY G R AE M,histograms,HH IH S T AH G R AE M Z
+0.0,instagram,instergram,IH N S T ER G R AE M,histograms,HH IH S T AH G R AE M Z
+0.0,instagram,instergran,IH N S T ER G R AE N,intertrans,IH N T ER T R AE N Z
+0.0,instagram,instgram,IH N S T G R AE M,histograms,HH IH S T AH G R AE M Z
+0.0,instagram,intgram,IH N T G R AE M,intergraph,IH N T ER G R AE F
+0.0,interesting,intresting,IH N T R EH S T IH NG,interestingly,IH N T AH R EH S T IH NG L IY
+0.0,isn't,isnt,IH Z N T,inched,IH N CH T
+0.0,issues,isuues,IH ZH W UW Z,visuals,V IH ZH W AH L Z
+1.0,jerk,jerck,JH ER K,jerk,JH ER K
+0.0,keep,ceap,S IY P,seep,S IY P
+1.0,kidnap,kiddnap,K IH D N AE P,kidnap,K IH D N AE P
+1.0,kidnap,kidnapp,K IH D N AE P,kidnap,K IH D N AE P
+1.0,kidnapper,kiddnaper,K IH D N AE P ER,kidnapper,K IH D N AE P ER
+1.0,kidnapper,kidknapper,K IH D N AE P ER,kidnapper,K IH D N AE P ER
+1.0,kidnapper,kidnaper,K IH D N AE P ER,kidnapper,K IH D N AE P ER
+1.0,kidnapping,kidnaping,K IH D N AE P IH NG,kidnapping,K IH D N AE P IH NG
+1.0,kill,kil,K IH L,kill,K IH L
+0.0,lady,laddy,L AE D IY,andy,AE N D IY
+0.0,learned,lernt,L ER N T,learnt,L ER N T
+1.0,learning,learnung,L ER N AH NG,learning,L ER N IH NG
+0.0,levels,leves,L IY V Z,leaves,L IY V Z
+0.0,lives,lifes,L AY F S,life's,L AY F S
+0.0,lonely,lonley,L AA N L IY,lockley,L AA K L IY
+0.0,lonely,lonly,L AA N L IY,lockley,L AA K L IY
+0.0,luring,loring,L AO R IH NG,loring,L AO R IH NG
+0.0,manipulate,minipulate,M IH N IH P Y AH L EY T,manipulated,M AH N IH P Y AH L EY T IH D
+1.0,many,meny,M EH N IY,many,M EH N IY
+0.0,mature,macher,M AE K ER,macher,M AE K ER
+0.0,maybe,mabe,M EY B,mabe,M EY B
+1.0,maybe,mabey,M EY B IY,maybe,M EY B IY
+1.0,maybe,maby,M EY B IY,maybe,M EY B IY
+0.0,maybe,mabye,M AE B IY,mabee,M AE B IY
+1.0,maybe,maybey,M EY B IY,maybe,M EY B IY
+1.0,mean,meen,M IY N,mean,M IY N
+1.0,meet,meet,M IY T,meet,M IY T
+0.0,media,midia,M IH D IY AH,edema,IH D IY M AH
+0.0,melon,mellon,M EH L AH N,mellon,M EH L AH N
+1.0,messenger,messanger,M EH S EY N JH ER,messenger,M EH S AH N JH ER
+1.0,michael,mical,M AY K AH L,michael,M AY K AH L
+1.0,michael,michael,M AY K AH L,michael,M AY K AH L
+1.0,michael,micheal,M AY K AH L,michael,M AY K AH L
+0.0,michael,michel,M IH SH EH L,michelle,M IH SH EH L
+0.0,michael,michiel,M IH CH AH L,mitchell,M IH CH AH L
+1.0,mission,mishon,M IH SH AH N,mission,M IH SH AH N
+0.0,netflix,netfilix,N EH T F IH L IH K S,dephillips,D EH F IH L IH P S
+0.0,nice,niss,N IH S,kniss,N IH S
+1.0,normally,normlly,N AO R M L IY,normally,N AO R M L IY
+0.0,online,onllan,AO N L AH N,allman,AO L M AH N
+1.0,opened,opend,OW P AH N D,opened,OW P AH N D
+0.0,overage,overaged,OW V ER IH JH D,overjoyed,OW V ER JH OY D
+1.0,password,pasword,P AE S W ER D,password,P AE S W ER D
+0.0,people,poeple,P OW P AH L,opal's,OW P AH L Z
+1.0,persuade,perswade,P ER S W EY D,persuade,P ER S W EY D
+0.0,physical,phiscal,F IH S K AH L,fiscal,F IH S K AH L
+0.0,poorly,porly,P AO R L IY,orally,AO R AH L IY
+0.0,possibly,posibly,P AA Z AH B L IY,positively,P AA Z AH T IH V L IY
+0.0,predator,preaditor,P R IY AE D AH T ER,speedometer,S P IY D AA M AH T ER
+0.0,preferred,preffered,P R EH F ER D,relford,R EH L F ER D
+0.0,pressed,preased,P R IY S T,priest,P R IY S T
+0.0,pretend,petend,P AH T EH N D,attends,AH T EH N D Z
+0.0,pretending,pretenden,P R IY T EH N D AH N,pretension,P R IY T EH N SH AH N
+0.0,pretending,prtending,P R T EH N D IH NG,tendering,T EH N D ER IH NG
+0.0,probably,probaly,P R OW B AH L IY,probity,P R OW B AH T IY
+0.0,probably,probly,P R AA B L IY,roblee,R AA B L IY
+1.0,probably,probobly,P R AA B AH B L IY,probably,P R AA B AH B L IY
+1.0,probably,probrely,P R AA B R AH L IY,probably,P R AA B AH B L IY
+0.0,realistic,raelistic,R EY L IH S T IH K,lipsticks,L IH P S T IH K S
+0.0,really,reall,R IY L,real,R IY L
+0.0,really,relly,R EH L IY,reli,R EH L IY
+1.0,received,recieved,R IH S IY V D,received,R IH S IY V D
+1.0,respond,respound,R IY S P AW N D,respond,R IY S P AA N D
+0.0,restrictions,restrtictions,R EH S T R T IH K SH AH N Z,extractions,EH K S T R AE K SH AH N Z
+0.0,ridiculous,rediculous,R IY D IH K Y AH L AH S,ridiculously,R AH D IH K Y AH L AH S L IY
+0.0,safety,saftety,S AE F T EH T IY,steketee,S T EH K IH T IY
+0.0,safety,saftey,S AE F T IY,santi,S AE N T IY
+0.0,scam,scame,S K EY M,kamer,K EY M ER
+0.0,scammer,scamer,S K EY M ER,cramer's,K R EY M ER Z
+1.0,screen,skreen,S K R IY N,screen,S K R IY N
+0.0,shows,shose,SH UW Z,shoes,SH UW Z
+1.0,situation,sichweshen,S IH CH W EH SH AH N,situation,S IH CH UW EY SH AH N
+0.0,someone,som1,S AA M,som,S AA M
+1.0,something,someting,S AH M T IH NG,something,S AH M TH IH NG
+0.0,something,somthing,S AA M TH IH NG,stomping,S T AA M P IH NG
+1.0,somewhere,somewere,S AH M W EH R,somewhere,S AH M W EH R
+1.0,space,spase,S P EY S,space,S P EY S
+0.0,stopping,stoping,S T OW P IH NG,stoking,S T OW K IH NG
+0.0,strangers,srangers,SH R EY N JH ER Z,rangers,R EY N JH ER Z
+0.0,strangers,strangrs,S T R AE NG ER Z,stringers,S T R IH NG ER Z
+0.0,strangers,streanges,S T R IY N JH IH Z,screenings,S K R IY N IH NG Z
+0.0,surprise,suprise,S UW P R AY Z,spreitzer,S P R AY T Z ER
+0.0,talk,talck,T AE L K,talc,T AE L K
+1.0,talk,tawk,T AO K,talk,T AO K
+0.0,taught,tought,T AH F T,tuft,T AH F T
+0.0,taught,tourt,T UH R T,bourret,B UH R EH T
+1.0,teaching,teatching,T IY CH IH NG,teaching,T IY CH IH NG
+1.0,tech,tec,T EH K,tech,T EH K
+1.0,tells,tels,T EH L Z,tells,T EH L Z
+0.0,that,tath,T AE TH,athey,AE TH IY
+0.0,that's,tath's,T AE TH S,tax,T AE K S
+0.0,thing,fing,F IH NG,inc,IH NG K
+0.0,think,tink,T IH NG K,inks,IH NG K S
+1.0,told,tolld,T OW L D,told,T OW L D
+0.0,told,towled,T AW L D,towered,T AW ER D
+0.0,traced,trased,T R EY Z D,trailed,T R EY L D
+0.0,trust,trost,T R AA S T,trost,T R AA S T
+0.0,trust,chrust,K R AH S T,crust,K R AH S T
+0.0,trying,tring,T R IH NG,rings,R IH NG Z
+0.0,trying,tyring,T AY R IH NG,tiring,T AY R IH NG
+0.0,voice,vioce,V AY AH S,vyas,V AY AH S
+0.0,wants,wonst,W AH N S T,unset,AH N S EH T
+0.0,wants,wats,W AA T S,watts,W AA T S
+0.0,wants,whants,W AE N T S,antsy,AE N T S IY
+0.0,watch,whatch,W AH CH,ulch,AH L CH
+0.0,weirdo,wirdo,W ER D OW,erdos,ER D OW Z
+1.0,whip,wip,W IH P,whip,W IH P
+1.0,with,whith,W IH TH,with,W IH TH
+0.0,werk,werk,W ER K,work,W ER K
+0.0,would,woid,W OY D,oiled,OY L D
+0.0,your,ur,ER,or,ER
+0.0,yourself,youself,Y UW S EH L F,musolf,M Y UW S OW L F

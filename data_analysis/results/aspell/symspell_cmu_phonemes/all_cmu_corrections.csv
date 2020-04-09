@@ -1,0 +1,516 @@
+correct,correct_spelling,misspelling,phoneme_rep,suggested,suggested_phoneme
+0.0,nevada,nevade,N AH V EY D,availed,AH V EY L D
+1.0,presbyterian,presbyterian,P R EH S B IH T IH R IY AH N,presbyterian,P R EH S B IH T IH R IY AH N
+0.0,rsx,rsx,AA R EH S,retz,R EH T S
+0.0,stephen,steffen,S T EH F AH N,stephan,S T EH F AH N
+1.0,susan,susan,S UW Z AH N,susan,S UW Z AH N
+1.0,ability,abilitey,AH B IH L AH T IY,ability,AH B IH L AH T IY
+0.0,about,abouy,AH B UW IY,bougie,B UW ZH IY
+1.0,absorption,absorbtion,AH B Z AO R B SH AH N,absorption,AH B Z AO R P SH AH N
+0.0,accidentally,accidently,AE K S AH D AH N T L IY,accidently,AE K S AH D AH N T L IY
+1.0,accommodate,accomodate,AH K AA M AH D EY T,accommodate,AH K AA M AH D EY T
+1.0,accommodate,acommadate,AH K AA M AH D EY T,accommodate,AH K AA M AH D EY T
+0.0,accord,acord,EY K AO R D,chords,K AO R D Z
+0.0,acquaintance,aquantance,AH K W AA N T AH N S,acquaintances,AH K W EY N T AH N S IH Z
+0.0,acquire,equire,IH K W AY R,choirs,K W AY R Z
+1.0,adultery,adultry,AH D AH L T R IY,adultery,AH D AH L T ER IY
+1.0,aggressive,aggresive,AH G R IY S IH V,aggressive,AH G R EH S IH V
+0.0,alcohol,alchohol,AE L CH AH HH AA L,alcoholic,AE L K AH HH AA L IH K
+0.0,alcoholic,alchoholic,AE L CH AH HH AA L IH K,alcoholics,AE L K AH HH AA L IH K S
+0.0,alive,allieve,AH L IY V,aleve,AH L IY V
+0.0,amateur,amature,AE M AH CH UH R,matures,M AH CH UH R Z
+1.0,ambivalent,ambivilant,AE M B IH V L AH N T,ambivalent,AE M B IH V AH L AH N T
+0.0,amorphous,amourfous,AH M UH R F AH S,murias,M Y UH R IY AH S
+0.0,amplification,amification,AE M AH F AH K EY SH AH N,ramifications,R AE M AH F AH K EY SH AH N Z
+0.0,anatomy,anonomy,AH N AA N AH M IY,non-compete,N AA N K AH M P IY T
+0.0,anatomy,anotomy,AH N AA T AH M IY,monogamy,M AH N AA G AH M IY
+0.0,announce,annuncio,AH N AH N S IY OW,nuncio,N AH N S IY OW
+0.0,announcement,annonsment,AH N AA N Z M AH N T,nonpayment,N AA N P EY M AH N T
+1.0,anoint,annoint,AH N OY N T,anoint,AH N OY N T
+0.0,anonymous,anynomous,EH N IY N OW M AH S,enormous,IY N AO R M AH S
+0.0,appreciate,appresteate,AE P R AH S T IY T,rustiest,R AH S T IY AH S T
+1.0,appreciated,appreceiated,AH P R IY S IY EY T IH D,appreciated,AH P R IY SH IY EY T IH D
+0.0,archetype,archeype,AA R K IY P,araki,AA R AA K IY
+0.0,architecture,aratictature,EH R AH T IH K T AH CH ER,caricatures,K EH R IH K AH CH ER Z
+0.0,architecture,aricticure,ER IH K T AH K Y UH R,aristocrat,ER IH S T AH K R AE T
+1.0,arctic,artic,AA R T IH K,arctic,AA R T IH K
+1.0,asterisk,asterick,AE S T ER IH K,asterisk,AE S T ER IH S K
+0.0,asymmetric,asymetric,EY S AH M EH T R IH K,symmetrical,S AH M EH T R IH K AH L
+0.0,asymptote,asentote,AE S AH N T OW T,casamento,K AE S AH M EH N T OW
+0.0,at,ast,AE S T,asked,AE S T
+1.0,attentively,atentively,AH T EH N T IH V L IY,attentively,AH T EH N T IH V L IY
+0.0,automatically,autoamlly,AO T OW M L IY,tomaselli,T OW M AA S EH L IY
+0.0,bankrupt,bankrot,B AE NG K R AH T,banquet,B AE NG K W AH T
+1.0,basically,basicly,B EY S IH K L IY,basically,B EY S IH K L IY
+1.0,battalion,batallion,B AH T AE L Y AH N,battalion,B AH T AE L Y AH N
+0.0,beginning,beggining,B EH G IH N IH NG,glistening,G L IH S N IH NG
+0.0,beginning,beging,B IH G IH NG,bicking,B IH K IH NG
+1.0,beginning,bigginging,B IH G IH NG IH NG,beginning,B IH G IH N IH NG
+0.0,behavior,behaviour,B IH HH EY V Y ER,behaviour,B IH HH EY V Y ER
+1.0,behaviour,behavior,B IH HH EY V Y ER,behaviour,B IH HH EY V Y ER
+0.0,believe,beleive,B AH L IY V,baleen,B AH L IY N
+0.0,believe,belive,B IH L IH V,deliver,D IH L IH V ER
+0.0,benefits,benidifs,B EH N IH D IH F S,benedix,B EH N AH D IH K S
+0.0,better,metter,M EH T ER,metter,M EH T ER
+0.0,bleat,blait,B L EY T,layout,L EY AW T
+0.0,boycott,boygot,B OY G AH T,buoyant,B OY AH N T
+1.0,broccoli,brocolli,B R AA K L IY,broccoli,B R AA K L IY
+0.0,browse,bbrose,B R OW Z,brose,B R OW Z
+0.0,buoyant,bouyant,B UW Y AA N T,bluebonnet,B L UW B AA N AH T
+0.0,bureau,beauro,B OW UH R OW,bourdeau,B UH R D OW
+0.0,bureaucracy,beaurocracy,B OW R AA K R AH S IY,procassini,P R AA K AH S IY N IY
+0.0,bureaucracy,buracracy,B Y UW R AH K R AE S IY,eurocrats,Y UW R AH K R AE T S
+0.0,bureaucracy,burracracy,B ER AE K R AH S IY,bankruptcy,B AE NG K R AH P T S IY
+0.0,bush,buch,B AH CH,buch,B AH CH
+0.0,butter,buder,B Y UW D ER,buder,B Y UW D ER
+0.0,butter,budr,B AH D ER,under,AH N D ER
+0.0,butter,budter,B AH D T ER,buster,B AH S T ER
+0.0,button,buton,B Y UW T AH N,hughston,Y UW S T AH N
+1.0,caller,cauler,K AO L ER,caller,K AO L ER
+0.0,came,gamne,G AE M N,amman,AE M AH N
+0.0,caveats,cravets,K R AE V AH T S,gravitas,G R AE V AH T AH S
+1.0,cemetery,cemetary,S EH M AH T EH R IY,cemetery,S EH M AH T EH R IY
+1.0,changing,changeing,CH EY N JH IH NG,changing,CH EY N JH IH NG
+1.0,cheat,cheet,CH IY T,cheat,CH IY T
+0.0,circle,cicle,S IH K AH L,sickle,S IH K AH L
+0.0,circle,circue,S ER K Y UW,skewer,S K Y UW ER
+1.0,circumstances,circumstaces,S ER K AH M S T EY S IH Z,circumstances,S ER K AH M S T AE N S IH Z
+0.0,club,clob,K L AA B,lobbed,L AA B D
+0.0,cockamamie,cocamena,K OW K AH M IY N AH,clumsiness,K L AH M Z IY N AH S
+0.0,colleague,colleaque,K AH L IY K,kmiec,K AH M IY K
+0.0,colloquialism,colloquilism,K AA L AH K W IH L IH Z AH M,,
+0.0,colon,coaln,K OW L N,olin,OW L IH N
+1.0,column,columne,K AA L AH M,column,K AA L AH M
+0.0,combo,cumba,K AH M B AH,amoeba,AH M IY B AH
+1.0,commercials,commerciasl,K AH M ER SH AH S L,commercials,K AH M ER SH AH L Z
+1.0,commitment,comitmment,K AH M IH T M AH N T,commitment,K AH M IH T M AH N T
+1.0,commitment,comittmen,K AH M IH T M EH N,commitment,K AH M IH T M AH N T
+1.0,commitment,comittmend,K AH M IH T M EH N D,commitment,K AH M IH T M AH N T
+1.0,committed,commited,K AH M IH T IH D,committed,K AH M IH T IH D
+0.0,committee,comitte,K AH M IH T,commit,K AH M IH T
+1.0,committee,commitee,K AH M IH T IY,committee,K AH M IH T IY
+1.0,companies,companys,K AH M P AH N IY Z,companies,K AH M P AH N IY Z
+0.0,compiler,comiler,K AA M AH L ER,koffler,K AA F AH L ER
+1.0,complicated,compicated,K AA M P IH K EY T IH D,complicated,K AA M P L AH K EY T AH D
+0.0,computer,comupter,K AH M AH P T ER,compactor,K AH M P AE K T ER
+1.0,congratulations,congradulations,K AH N G R AE JH AH L EY SH AH N Z,congratulations,K AH N G R AE CH AH L EY SH AH N Z
+1.0,consensus,concensus,K AH N S EH N S AH S,consensus,K AH N S EH N S AH S
+1.0,consonant,consident,K AA N S AH D AH N T,consonant,K AA N S AH N AH N T
+0.0,constant,contast,K AA N T AE S T,contest,K AA N T EH S T
+0.0,constant,contastant,K AH N T AE S T AH N T,contestant,K AH N T EH S T AH N T
+0.0,continue,contunie,K AH N T UW N IY,contini,K AH N T IY N IY
+0.0,contribution,conibation,K AA N AH B EY SH AH N,connotation,K AA N AH T EY SH AH N
+0.0,coolly,cooly,K UW L IY,cooley,K UW L IY
+0.0,coping,copping,K AA P IH NG,copping,K AA P IH NG
+1.0,cosmopolitan,cosmoplyton,K AO Z M AH P L AY T AH N,cosmopolitan,K AA Z M AH P AA L AH T AH N
+0.0,court,courst,K AO R S T,crust,K R AH S T
+1.0,crazy,crasy,K R EY Z IY,crazy,K R EY Z IY
+1.0,credibility,credetability,K R EH D AH T AH B IH L IH T IY,credibility,K R EH D AH B IH L IH T IY
+0.0,critique,criqitue,K R IH K IH CH UW,caricature,K EH R IH K AH CH ER
+0.0,critique,ctitique,K T IH T IY K,critiqued,K R IH T IY K T
+1.0,croak,croke,K R OW K,croak,K R OW K
+0.0,crucified,crusifed,K R UW Z IH F T,crumitie,K R UW M IH T IY
+1.0,crucifixion,crucifiction,K R UW S IH F IH K SH AH N,crucifixion,K R UW S IH F IH K SH AH N
+0.0,customization,custamisation,K AH S T AE M IH Z EY SH AH N,stalinization,S T AE L IH N IH Z EY SH AH N
+1.0,daily,daly,D EY L IY,daily,D EY L IY
+0.0,dangerous,danguages,D AE NG G W IH JH IH Z,languages,L AE NG G W IH JH IH Z
+0.0,dangle,dongle,D AO NG G AH L,dongen,D AO NG G AH N
+0.0,decision,disition,D IH Z IH SH AH N,physicians,F IH Z IH SH AH N Z
+1.0,defence,defense,D IH F EH N S,defence,D IH F EH N S
+0.0,defense,defence,D IH F EH N S,defence,D IH F EH N S
+0.0,defiantly,defenly,D IH F EH N L IY,difelice,D IH F EH L IY S
+0.0,definite,definate,D EH F AH N EY T,designate,D EH Z AH G N EY T
+1.0,definitely,definately,D EH F AH N AH T L IY,definitely,D EH F AH N AH T L IY
+0.0,deities,dieties,D AY AH T IY Z,diocese,D AY AH S IY Z
+1.0,dependable,dependeble,D IH P EH N D AH B AH L,dependable,D IH P EH N D AH B AH L
+0.0,description,descrption,D IH S K R P SH AH N,disruption,D IH S R AH P SH AH N
+0.0,description,descrptn,D IH S K R AH P T AH N,disruption,D IH S R AH P SH AH N
+1.0,desiccate,dessicate,D EH S AH K EY T,desiccate,D EH S AH K EY T
+1.0,despair,dispair,D IH S P EH R,despair,D IH S P EH R
+0.0,desperate,desparate,D IH S P EH R IH T,disparate,D IH S P EH R IH T
+1.0,destroy,distroy,D IH S T R OY,destroy,D IH S T R OY
+1.0,development,developement,D IH V EH L AH P M AH N T,development,D IH V EH L AH P M AH N T
+0.0,development,develpond,D EH V AH L P AA N D,devilwood,D EH V AH L W UH D
+0.0,developments,develepment,D EH V AH L EH P M AH N T,,
+0.0,dictionary,ductioneery,D AH K SH AH N IH R IY,dictionaries,D IH K SH AH N EH R IY Z
+0.0,dinosaur,dinasaur,D IH N AH S AO R,inscore,IH N S K AO R IY
+0.0,dinosaur,dinasour,D IH N AH S AO R,inscore,IH N S K AO R IY
+0.0,directly,direcyly,D AY R S AY L IY,tirelessly,T AY R L AH S L IY
+0.0,disagree,diagree,D AY AH G R IY,dietary,D AY AH T EH R IY
+0.0,discuss,discuess,D IH S K Y UW AH S,circuitous,S ER K Y UW IH T AH S
+0.0,discussion,disssicion,D IH S IH SH AH N,decision,D IH S IH ZH AH N
+0.0,dissect,disect,D IH S EH K T,expect,IH K S P EH K T
+1.0,dissipate,disippate,D IH S AH P EY T,dissipate,D IH S AH P EY T
+0.0,distant,destint,D IH S T IH N T,instinet,IH N S T IH N EH T
+1.0,distort,distart,D IH S T AA R T,distort,D IH S T AO R T
+1.0,distract,distarct,D IH S T AA R K T,distract,D IH S T R AE K T
+1.0,divulge,devulge,D IH V AH L JH,divulge,D IH V AH L JH
+1.0,documentation,documtations,D AA K AH M T EY SH AH N Z,documentation,D AA K Y AH M EH N T EY SH AH N
+0.0,dog,dag,D AE G,dag,D AE G
+0.0,dog,doog,D UW G,doig,D OY G
+0.0,download,doenload,D OW N L OW D,downloaded,D AW N L OW D IH D
+0.0,draft,deaft,D IY F T,effect,IY F EH K T
+1.0,dramatically,dramaticly,D R AH M AE T IH K L IY,dramatically,D R AH M AE T IH K L IY
+0.0,drunkenness,drunkeness,D R AH NG K N AH S,drunken,D R AH NG K AH N
+0.0,due,dur,D ER,der,D ER
+0.0,during,duren,D UH R AH N,duren,D UH R AH N
+0.0,dynamic,dymatic,D AY M AE T IH K,didactic,D AY D AE K T IH K
+0.0,dynamic,dynaic,D AY N EY IH K,diabasic,D AY AH B EY S IH K
+1.0,ecstasy,ecstacy,EH K S T AH S IY,ecstasy,EH K S T AH S IY
+0.0,efficacy,efficity,IH F IH S AH T IY,difficulty,D IH F IH K AH L T IY
+0.0,efficient,efficat,EH F IH K AE T,efficacy,EH F IH K AE S IY
+1.0,efforts,effots,EH F AH T S,efforts,EH F ER T S
+0.0,elegant,elagent,EH L IH JH AH N T,delehanty,D EH L IH HH AH N T IY
+0.0,elegant,elligit,EH L IH JH IH T,melridge's,M EH L R IH JH IH Z
+0.0,embarrass,embarass,EH M B ER AE S,emberson,EH M B ER S AH N
+1.0,embarrass,embaress,IH M B EH R AH S,embarrass,IH M B EH R AH S
+0.0,embarrassment,embarassment,EH M B ER AE S M AH N T,embankment,EH M B AE NG K M AH N T
+1.0,embed,imbed,IH M B EH D,embed,IH M B EH D
+0.0,encapsulation,encapsualtion,EH N K AE P S UW AA L SH AH N,,
+1.0,encyclopedia,encyclapidia,IH N S AY K L AH P IH D IY AH,encyclopedia,IH N S AY K L AH P IY D IY AH
+1.0,encyclopedia,encyclopia,IH N S AY K L OW P IY AH,encyclopedia,IH N S AY K L OW P IY D IY AH
+0.0,engine,engins,EH NG G IH N Z,denkins,D EH NG K IH N Z
+1.0,enhance,enhence,EH N HH EH N S,enhance,EH N HH AE N S
+0.0,enlightenment,enligtment,EH N L IH G T M AH N T,enlistment,EH N L IH S T M AH N T
+1.0,ennui,ennuui,EH N UW IY,ennui,EH N UW IY
+0.0,enough,enought,IH N AO T,nault,N AO L T
+1.0,environment,enviroment,IH N V AY R OW M AH N T,environment,IH N V AY R AH N M AH N T
+0.0,environmental,envireminakl,IH N V AY R EH M AH N AE K AH L,,
+0.0,environmental,invermeantial,IH N V ER M IY AE N SH AH L,,
+0.0,epitome,epitomy,EH P IH T AH M IY,intimacy,IH N T AH M AH S IY
+0.0,error,errara,ER AA R AH,ochra,AA K R AH
+0.0,error,erro,EH R OW,arrow,EH R OW
+0.0,espresso,expresso,IH K S P R EH S OW,expressed,IH K S P R EH S T
+0.0,etiology,eitiology,AY SH IY AA L AH JH IY,ideologies,AY D IY AA L AH JH IY Z
+0.0,evaluation,evaualtion,IH V AO L SH AH N,alteration,AO L T ER EY SH AH N
+0.0,eventually,evtually,EH V CH UW AH L IY,severally,S EH V R AH L IY
+1.0,everything,evething,EH V AH TH IH NG,everything,EH V R IY TH IH NG
+1.0,exceed,excede,IH K S IY D,exceed,IH K S IY D
+0.0,except,excpt,IH K S K P T,escaped,IH S K EY P T
+0.0,execution,excution,IH K S K Y UW SH AH N,incubation,IH NG K Y UW B EY SH AH N
+1.0,exercise,excercise,EH K S ER S AY Z,exercise,EH K S ER S AY Z
+1.0,exhilaration,exhileration,IH G Z IH L ER EY SH AH N,exhilaration,IH G Z IH L ER EY SH AH N
+1.0,existence,egsistence,IH G Z IH S T AH N S,existence,IH G Z IH S T AH N S
+1.0,existence,existance,IH G Z IH S T AH N S,existence,IH G Z IH S T AH N S
+1.0,expedient,exspidient,IH K S P IH D IY AH N T,expedient,IH K S P IY D IY AH N T
+0.0,explicitly,expleyly,IH K S P L IY L IY,exceedingly,IH K S IY D IH NG L IY
+1.0,explicitly,explity,IH K S P L AH T IY,explicitly,IH K S P L IH S AH T L IY
+0.0,extensions,extions,EH K S CH AH N Z,mexicans,M EH K S IH K AH N Z
+0.0,factorization,factontion,F AE K T AA N CH AH N,fanchon,F AE N CH AH N
+0.0,failure,failer,F EY L ER,failor,F EY L ER
+1.0,fantasia,phantasia,F AE N T EY ZH AH,fantasia,F AE N T EY ZH AH
+0.0,fantasy,famdasy,F AE M D AH S IY,modestly,M AA D AH S T L IY
+1.0,favour,faver,F EY V ER,favour,F EY V ER
+1.0,fax,faxe,F AE K S,fax,F AE K S
+0.0,festival,fistival,F IH S T IH V AH L,mystical,M IH S T IH K AH L
+1.0,fiery,firey,F AY ER IY,fiery,F AY ER IY
+1.0,flattering,flatterring,F L AE T ER IH NG,flattering,F L AE T ER IH NG
+0.0,flux,fluk,F L AH K,fluck,F L AH K
+1.0,flux,flukse,F L AH K S,flux,F L AH K S
+0.0,foresee,forsee,F ER S IY,forsee,F ER S IY
+0.0,frustrating,frustartaion,F R AH S T AA R T EY AH N,frustration,F R AH S T R EY SH AH N
+0.0,function,fuction,F AH K SH AH N,fluxional,F L AH K SH AH N AH L
+0.0,generally,generly,JH EH N ER L IY,gently,JH EH N T L IY
+1.0,gotten,gotton,G AA T AH N,gotten,G AA T AH N
+0.0,government,goberment,G OW B ER M AH N T,overpayment,OW V ER P EY M AH N T
+0.0,government,gobernement,G OW B ER N M AH N T,overpayment,OW V ER P EY M AH N T
+0.0,government,gobernment,G OW B ER N M AH N T,overpayment,OW V ER P EY M AH N T
+1.0,graceful,gracefull,G R EY S F AH L,graceful,G R EY S F AH L
+1.0,gradually,gradualy,G R AE JH UW AH L IY,gradually,G R AE JH UW AH L IY
+1.0,grammar,grammer,G R AE M ER,grammar,G R AE M ER
+0.0,guard,gaurd,G AO R D,gourd,G AO R D
+0.0,guts,futs,F AH T S,attests,AH T EH S
+1.0,happily,hapily,HH AE P AH L IY,happily,HH AE P AH L IY
+0.0,harass,harrass,HH AE R AH S,harriss,HH AE R IH S
+0.0,have,havne,HH AE V N,avner,AE V N ER
+0.0,height,heighth,HH AY TH,heighth,HH AY TH
+0.0,hello,hallo,HH AE L OW,hallow,HH AE L OW
+0.0,hello,helo,HH IY L OW,hilo,HH IY L OW
+1.0,hello,herlo,HH ER L OW,hello,HH AH L OW
+1.0,help,heellp,HH IY L P,help,HH EH L P
+1.0,help,hellp,HH EH L P,help,HH EH L P
+0.0,help,hlp,HH EH L P IY,helvey,HH EH L V IY
+0.0,higher,higer,HH AY G ER,eigner,AY G N ER
+1.0,hippopotamus,hippopotamous,HH IH P AH P AA T AH M AH S,hippopotamus,HH IH P AH P AA T AH M AH S
+0.0,horse,hourse,AW R S,ras,R AE S
+0.0,housing,houssing,HH AW S IH NG,ousting,AW S T IH NG
+0.0,however,howaver,HH AW AH V ER,hovers,HH AH V ER Z
+0.0,however,howver,HH AW V ER,hauver,HH AW V ER
+1.0,humanity,humaniti,HH Y UW M AH N IY T IY,humanity,HH Y UW M AE N IH T IY
+0.0,hyphen,hifin,HH IH F IH N,herein,HH IH R IH N
+0.0,hyphen,hifine,HH IH F AY N,defiance,D IH F AY AH N S
+0.0,hyphen,hiphine,HH IH F AY N,defiance,D IH F AY AH N S
+0.0,hyphen,hyfin,HH AY F IH N,ifint,AY F IH N T
+0.0,hypothesis,hypotathes,HH AY P AH T EY DH Z,potatoes,P AH T EY T OW Z
+0.0,hypothesis,hypotathese,HH AY P AH T AE TH IY S,hypothermia,HH AY P AH TH ER M IY AH
+0.0,hysterical,hystrical,HH IH S T R IH K AH L,historical,HH IH S T AO R IH K AH L
+0.0,illegitimate,illegitament,IH L EH JH IH T AH M AH N T,legitimately,L AH JH IH T AH M AH T L IY
+0.0,immanent,immenant,IH M AH N AH N T,imminent,IH M AH N AH N T
+1.0,immediately,imediaetly,IH M IY D IY EH T L IY,immediately,IH M IY D IY AH T L IY
+0.0,implements,implemtes,IH M P L EH M T S,impairments,IH M P EH R M AH N T S
+1.0,inadvertent,inadvertant,IH N AE D V ER T AH N T,inadvertent,IH N AE D V ER T AH N T
+1.0,incomplete,incompleet,IH N K AH M P L IY T,incomplete,IH N K AH M P L IY T
+1.0,incomplete,incomplot,IH N K AH M P L AA T,incomplete,IH N K AH M P L IY T
+1.0,inconvenience,inconvience,IH N K AA N V IY AH N S,inconvenience,IH N K AH N V IY N Y AH N S
+1.0,inconvenient,inconvenant,IH N K AH N V IY N AH N T,inconvenient,IH N K AH N V IY N Y AH N T
+0.0,indent,ident,AY D EH N T,ident,AY D EH N T
+1.0,independent,independant,IH N D IH P EH N D AH N T,independent,IH N D IH P EH N D AH N T
+0.0,independent,independenent,IH N D IH P EH N D IH N AH N T,independently,IH N D IH P EH N D AH N T L IY
+0.0,independent,indepnends,IH N D EH P N EH N D Z,,
+0.0,indispensable,indispensible,IH N D IH S P EH N S IH B AH L,indispensible,IH N D IH S P EH N S IH B AH L
+0.0,inefficient,inefficite,IH N EH F IH S AH T IY,incessantly,IH N S EH S AH N T L IY
+0.0,infamy,imfamy,IH M F AH M IY,symphonies,S IH M F AH N IY Z
+1.0,influential,influencial,IH N F L UW EH N SH AH L,influential,IH N F L UW EH N SH AH L
+0.0,initial,inital,IH N IH T AH L,nitzel,N IH T Z AH L
+0.0,initialized,initinized,IH N IH T AH N AY Z D,epitomized,IH P IH T AH M AY Z D
+0.0,initialized,initized,IH N IH T AY Z D,epitomized,IH P IH T AH M AY Z D
+0.0,inoculate,innoculate,IH N AO K Y AH L EY T,innoculate,IH N AO K Y AH L EY T
+1.0,insidious,incedious,IH N S IY D IY AH S,insidious,IH N S IH D IY AH S
+1.0,insistent,insistant,IH N S IH S T AH N T,insistent,IH N S IH S T AH N T
+1.0,insistent,insistenet,IH N S IH S AH N AH T,insistent,IH N S IH S T AH N T
+0.0,installation,instulation,IH N S CH AH L EY SH AH N,installations,IH N S T AH L EY SH AH N Z
+0.0,intelligent,intealignt,IH N T IY L AY N T,enticement,IH N T AY S M AH N T
+1.0,intelligent,intejilent,IH N T EH JH AH L AH N T,intelligent,IH N T EH L AH JH AH N T
+1.0,intelligent,intelegent,IH N T EH L AH JH AH N T,intelligent,IH N T EH L AH JH AH N T
+1.0,intelligent,intelegnent,IH N T EH L AH G N AH N T,intelligent,IH N T EH L AH JH AH N T
+1.0,intelligent,intelejent,IH N T EH L AH JH AH N T,intelligent,IH N T EH L AH JH AH N T
+1.0,intelligent,inteligent,IH N T EH L IH JH AH N T,intelligent,IH N T EH L AH JH AH N T
+1.0,intelligent,intelignt,IH N T EH L IH G N T,intelligent,IH N T EH L AH JH AH N T
+1.0,intelligent,intellagant,IH N T EH L AH G AH N T,intelligent,IH N T EH L AH JH AH N T
+1.0,intelligent,intellegent,IH N T EH L AH JH AH N T,intelligent,IH N T EH L AH JH AH N T
+1.0,intelligent,intellegint,IH N T EH L AH JH AH N T,intelligent,IH N T EH L AH JH AH N T
+1.0,intelligent,intellgnt,IH N T EH L G N T,intelligent,IH N T EH L AH JH AH N T
+0.0,interested,intertes,IH N T ER T IY Z,internees,IH N T ER N IY Z
+0.0,interested,intertesd,IH N T ER T EH S D,intercede,IH N T ER S IY D
+1.0,interface,inerface,IH N ER F EY S,interface,IH N ER F EY S
+0.0,international,internation,IH N T ER N EY SH AH N,determination,D IH T ER M AH N EY SH AH N
+0.0,interpret,interpretate,IH N T ER P R IH T EY T,interpretation,IH N T ER P R IH T EY SH AH N
+1.0,interpreter,interpretter,IH N T ER P R IH T ER,interpreter,IH N T ER P R AH T ER
+0.0,inventions,enventions,EH N V EH N SH AH N Z,sensations,S EH N S EY SH AH N Z
+1.0,irresistible,irresistable,IH R IH Z IH S T AH B AH L,irresistible,IH R IH Z IH S T AH B AH L
+0.0,irritable,irritible,IH R IH T AH B AH L,irreversible,IH R IH V ER S AH B AH L
+0.0,isotope,isotrop,AY S AH T R AA P,isotopic,AY S AH T AA P IH K
+0.0,iterate,interate,IH N T ER EY T,interlaced,IH N T ER L EY S T
+1.0,john,johhn,JH AA N,john,JH AA N
+0.0,judgement,judgment,JH AH JH M AH N T,judgment,JH AH JH M AH N T
+1.0,judgment,judgement,JH AH JH M AH N T,judgment,JH AH JH M AH N T
+0.0,kilometre,lilometer,L IH L AH M IY T ER,kilometres,K IH L AH M IY T ER Z
+1.0,kipper,kippur,K IH P ER,kipper,K IH P ER
+0.0,knowing,knawing,N AO IH NG,gnawing,N AO IH NG
+0.0,laser,luser,L UW Z ER,loser,L UW Z ER
+0.0,latest,latext,L EY T EH K S T,latex,L EY T EH K S
+0.0,layer,lloyer,L OY ER,lawyer,L OY ER
+0.0,leave,leasve,L IY S V IY,levy's,L IY V IY Z
+1.0,leisure,lesure,L EH ZH ER,leisure,L EH ZH ER
+0.0,lesion,liasion,L IY AA S IY AH N,geoffrion,JH IY AA F R IY AH N
+0.0,liaison,liason,L AY S AH N,liason,L AY S AH N
+1.0,library,libary,L AY B EH R IY,library,L AY B R EH R IY
+0.0,likely,likly,L IH K L IY,linley,L IH N L IY
+1.0,liquefy,liquify,L IH K W AH F AY,liquefy,L IH K W AH F AY
+0.0,losing,lossing,L AO S IH NG,lossing,L AO S IH NG
+1.0,madness,maddness,M AE D N AH S,madness,M AE D N AH S
+1.0,maintenance,maintanence,M EY N T AH N AH N S,maintenance,M EY N T AH N AH N S
+0.0,majority,majaerly,M AE JH ER L IY,matherly,M AE DH ER L IY
+0.0,majority,majoraly,M AE JH ER AH L IY,magically,M AE JH IH K AH L IY
+0.0,marshal,marshall,M AA R SH AH L,marshall,M AA R SH AH L
+0.0,masks,maks,M AE K S,max,M AE K S
+0.0,maximum,maxium,M AE K S IY AH M,maxims,M AE K S AH M Z
+0.0,media,midia,M IH D IY AH,edema,IH D IY M AH
+0.0,memento,momento,M OW M EH N T OW,momentous,M OW M EH N T AH S
+0.0,memory,meory,M IH R IY,millie,M IH L IY
+0.0,metaphysical,pataphysical,P AE T AH F IH Z IH K AH L,,
+0.0,mike,mic,M IH K,mic,M IH K
+1.0,millennium,millenium,M AH L IY N IY AH M,millennium,M AH L EH N IY AH M
+0.0,minimum,minum,M IH N AH M,income,IH N K AH M
+0.0,minuscule,miniscule,M IH N IH S K Y UW L,miniscule,M IH N IH S K Y UW L
+0.0,miscellaneous,misilous,M IH S AH L AH S,disallowance,D IH S AH L AW AH N S
+1.0,mischievous,mischievious,M IH S CH IY EH V IY AH S,mischievous,M IH S CH AH V AH S
+0.0,monkey,minkay,M IH NG K EY,mikhail,M IH K EY L
+0.0,monkey,monkay,M AH NG K EY,mcbay,M AH K B EY
+0.0,more,mroe,M R OW,rio,R IY OW
+0.0,mosaic,mosaik,M OW S EY K,mosca,M OW S K AH
+0.0,mouser,mousr,M AW S ER,mauser,M AW S ER
+0.0,moving,oving,OW V IH NG,vink,V IH NG K
+0.0,naive,nieve,N IY EH V,kiev's,K IY EH V Z
+0.0,necessary,neccessary,N EH K S EH S ER IY,excellency,EH K S L EH N S IY
+1.0,necessary,necesary,N EH S AH S EH R IY,necessary,N EH S AH S EH R IY
+0.0,necessary,necesser,N AH S EH S ER,assessors,AH S EH S ER Z
+0.0,neighbor,neighbour,N EY B ER,neighbour,N EY B ER
+1.0,neighbour,neighbor,N EY B ER,neighbour,N EY B ER
+1.0,nickelodeon,nickleodeon,N IH K L IY OW D IY AH N,nickelodeon,N IH K IH L OW D IY AH N
+0.0,niece,neice,N IY S,nice,N IY S
+1.0,noticeably,noticably,N OW T AH K AH B L IY,noticeably,N OW T IH S AH B L IY
+0.0,nuzzled,nozled,N AA Z AH L D,nozzles,N AA Z AH L Z
+1.0,obfuscate,obsfuscate,AA B S F AH S K EY T,obfuscate,AA B F AH S K EY T
+0.0,objects,objectsion,AH B JH EH K T SH AH N,objections,AH B JH EH K SH AH N Z
+0.0,occasion,ocassion,OW K AE SH AH N,caption,K AE P SH AH N
+0.0,occasionally,accosinly,AH K AA Z AH N L IY,uncommonly,AH N K AA M AH N L IY
+0.0,occasionally,occusionaly,AH K Y UW ZH AH N AH L IY,usually,Y UW ZH AH W AH L IY
+0.0,occupied,occuppied,AA K AH P IY D,competed,K AH M P IY T IH D
+0.0,occurrence,occurence,AH K Y UH R AH N S,curacao,K Y UH R AH S AW
+1.0,octogenarian,octagenarian,AA K T AH JH AH N EH R IY AH N,octogenarian,AA K T AH JH IH N EH R IY AH N
+0.0,old,olf,OW L F,loaf,L OW F
+0.0,opossum,opposim,AH P AA Z AH M,osmium,AA Z M IY AH M
+0.0,organize,organise,AO R G AH N IY Z,laurentiis,L AO R AH N T IY Z
+0.0,organize,organiz,AO R G AH N IH Z,lawrence's,L AO R AH N S IH Z
+0.0,orient,orientate,AO R IY EH N T EY T,orientated,AO R IY AH N T EY T IH D
+0.0,oscilloscope,oscilascope,AO S AH L AH S K OW P,oscilloscopes,AO S IH L AH S K OW P S
+0.0,parameter,parametic,P EH R AH M EH T IH K,paramedic,P EH R AH M EH D IH K
+0.0,parameters,paramers,P ER EY M ER Z,purveyors,P ER V EY ER Z
+0.0,parameters,paranets,P EH R AH N EH T S,paramount's,P EH R AH M AW N T S
+0.0,particular,partrucal,P AA R T R UW K AH L,particle,P AA R T AH K AH L
+0.0,pattern,patten,P AE T AH N,patton,P AE T AH N
+0.0,peremptory,preemptory,P R IY EH M P T ER IY,preemptively,P R IY EH M P T IH V L IY
+1.0,permissible,permissable,P ER M IH S AH B AH L,permissible,P ER M IH S AH B AH L
+1.0,permission,permition,P ER M IH SH AH N,permission,P ER M IH SH AH N
+0.0,permissive,permmasivie,P ER M AH S IH V IY,passivity,P AH S IH V IH T IY
+1.0,phenomenal,phenominal,F AH N AA M AH N AH L,phenomenal,F AH N AA M AH N AH L
+1.0,phone,fone,F OW N,phone,F OW N
+0.0,phonetic,funetik,F Y UW N T IH K,lunatic,L UW N AH T IH K
+0.0,picturesque,picaresque,P IH K AH R EH S K,codrescu,K AH D R EH S K Y UW
+1.0,playwright,playwrite,P L EY R AY T,playwright,P L EY R AY T
+1.0,police,pollice,P AH L IY S,police,P AH L IY S
+0.0,politic,politict,P AA L AH T IH K T,politics,P AA L AH T IH K S
+0.0,politician,polation,P OW L EY SH AH N,playstation,P L EY S T EY SH AH N
+0.0,polygamy,poligamy,P AA L IH G AE M IY,polygram,P AA L IY G R AE M
+1.0,polypropylene,polypropalene,P AA L IY P R AH P AH L IY N,polypropylene,P AA L IY P R OW P AH L IY N
+0.0,portray,protray,P R OW T R EY,prorate,P R OW R EY T
+1.0,possible,possable,P AA S AH B AH L,possible,P AA S AH B AH L
+1.0,practical,practicle,P R AE K T IH K AH L,practical,P R AE K T IH K AH L
+1.0,pragmatism,pragmaticism,P R AE G M AE T AH S IH Z AH M,pragmatism,P R AE G M AH T IH Z AH M
+1.0,preceding,preceeding,P R IY S IY D IH NG,preceding,P R IY S IY D IH NG
+0.0,precision,precion,P R EH SH AH N,pension,P EH N SH AH N
+0.0,precision,precios,P R EH S IY OW Z,presley's,P R EH S L IY Z
+0.0,prefixed,prefixt,P R IY F IH K S T,prefix,P R IY F IH K S
+0.0,prefixes,prefices,P R EH F AH S IH Z,preferences,P R EH F ER AH N S IH Z
+1.0,prerogative,perogative,P ER AA G AH T IH V,prerogative,P ER AA G AH T IH V
+1.0,privilege,privielage,P R IH V IY L IH JH,privilege,P R IH V IH L IH JH
+1.0,privilege,priviledge,P R IH V L IH JH,privilege,P R IH V IH L IH JH
+0.0,problematic,proplematic,P R AA P L AH M AE T IH K,problematical,P R AA B L AH M AE T IH K AH L
+1.0,procedures,proceedures,P R AH S IY JH ER Z,procedures,P R AH S IY JH ER Z
+0.0,pronunciation,pronensiation,P R AH N EH N S IY EY SH AH N,pronunciations,P R AH N AH N S IY EY SH AH N Z
+0.0,pronunciation,pronisation,P R AA N AH Z EY SH AH N,propagation,P R AA P AH G EY SH AH N
+0.0,pronunciation,pronounciation,P R AH N AW N S IY EY SH AH N,pronunciations,P R AH N AH N S IY EY SH AH N Z
+1.0,properly,properally,P R AA P ER AH L IY,properly,P R AA P ER L IY
+0.0,psychologist,pscolgst,S K OW L G S T,wolgast,W OW L G AH S T
+0.0,psychologist,psicolagest,S IH K AH L IH JH IH S T,ecologists,IH K AA L AH JH IH S T S
+0.0,psychologist,psycolagest,S AY K AH L IH JH AH S T,psychologists,S AY K AA L AH JH AH S T S
+0.0,psychologist,sicolagest,S IH K AH L IH JH EH S T,,
+1.0,pursue,persue,P ER S UW,pursue,P ER S UW
+0.0,pursue,presue,P R IH Z UW,resume,R IH Z UW M
+0.0,pursued,presued,P R IH Z UW D,resumed,R IH Z UW M D
+0.0,quiz,quoz,K W AA Z,wads,W AA D Z
+0.0,raccoon,reccona,R EH K OW N AH,escalona,EH S K AA L OW N AH
+1.0,radius,radious,R EY D IY AH S,radius,R EY D IY AH S
+0.0,rampantly,ramplily,R AE M P L AH L IY,trampoline,T R AE M P AH L IY N
+1.0,rank,wrank,R AE NG K,rank,R AE NG K
+1.0,receive,recieve,R IH S IY V,receive,R IH S IY V
+0.0,recognize,reconise,R EH K AH N IY Z,reckons,R EH K AH N Z
+1.0,recommend,reccomend,R EH K AH M EH N D,recommend,R EH K AH M EH N D
+0.0,rectangle,rectangeles,R EH K T AE N JH AH L AH S,,
+0.0,recurring,reoccurring,R IY AH K ER IH NG,recovering,R AH K AH V ER IH NG
+0.0,redesign,redign,R IY D AY N,resign,R IY Z AY N
+1.0,regardless,irregardless,IH R AH G AA R D L AH S,regardless,R AH G AA R D L AH S
+0.0,repetition,repitition,R EH P IH T IH SH AH N,restitution,R EH S T IH T UW SH AH N
+0.0,replacement,replasments,R IY P L AE Z M AH N T S,replacements,R IY P L EY S M AH N T S
+1.0,resemblance,reseblence,R IY Z EH B AH L AH N S,resemblance,R IY Z EH M B L AH N S
+0.0,respect,respct,R EH S P IY T IY,spiteri,S P IY T EH R IY
+0.0,respectfully,respecally,R EH S P IH K L IY,empirically,EH M P IH R IH K L IY
+0.0,responsible,reposable,R IH P OW Z AH B AH L,repairable,R IH P EH R AH B AH L
+0.0,room,roon,R UW N,rune,R UW N
+0.0,roughly,rought,R AO T,wrought,R AO T
+1.0,rudimentary,rudemtry,R UW D AH M T R IY,rudimentary,R UW D AH M EH N T ER IY
+0.0,running,runnung,R AH N AH NG,unsung,AH N S AH NG
+0.0,sacrilegious,sacreligious,S AE K R IH L IH JH AH S,religiously,R IH L IH JH AH S L IY
+0.0,safely,saftly,S AE F T L IY,satterlee,S AE T ER L IY
+0.0,salute,salut,S AE L AH T,sluts,S L AH T S
+0.0,satisfy,satifly,S AE T AH F L AY,satellite,S AE T AH L AY T
+0.0,scrabble,scrabdle,S K R AE B D AH L,scramble,S K R AE M B AH L
+0.0,section,secion,S IY SH AH N,leishman,L IY SH M AH N
+0.0,segments,segements,S IY JH M AH N T S,simonetta,S IY M AH N EH T AH
+0.0,seize,sieze,S IY Z,sees,S IY Z
+1.0,sense,sence,S EH N S,sense,S EH N S
+1.0,separate,seperate,S EH P ER EY T,separate,S EH P ER EY T
+0.0,several,seferal,S EH F R AH L,sara-lee,S EH R AH L IY
+0.0,sherbet,sherbert,SH ER B ER T,sherbert,SH ER B ER T
+0.0,signal,singal,S IH NG G AH L,single,S IH NG G AH L
+1.0,simplicity,cimplicity,S IH M P L IH S AH T IY,simplicity,S IH M P L IH S AH T IY
+0.0,simplicity,simpfilty,S IH M P F IH L T IY,imperfectly,IH M P ER F IH K T L IY
+0.0,simply,simplye,S IH M P L AY,implies,IH M P L AY Z
+0.0,site,sitte,S IH T,sit,S IH T
+1.0,situation,situration,S IH CH ER EY SH AH N,situation,S IH CH UW EY SH AH N
+0.0,smile,smil,S M IH L,milne,M IH L N
+0.0,sneaked,snuck,S N AH K,snuck,S N AH K
+0.0,sometimes,sometmes,S AH M T M Z,sometime,S AH M T AY M
+0.0,sonic,soonec,S UW N IH K,snicker,S N IH K ER
+0.0,specifically,specificialy,S P EH S IH F IH SH AH L IY,specification,S P EH S IH F IH K EY SH AH N
+1.0,spell,spel,S P EH L,spell,S P EH L
+1.0,spoke,spoak,S P OW K,spoke,S P OW K
+0.0,sponsored,sponsered,S P AH N S ER D,unanswered,AH N AE N S ER D
+0.0,steering,stering,S T EH R IH NG,staring,S T EH R IH NG
+1.0,stomach,stumach,S T AH M AH K,stomach,S T AH M AH K
+1.0,straitjacket,straightjacket,S T R EY T JH AE K AH T,straitjacket,S T R EY T JH AE K AH T
+1.0,student,stutent,S T UW T AH N T,student,S T UW D AH N T
+1.0,subpoena,subpena,S AH P IY N AH,subpoena,S AH P IY N AH
+1.0,subscribed,subjecribed,S AH B JH K R AY B D,subscribed,S AH B S K R AY B D
+0.0,substitutions,subisitions,S AH B IH Z IH SH AH N Z,subdivisions,S AH B D IH V IH ZH AH N Z
+0.0,substitutions,substations,S AH B S T EY SH AH N Z,substation,S AH B S T EY SH AH N
+0.0,sugar,suger,S UW G ER,sucre,S UW K ER
+1.0,superfluous,superfulous,S UW P ER F Y AH L AH S,superfluous,S UW P ER F L W AH S
+1.0,supersede,supercede,S UW P ER S IY D,supersede,S UW P ER S IY D
+1.0,swimwear,swim_wear,S W IH M W EH R,swimwear,S W IH M W EH R
+0.0,sylph,slyph,S L IH F,lymph,L IH M F
+0.0,synchronization,syncorization,S IH NG K ER IH Z EY SH AH N,syncopation,S IH NG K AH P EY SH AH N
+0.0,tattoos,tattos,T AE T OW S,taft's,T AE F T S
+0.0,team,tem,T EH M,temme,T EH M
+1.0,technically,techniquely,T EH K N IY K L IY,technically,T EH K N IH K L IY
+1.0,test,tesst,T EH S T,test,T EH S T
+1.0,test,ttest,T EH S T,test,T EH S T
+0.0,tests,tets,T EH T S,aerts,EH R T S
+0.0,that,taht,T AE T,tat,T AE T
+0.0,the,teh,T EH,et,EH T
+0.0,the,thw,TH W AH L Y UW,wasiyu,W AH S IY Y UW
+0.0,themselves,theirselves,DH EH R S EH L V Z,theirselves,DH EH R S EH L V Z
+0.0,theoretical,teridical,T ER IH D IH K AH L,typically,T IH P IH K AH L IY
+0.0,theoretical,theridically,TH ER IH D IH K L IY,idiotically,IH D IY AA T IH K L IY
+0.0,theoretically,thredically,TH R EH D IH K L IY,medically,M EH D IH K AH L IY
+0.0,this,ths,TH S,suh,S AH
+1.0,throughout,thruout,TH R UW AW T,throughout,TH R UW AW T
+1.0,titillate,titalate,T IH T AH L EY T,titillate,T IH T AH L EY T
+1.0,tomorrow,tommorrow,T UW M AA R OW,tomorrow,T UW M AA R OW
+1.0,tomorrow,tomorow,T UW M AA R OW,tomorrow,T UW M AA R OW
+0.0,tough,taff,T AE F,taff,T AE F
+0.0,tragedy,tradegy,T R AE D AH JH IY,strategies,S T R AE T AH JH IY Z
+1.0,trouble,trubbel,T R AH B AH L,trouble,T R AH B AH L
+0.0,turned,tured,T UH R D,toured,T UH R D
+0.0,two,teo,T EY OW,teo,T EY OW
+1.0,tyranny,tyrrany,T IH R AH N IY,tyranny,T IH R AH N IY
+1.0,unconscious,unconscience,AH N K AA N SH AH N S,unconscious,AH N K AA N SH AH S
+0.0,unconstitutional,unconisitional,AH N K AH N IH Z IH SH AH N AH L,unconditional,AH N K AH N D IH SH AH N AH L
+1.0,unfortunately,unformanlly,AH N F AO R M AH N L IY,unfortunately,AH N F AO R CH AH N AH T L IY
+0.0,unfortunately,unfortally,AH N F AO R T AH L IY,affordably,AH F AO R D AH B L IY
+1.0,unfortunately,unfortunently,AH N F AO R CH AH N AH N T L IY,unfortunately,AH N F AO R CH AH N AH T L IY
+0.0,unintelligible,unentelegible,AH N EH N T AH L IY JH AH B AH L,,
+0.0,unnatural,unatourral,AH N AH T UH R AH L,untrammeled,AH N T R AE M AH L D
+0.0,unnatural,unaturral,AH N AH T ER AH L,paternal,P AH T ER N AH L
+1.0,unnatural,unnaturral,AH N N N AH CH ER AH L,unnatural,AH N N AE CH ER AH L
+0.0,uranium,uranisium,Y UW R AH N IH Z IY AH M,unionism,Y UW N Y AH N IH Z AH M
+0.0,utmost,upmost,AH P M OW S T,upholster,AH P OW L S T ER
+0.0,version,verison,V EH R IH S AH N,ericsson,EH R IH K S AH N
+0.0,vinaigrette,vinagarette,V IH N AH G ER EH T,vinegar,V IH N AH G ER
+1.0,volley,volye,V AA L IY,volley,V AA L IY
+0.0,voluntarism,volunteerism,V AO L AH N T IH R IH Z AH M,volunteerism,V AO L AH N T IH R IH Z AH M
+0.0,voluptuous,volumptuous,V AA L AH M P CH AH W AH S,,
+0.0,wait,waite,W EY T,weight,W EY T
+0.0,want,mant,M AE N T,mandt,M AE N T
+1.0,ward,whard,W AO R D,ward,W AO R D
+1.0,warlord,warloord,W AO R L UH R D,warlord,W AO R L AO R D
+0.0,wasting,wadting,W AO D T IH NG,watling,W AO T L IH NG
+0.0,weaken,wicken,W IH K AH N,wiccan,W IH K AH N
+1.0,weird,wierd,W IH R D,weird,W IH R D
+0.0,what,whaaat,W AA T,watt,W AA T
+1.0,wimp,whimp,W IH M P,wimp,W IH M P
+0.0,won't,wan't,W AA N T,want,W AA N T
+0.0,writing,writting,R IH T IH NG,ridding,R IH D IH NG
+1.0,yield,yeild,Y IY L D,yield,Y IY L D
+0.0,your,youe,Y UW,you,Y UW
