@@ -8,6 +8,7 @@ user_dataset_name = input("Enter dataset name: ")
 input_path_files = "../input_files/"
 input_path_files = Path(input_path_files) / user_dataset_name
 output_path_files = "../input_files/spelling_correction_dicts"
+print(input_path_files)
 
 
 def check_make_dir(user_dataset_name):
@@ -60,12 +61,6 @@ def populate_results(user_dataset_name):
     create_results_csv.save_to_csv(df, output_paths[dataset_names[0]])
 
 
-def main():
-
-    check_make_dir(user_dataset_name)
-    process_custom_dataset(input_path_files, user_dataset_name.split('.')[0], dataset_processing.create_sym_object())
-    populate_results(user_dataset_name)
-
-
-if __name__ == "main":
-    main()
+check_make_dir(user_dataset_name)
+process_custom_dataset(input_path_files, user_dataset_name.split('.')[0], dataset_processing.create_sym_object())
+populate_results(user_dataset_name)
