@@ -35,11 +35,14 @@ def process_custom_dataset(path_misspellings, dataset_name, sym_spell):
     dataset_processing.pickle_output(template, name_template_dict)
     dataset_processing.g2p_word_list(template, name_word_list)
     dataset_processing.g2p_phoneme_list(dataset_name)
+
     sym = dataset_processing.symspell_word_dict(dataset_name, sym_spell)
     dataset_processing.pickle_output(sym, name_symspell_dict)
+
     phonemes = dataset_processing.add_phonemes(template, dataset_name)
     dataset_processing.pickle_output(phonemes, name_phonenems_dict)
-    phonemes_sym = dataset_processing.symspell_phonemes('TOP', dataset_name)
+
+    phonemes_sym = dataset_processing.symspell_phonemes('ALL', dataset_name)
     dataset_processing.pickle_output(phonemes_sym, name_phonemes_sym)
 
 

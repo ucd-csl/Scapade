@@ -320,7 +320,9 @@ class SymSpell(object):
         if not os.path.exists(corpus):
             return False
         with open(corpus, "r", encoding=encoding) as infile:
+            print("about to process file")
             for line in infile:
+                print("processing line")
                 for key in self._parse_words(line):
                     self.create_dictionary_entry(key, 1)
         return True
