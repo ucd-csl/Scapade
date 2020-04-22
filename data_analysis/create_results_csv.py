@@ -24,6 +24,12 @@ def update_results_dict(input_dict):
             input_dict[key]['correct'] = 1
         else:
             input_dict[key]['correct'] = 0
+
+        if input_dict[key]['correct_spelling'] in input_dict[key]['candidates']:
+            input_dict[key]['in_candidates'] = 1
+        else:
+            input_dict[key]['in_candidates'] = 0
+
     return input_dict
 
 
@@ -39,11 +45,15 @@ def save_to_csv(df, save_path):
 
 
 def main():
+
     for dataset in dataset_names:
         results = load_results(complete_results[dataset])
         results_updated = update_results_dict(results)
         df = create_df_output(results_updated)
+        df = df[['correct', 'in_candidates', 'correct_spelling', 'misspelling', 'phoneme_rep',
+                'suggested', 'suggested_phoneme', 'candidates']]
         save_to_csv(df, output_paths[dataset])
+
 
 if __name__ == "__main__":
     main()
