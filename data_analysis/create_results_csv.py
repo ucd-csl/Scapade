@@ -20,7 +20,6 @@ def load_results(file_path):
 def update_results_dict(input_dict):
     for key in list(input_dict):
         input_dict[key]['misspelling'] = key
-        del input_dict[key]['candidates']
         if input_dict[key]['correct_spelling'] == input_dict[key]['suggested']:
             input_dict[key]['correct'] = 1
         else:
@@ -46,4 +45,5 @@ def main():
         df = create_df_output(results_updated)
         save_to_csv(df, output_paths[dataset])
 
-main()
+if __name__ == "__main__":
+    main()
