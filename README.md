@@ -15,6 +15,9 @@
     5.2 [input_files/spelling_correction_dicts/](#spell_dicts) <br/>
     5.3 [g2p_files/](#g2p_files) <br/>
     5.4 [zeeko_surveys/](#zeeko_surveys) <br/>
+6. [Known Issues and Future Work](#issues_and_future) <br/>
+    6.1 [Known Issues](known_issues) <br/>
+    6.2 [Future Work](future_work) <br/>
 
 
 ## 1.0 - Introduction <a name="introduction"></a>
@@ -116,3 +119,17 @@ Example output word-phoneme list - [aspell_phonemes.txt](https://github.com/robe
 
 Contains 15 csv files provided from Zeeko with survey responses. Some of the responses are free text. These were used to
 extract misspellings and create the Zeeko dataset of misspellings. 
+
+## 6.0 Known Issues and Future Work <a name="issues_and_future"><a/>
+
+### 6.1 Known Issues <a name="known_issues"><a/>
+
+* Re-run Birkbeck dataset with corrected implementation
+* Improve speed performance of lookups (currently disabled as not working 100% as intended)
+* Currently each benchmarked method (PySpell, SymSpell, Phoneme Method) all use their own custom dictionary. Creation and extension of a common lookup and generation dictionary is required to ensure all methods are using the same list of words.
+* Requires comparison against a phonetic spell checker, such as Aspell.
+
+### 6. 2 Future Work <a name="future_work"><a/>
+
+* Explore re-training g2p tool on misspellings to see if it results in an improvement in predicting phonemic representations. Need to investigate data to use and how this impacts generalisation of the model.
+* Investigate distance measure decrease between predicted phoneme sequence and target phoneme sequence. For example: stopping will be predicted as "S T OW P IH NG", but the distance between OW and AA (correct phoneme) will be reduced. This could be done by tuning the matrix to the speaker accent, or may need a new matrix trained on possible pronunciation of letters.
