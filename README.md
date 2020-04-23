@@ -84,7 +84,7 @@ The scripts to pre-processing the input data found in [/text_processing/](https:
 
 All accuracy and overlap results for each dataset using each of the three methods (SymSpell, PySpellChecker and CMU Phoneme sequence) can be seen in the Jupyter Notebook [results_spelling_correction_overlap_and_scores.ipynb](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results_spelling_correction_overlap_and_scores.ipynb)
 
-A notebook linking to all of the word correction results for the CMU method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.ipynb](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/corrected_words.ipynb).
+A notebook linking to all of the word correction results for the CMU method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.md](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/corrected_words.md).
 
 To view the word corrections for each dataset and comparison method, navigate to the folder [results](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results). This is broken down by:
 
