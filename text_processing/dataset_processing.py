@@ -12,14 +12,14 @@ import aspell
 input_path_files = "../input_files/"
 output_path_files = "../input_files/spelling_correction_dicts"
 
-birkbeck_mispellings_path = Path(input_path_files) / 'birkbeck.txt'
-holbrook_mispellings_path = Path(input_path_files) / 'holbrook-missp.txt'
-zeeko_mispellings_path = Path(input_path_files) / 'zeeko_misspellings.txt'
-aspell_mispellings_path = Path(input_path_files) / 'aspell.txt'
-wiki_mispellings_path = Path(input_path_files) / 'wikipedia.txt'
+birkbeck_misspellings_path = Path(input_path_files) / 'birkbeck.txt'
+holbrook_misspellings_path = Path(input_path_files) / 'holbrook-missp.txt'
+zeeko_misspellings_path = Path(input_path_files) / 'zeeko_misspellings.txt'
+aspell_misspellings_path = Path(input_path_files) / 'aspell.txt'
+wiki_misspellings_path = Path(input_path_files) / 'wikipedia.txt'
 
-dataset_paths = {'birkbeck':birkbeck_mispellings_path, 'holbrook':holbrook_mispellings_path,
-                 'zeeko':zeeko_mispellings_path, 'aspell':aspell_mispellings_path, 'wiki':wiki_mispellings_path}
+dataset_paths = {'birkbeck':birkbeck_misspellings_path, 'holbrook':holbrook_misspellings_path,
+                 'zeeko':zeeko_misspellings_path, 'aspell':aspell_misspellings_path, 'wiki':wiki_misspellings_path}
 
 def create_sym_object():
     """
@@ -30,7 +30,6 @@ def create_sym_object():
     sym_spell = SymSpell(max_dictionary_edit_distance=3, prefix_length=15)
     dictionary_path = pkg_resources.resource_filename("symspellpy_words", "frequency_dictionary_en_82_765.txt")
     sym_spell.load_dictionary(dictionary_path, term_index=0, count_index=1)
-
 
     return sym_spell
 
@@ -130,11 +129,11 @@ def pyspell_dict(input_dict, name):
     spell = SpellChecker()
     working_dict = dict(input_dict)
     counter = 0
-    for mispelling, details in working_dict.items():
+    for misspelling, details in working_dict.items():
         if counter % 100 == 0:
             print(counter)
-        working_dict[mispelling]['suggested'] = spell.correction(mispelling)
-        working_dict[mispelling]['candidates'] = list(spell.candidates(mispelling))
+        working_dict[misspelling]['suggested'] = spell.correction(misspelling)
+        working_dict[misspelling]['candidates'] = list(spell.candidates(misspelling))
         counter += 1
 
     return working_dict, file_name
@@ -146,13 +145,13 @@ def aspell_dict(input_dict, name):
     working_dict = dict(input_dict)
     counter = 0
 
-    for mispelling, details in working_dict.items():
+    for misspelling, details in working_dict.items():
         if counter % 100 == 0:
             print("Aspell iteration:", counter)
-        suggestions = spell.suggest(mispelling)
+        suggestions = spell.suggest(misspelling)
         if len(suggestions) > 0:
-            working_dict[mispelling]['suggested'] = suggestions[0]
-            working_dict[mispelling]['candidates'] = suggestions[:10]
+            working_dict[misspelling]['suggested'] = suggestions[0]
+            working_dict[misspelling]['candidates'] = suggestions[:10]
         counter += 1
 
     return working_dict, file_name
@@ -267,19 +266,19 @@ def process_given_dataset(path_misspellings, dataset_name, sym_spell):
     name_phonemes_sym = dataset_name + "_phonemes_sym.txt"
 
     template = create_default_dict(path_misspellings)
-    # pyspell = pyspell_dict(template, dataset_name)
-    # pickle_output(pyspell[0], pyspell[1])
-    # pickle_output(template, name_template_dict)
+    pyspell = pyspell_dict(template, dataset_name)
+    pickle_output(pyspell[0], pyspell[1])
+    pickle_output(template, name_template_dict)
     aspell_create = aspell_dict(template, dataset_name)
     pickle_output(aspell_create[0], name_aspell_dict)
-    # g2p_word_list(template, name_word_list)
-    # g2p_phoneme_list(dataset_name)
-    # sym = symspell_word_dict(dataset_name, sym_spell)
-    # pickle_output(sym, name_symspell_dict)
-    # phonemes = add_phonemes(template, dataset_name)
-    # pickle_output(phonemes, name_phonenems_dict)
-    # phonemes_sym = symspell_phonemes('TOP', dataset_name)
-    # pickle_output(phonemes_sym, name_phonemes_sym)
+    g2p_word_list(template, name_word_list)
+    g2p_phoneme_list(dataset_name)
+    sym = symspell_word_dict(dataset_name, sym_spell)
+    pickle_output(sym, name_symspell_dict)
+    phonemes = add_phonemes(template, dataset_name)
+    pickle_output(phonemes, name_phonenems_dict)
+    phonemes_sym = symspell_phonemes('TOP', dataset_name)
+    pickle_output(phonemes_sym, name_phonemes_sym)
 
 
 def main():
