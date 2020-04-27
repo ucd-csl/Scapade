@@ -45,14 +45,17 @@ This initial study focuses purely on the correction of individual misspellings. 
 
 ### 2.2 - Tools <a name="tools"><a/>
 
-For comparison with the phoneme sequence spelling corrector, two Python spell checker tools were used. These are:
+For comparison with the phoneme sequence spelling corrector, three spell checker tools were used. These are:
 
 * [PySpellChecker](https://pypi.org/project/pyspellchecker/) - and implementation of [Peter Norvig's](https://norvig.com/spell-correct.html) spelling corrector.
 * [SymSpell](https://github.com/wolfgarbe/SymSpell) - a symmetric delete spell checker built for speed.
+* [GNU Aspell](http://aspell.net/) - Free and Open Source spell checker. 
 
 PySpellChecker - Generates all possible terms for a word with an edit distance (deletes + transposes + replaces + inserts) from the query term and then searches in the dictionary. 
 
 SymSpell – Generates terms with an edit distance (deletes only) from the dictionary, and then adds these terms along with the original term to the dictionary.
+
+Aspell - standard spell checker for the GNU operating system. It also compiles for other Unix-like operating systems and Windows.
 
 ### 2.3 - Datasets of Misspellings <a name="misspellings"></a>
 
@@ -124,10 +127,10 @@ extract misspellings and create the Zeeko dataset of misspellings.
 
 ### 6.1 Known Issues <a name="known_issues"><a/>
 
-* Re-run Birkbeck dataset with corrected implementation
-* Improve speed performance of lookups (currently disabled as not working 100% as intended)
+* ~~Re-run Birkbeck dataset with corrected implementation~~ - _Birkbeck dataset processed_.
+* ~~Improve speed performance of lookups (currently disabled as not working 100% as intended)~~ - _changed edit distance from 3 to 2._
 * Currently each benchmarked method (PySpell, SymSpell, Phoneme Method) all use their own custom dictionary. Creation and extension of a common lookup and generation dictionary is required to ensure all methods are using the same list of words.
-* Requires comparison against a phonetic spell checker, such as Aspell.
+* ~~Requires comparison against a phonetic spell checker, such as Aspell.~~ - _Aspell comparison now implemented in results._
 
 ### 6. 2 Future Work <a name="future_work"><a/>
 
