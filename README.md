@@ -47,9 +47,9 @@ This initial study focuses purely on the correction of individual misspellings. 
 
 For comparison with the phoneme sequence spelling corrector, three spell checker tools were used. These are:
 
-* [PySpellChecker](https://pypi.org/project/pyspellchecker/) - and implementation of [Peter Norvig's](https://norvig.com/spell-correct.html) spelling corrector.
+* [PySpellChecker](https://pypi.org/project/pyspellchecker/) - an implementation of [Peter Norvig's](https://norvig.com/spell-correct.html) spelling corrector.
 * [SymSpell](https://github.com/wolfgarbe/SymSpell) - a symmetric delete spell checker built for speed.
-* [GNU Aspell](http://aspell.net/) - Free and Open Source spell checker. 
+* [GNU Aspell](http://aspell.net/) - free and Open Source spell checker. 
 
 PySpellChecker - Generates all possible terms for a word with an edit distance (deletes + transposes + replaces + inserts) from the query term and then searches in the dictionary. 
 
@@ -87,7 +87,7 @@ The scripts to pre-processing the input data found in [/text_processing/](https:
 
 A presentation of the current results for all the datasets and methods may be seen [here](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/Results%20-%20V2.pdf).
 
-All accuracy and overlap results for each dataset using each of the four methods (SymSpell, PySpellChecker, Aspell and the Phoneme sequence method) can be seen in the Jupyter Notebook [results_spelling_correction_overlap_and_scores.ipynb](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results_spelling_correction_overlap_and_scores.ipynb)
+All accuracy and overlap results for each dataset using each of the four methods (SymSpell, PySpellChecker, Aspell and the Phoneme sequence) can be seen in the Jupyter Notebook [results_spelling_correction_overlap_and_scores.ipynb](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results_spelling_correction_overlap_and_scores.ipynb)
 
 A notebook linking to all of the word correction results for the CMU method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.md](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/corrected_words.md).
 
