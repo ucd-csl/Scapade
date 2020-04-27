@@ -40,7 +40,6 @@ def create_default_dict(file_path):
     :param file_path: the file path that points to the input dataset
     :return: Python dictionary template for the dataset
     """
-
     dictionary_template = {}
     with open(file_path) as data_source:
         lines = [line.rstrip()for line in data_source]
@@ -123,7 +122,7 @@ def pyspell_dict(input_dict, name):
     Adds suggested corrections to provided dictionary
     :param input_dict: input dictionary template
     :param name: name of dataset for use in file output write
-    :return: None
+    :return: Updated dictionary with suggestions and candidates, name of file written to
     """
     file_name = name + "_pyspell_dict.txt"
     spell = SpellChecker()
@@ -140,6 +139,12 @@ def pyspell_dict(input_dict, name):
 
 
 def aspell_dict(input_dict, name):
+    """
+    Generates a dictionary of corrections carried out by the Aspell spelling correction tool.
+    :param input_dict: input template dictionary
+    :param name: name of dataset for use in file output write
+    :return: Updated dictionary with suggestions and candidates, name of file written to
+    """
     file_name = name + "_aspell_dict.txt"
     spell = aspell.Speller('lang', 'en')
     working_dict = dict(input_dict)
@@ -282,6 +287,7 @@ def process_given_dataset(path_misspellings, dataset_name, sym_spell):
 
 
 def main():
+    """Calls required functions in order, across all datasets"""
     sym_spell = create_sym_object()
     data_to_process = ['birkbeck', 'holbrook', 'zeeko', 'aspell', 'wiki']
     for dataset in data_to_process:
