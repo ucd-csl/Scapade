@@ -171,7 +171,7 @@ class Levenshtein_Phoneme(AbstractDistanceComparer):
         similarities = pd.read_csv(input_file, index_col=0)
 
         # cost of insertion/deletion
-        idc = 0.5
+        idc = 1
 
         # compare two seqs of phon
         def compare(string1, string2):
