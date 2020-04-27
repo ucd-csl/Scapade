@@ -676,6 +676,18 @@ class SymSpell(object):
                                                          s.term),
                 s.distance, s.count) for s in suggestions]
         early_exit()
+        # print(phrase)
+        # calc = []
+        # used = set()
+        # for suggestion in suggestions:
+        #     new_string = str(suggestion)
+        #     suggest = new_string.split(',')[0]
+        #     if suggest not in used:
+        #         dist = (distance_comparer.compare(phrase, suggest, 3))
+        #         calc.append([suggest, dist])
+        #         used.add(suggest)
+        #
+        # return calc
         return suggestions
 
     def lookup_compound(self, phrase, max_edit_distance,
