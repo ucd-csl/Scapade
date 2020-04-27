@@ -131,7 +131,7 @@ extract misspellings and create the Zeeko dataset of misspellings.
 
 * ~~Re-run Birkbeck dataset with corrected implementation~~ - _Birkbeck dataset processed_.
 * ~~Improve speed performance of lookups (currently disabled as not working 100% as intended)~~ - _changed edit distance from 3 to 2._
-* Currently each benchmarked method (PySpell, SymSpell, Phoneme Method) all use their own custom dictionary. Creation and extension of a common lookup and generation dictionary is required to ensure all methods are using the same list of words.
+* Currently each benchmarked method (PySpell, SymSpell, Aspell, :Phoneme Method) all use their own custom dictionary. Creation and extension of a common lookup and generation dictionary is required to ensure all methods are using the same list of words.
 * ~~Requires comparison against a phonetic spell checker, such as Aspell.~~ - _Aspell comparison now implemented in results._
 
 ### 6. 2 Future Work <a name="future_work"><a/>
