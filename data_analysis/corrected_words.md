@@ -72,7 +72,7 @@ See the results: [data_analysis/results/holbrook/symspell_cmu_phonemes/both.csv]
 
 
 
-See the results: [data_analysis/results/holbrook/symspell_cmu_phonemes/all_cmu_corrections.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results/holbrook/symspell_cmu_phonemes/all_cmu_corrections.csv)
+See the results: [data_analysis/results/holbrook/symspell_cmu_phonemes/all_cmu_corrections.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results/holbrook)
 
 
 
@@ -100,7 +100,7 @@ See the results: [data_analysis/results/birkbeck/symspell_cmu_phonemes/both.csv]
 
 
 
-See the results: [data_analysis/results/birkbeck/symspell_cmu_phonemes/all_cmu_corrections.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results/birkbeck/symspell_cmu_phonemes/all_cmu_corrections.csv)
+See the results: [data_analysis/results/birkbeck/symspell_cmu_phonemes/all_cmu_corrections.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results/birkbeck/all_phoneme_corrections.csv)
 
 
 
@@ -128,7 +128,7 @@ See the results: [data_analysis/results/zeeko/symspell_cmu_phonemes/both.csv](ht
 
 
 
-See the results: [data_analysis/results/zeeko/symspell_cmu_phonemes/all_cmu_corrections.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results/zeeko/symspell_cmu_phonemes/all_cmu_corrections.csv)
+See the results: [data_analysis/results/zeeko/symspell_cmu_phonemes/all_cmu_corrections.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results/zeeko/all_phoneme_corrections.csv)
 
 
 
@@ -156,7 +156,7 @@ See the results: [data_analysis/results/aspell/symspell_cmu_phonemes/both.csv](h
 
 
 
-See the results: [data_analysis/results/aspell/symspell_cmu_phonemes/all_cmu_corrections.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results/aspell/symspell_cmu_phonemes/all_cmu_corrections.csv)
+See the results: [data_analysis/results/aspell/all_cmu_corrections.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results/aspell/all_phoneme_corrections.csv)
 
 
 
@@ -176,7 +176,7 @@ See the results: [data_analysis/results/wiki/symspell_cmu_phonemes/cmu_phonemes.
 
 
 
-See the results: [data_analysis/results/wiki/symspell_cmu_phonemes/both.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results/wiki/symspell_cmu_phonemes/both.csv)
+See the results: [data_analysis/results/wiki/symspell_cmu_phonemes/both.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results/wiki/all_phoneme_corrections.csv)
 
 
 
