@@ -9,6 +9,9 @@
     2.3 [Datasets of Misspellings](#misspellings) <br/>
     2.4 [Preprocessing](#preprocessing) <br/>
 3. [Results](#results) <br/>
+    3.1 [Results Presentation](#results_presentation)<br/>
+    3.2 [Scores and Overlap Results Notebook](#results_scores_overlap) <br/>
+    3.3 [Word Corrections Using Phoneme Method](#results_word_corrections) <br/>
 4. [Word List to Phoneme Sequence - G2P](#g2p_update) <br/>
 5. [Other Folder Information](#other_folders) <br/>
     5.1 [input_files/](#input_files) <br/>
@@ -85,9 +88,15 @@ The scripts to pre-processing the input data found in [/text_processing/](https:
 
 ## 3.0 - Results <a name="results"><a/>
 
+### 3.1 - Results Presentation <a name="results_presentation"><a/>
+
 A presentation of the current results for all the datasets and methods may be seen [here](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/Results%20-%20V2.pdf).
 
+### 3.2 - Scores and Overlap Results Notebook <a name="results_scores_overlap"><a/>
+
 All accuracy and overlap results for each dataset using each of the four methods (SymSpell, PySpellChecker, Aspell and the Phoneme sequence) can be seen in the Jupyter Notebook [results_spelling_correction_overlap_and_scores.ipynb](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results_spelling_correction_overlap_and_scores.ipynb)
+
+### 3.3 - Word Corrections Using Phoneme Method <a name="results_word_corrections"><a/>
 
 A notebook linking to all of the word correction results for the CMU method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.md](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/corrected_words.md).
 
