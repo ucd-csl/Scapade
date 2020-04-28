@@ -33,9 +33,9 @@
 
 
 
-This notebook displays the results of the CMU Phoneme correction method on the five datasets used. For each dataset there are three sets of word results that may be viewed:
+This notebook displays the results of the Phoneme correction method on the five datasets used. For each dataset there are three sets of word results that may be viewed:
 1. Unique 'correct' corrections - the phoneme sequence corrections made that were deemed correct that a given (SymSpell) traditional spell checker was unable to correct.
-2. Both 'correct' corrections - the corrections that both SymSpell and CMU method share
+2. Both 'correct' corrections - the corrections that both SymSpell and Phoneme method share
 3. All  corrections - all data for each misspelling 
 
 Columns for "all corrections" defined as:
