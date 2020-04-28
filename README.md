@@ -98,12 +98,12 @@ All accuracy and overlap results for each dataset using each of the four methods
 
 ### 3.3 - Word Corrections Using Phoneme Method <a name="results_word_corrections"><a/>
 
-A notebook linking to all of the word correction results for the CMU method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.md](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/corrected_words.md).
+A notebook linking to all of the word correction results for the phoneme method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.md](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/corrected_words.md).
 
 To view the word corrections for each dataset and comparison method, navigate to the folder [results](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results). This is broken down by:
 
 * Dataset eg. Birkbeck, Aspell, Zeeko, Holbrook, Wikipedia.
-* Within each dataset is a sub-directory of the compared methods. For example, for the dataset birkbeck, comparing SymSpell against the CMU Phonemes method you would go to [/results/birkbeck/symspell_cmu_phonemes/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results/birkbeck/symspell_cmu_phonemes). In here there are three csv file which show the words corrected by both methods, and the unique word corrections by one or other methods.
+* Within each dataset is a sub-directory of the compared methods. For example, for the dataset birkbeck, comparing SymSpell against the Phonemes method you would go to [/results/birkbeck/symspell_cmu_phonemes/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results/birkbeck/symspell_cmu_phonemes). In here there are three csv file which show the words corrected by both methods, and the unique word corrections by one or other methods.
 
 ## 4.0 - Word List to Phoneme Sequence - G2P <a name="g2p_update"><a/>
 
