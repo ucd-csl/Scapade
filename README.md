@@ -147,3 +147,4 @@ extract misspellings and create the Zeeko dataset of misspellings.
 
 * Explore re-training g2p tool on misspellings to see if it results in an improvement in predicting phonemic representations. Need to investigate data to use and how this impacts generalisation of the model.
 * Investigate distance measure decrease between predicted phoneme sequence and target phoneme sequence. For example: stopping will be predicted as "S T OW P IH NG", but the distance between OW and AA (correct phoneme) will be reduced. This could be done by tuning the matrix to the speaker accent, or may need a new matrix trained on possible pronunciation of letters.
+* Create unit testing suite. 
