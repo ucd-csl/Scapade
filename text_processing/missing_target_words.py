@@ -2,7 +2,7 @@ import pickle
 import os.path
 import pandas as pd
 from spellchecker import SpellChecker
-import aspell
+import aspell as ap
 
 # load in misspelling datasets
 file_path = '../input_files/'
@@ -43,30 +43,60 @@ def missing_targets_cmu(cmu_dict, target_words):
     for word in target_words:
         if word not in all_words:
             missing_words.add(word)
+    missing_words = list(missing_words)
+
+    with open('../g2p_files/cmu_missing_targets.txt', 'w') as missing_words_file:
+        for word in missing_words:
+            missing_words_file.write(word)
+            missing_words_file.write("\n")
 
 
-def missing_targets_sym(symspell_dict, target_words):
-    missing_words = set()
-    with open(symspell_dict, 'r') as f:
+def missing_targets_sym(symspell_words, target_words):
+
+    with open(symspell_words, 'r') as f:
         lines = f.read().splitlines()
+        sym_spell_all = []
+        missing_words = set()
         for line in lines:
-            current_word = line.split()[0]
-            if current_word not in target_words:
-                missing_words.add(current_word)
+            current_word = line.split()[0].lower()
+            sym_spell_all.append((current_word))
+
+        for word in target_words:
+            if word not in sym_spell_all:
+                missing_words.add(word)
+
+    missing_words = list(missing_words)
+    with open('../spelling_mistakes/symspell_missing_targets.txt', 'w') as sym_missing:
+        for word in missing_words:
+            new_line = word + ' 1' + '\n'
+            sym_missing.write(new_line)
 
 
 def missing_targets_aspell(target_words):
-    s = aspell.Speller('lang', 'en')
+    s = ap.Speller('lang', 'en')
     missing_words = set()
     for word in target_words:
         if s.check(word) == False:
             missing_words.add(word)
+    missing_words = list(missing_words)
+
+    with open('../spelling_mistakes/aspell_missing_targets.txt', 'w') as aspell_misspelling:
+        for word in missing_words:
+            new_line = word + '\n'
+            aspell_misspelling.write(new_line)
 
 
 def missing_targets_pyspell(target_words):
     spell = SpellChecker()
     misspelled = spell.unknown(target_words)
 
+    with open('../spelling_mistakes/pyspell_missing_targets.txt', 'w') as pyspell_misspelling:
+        for word in misspelled:
+            new_line = word + '\n'
+            pyspell_misspelling.write(new_line)
 
 
-
+missing_targets_cmu(cmu_dict, target_words)
+missing_targets_sym(symspell_words, target_words)
+missing_targets_aspell(target_words)
+missing_targets_pyspell(target_words)
