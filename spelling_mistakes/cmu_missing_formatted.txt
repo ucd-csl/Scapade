@@ -1,0 +1,396 @@
+transportability,T R AE N S P AO R T AH B IH L IH T IY,1
+archeologist,AA R K IY AA L AH JH IH S T,1
+analysed,AE N AH L AY Z D,1
+dependant,D IH P EH N D AH N T,1
+primitively,P R IH M AH T IH V L IY,1
+asynchronously,EY S IH NG K R AH N AH S L IY,1
+sepulcher,S EH P AH L CH ER,1
+taxonomy,T AE K S AO N AH M IY,1
+diphthongs,D IH F TH AO NG Z,1
+unsurprised,AH N S ER P R AY Z D,1
+tidying,T AY D IY IH NG,1
+chair-leg,CH EH R L EH G,1
+off-centre,AO F S EH N T ER,1
+levitates,L EH V IH T EY T S,1
+favourable,F EY V ER AH B AH L,1
+stick-insects,S T IH K IH N S EH K T S,1
+bossing,B AO S IH NG,1
+modelling,M AA D AH L IH NG,1
+ingratitude,IH NG G R AE T IH T UW D,1
+lunch-hour,L AH N CH AW R,1
+singsong,S IH NG S AO NG,1
+dress-rehearsals,D R EH S R IH HH ER S AH L Z,1
+galatians,G AH L EY SH AH N Z,1
+harrassed,HH ER AE S T,1
+netflix,N EH T F L IH K S,1
+forenoon,F AO R N UW N,1
+form-mistress,F AO R M IH S T R AH S,1
+demeanour,D IH M IY N ER,1
+shepherdess,SH EH P ER D AH S,1
+connived,K AH N AY V D,1
+manufactories,M AE N Y AH F AE K T ER IY Z,1
+favourites,F EY V ER IH T S,1
+self-made,S EH L F M EY D,1
+a-quiver,AH K W IH V ER,1
+waggish,W AE G IH SH,1
+tarmacked,T AA R M AE K T,1
+unsymmetrical,AH N S AH M EH T R IH K AH L,1
+a,EY,1
+dinnertimes,D IH N ER T AY M Z,1
+councillors,K AW N S IH L ER Z,1
+telltaling,T EH L T EY L IH NG,1
+curly-haired,K ER L IY HH EH R D,1
+armature,AA R M AH CH ER,1
+to-day's,T UW D EY Z,1
+abattoir,AE B AH T W AA R,1
+customization,K AH S T AH M IH Z EY SH AH N,1
+tidied,T IH D IY D,1
+instagram,IH N S T EY G R AE M,1
+guinea-pigs,G W IY N IY P IH G Z,1
+brimful,B R IH M F AH L,1
+good-humoured,G UH D HH Y UW M ER D,1
+storeys,S T AO R IY Z,1
+serfdom,S ER F D AH M,1
+personalty,P ER S AH N AH L T IY,1
+semaphore,S EH M AH F AO R,1
+pyjama,P IH JH AA M AH,1
+well-off,W EH L AO F,1
+inter-schools,IH N T ER S K UW L Z,1
+hallo,HH AE L OW,1
+show-off,SH OW AO F,1
+housebreaking,HH AW S B R EY K IH NG,1
+prowls,P R AW L Z,1
+picnicking,P IH K N IH K IH NG,1
+bee-keepers,B IY K IY P ER Z,1
+lodgment,L AA JH M AH N T,1
+push-bicycle,P UH SH B IH S IH K AH L,1
+deckchair,D IH K CH EH R,1
+offence,AO F AH N S,1
+healthwise,HH EH L TH W AY Z,1
+victuals,V IH K CH UW AH L Z,1
+camp-bed,K AE M P B EH D,1
+tinned,T IH N D,1
+undecidable,AH N D EH S AH D AH B AH L,1
+nobbled,N AA B AH L D,1
+rounders,R AW N D ER Z,1
+nasty-tempered,N AE S T IY T EH M P ER D,1
+adders,AE D ER Z,1
+scruff,S K R AH F,1
+self-opinionated,S EH L F AH P IH N Y AH N EY T IH D,1
+jobcentre,JH AA B S EH N T ER,1
+butlins,B AH T L IH N Z,1
+brainier,B R EY N IH R,1
+villein,V IH L AY N,1
+short-tempered,SH AO R T T T EH M P ER D,1
+awe-inspiring,AA S AH N S P AY R IH NG,1
+manoeuvres,M AE N OW V R IY Z,1
+dunstan's,D AH N S T AH N Z,1
+eyas,EY AH S,1
+analyse,AE N AH L AY S,1
+thermawear,TH ER M AH W EH R,1
+pickpocketing,P IH K P AA K AH T IH NG,1
+free-going,F R IY G OW IH NG,1
+heart-rending,HH AA R T R EH N D IH NG,1
+structuralization,S T R AH K CH ER AH L IH Z EY SH AH N,1
+criticise,K R IH T IH S AY S,1
+modelled,M AA D AH L D,1
+pernickety,P ER N IH K AH T IY,1
+miring,M AY R IH NG,1
+ready-made,R IY D IY M EY D,1
+playing-field,P L EY IH NG F IY L D,1
+choirboy,CH OY R B OY,1
+druggies,D R AH G IY Z,1
+inclose,IH N K L OW Z,1
+jack-knife,JH AE K N AY F,1
+godforsaken,G AA D F ER S AH K AH N,1
+catarrh,K AE T ER,1
+misfiring,M IH S F AY ER IH NG,1
+washerwoman,W AA SH ER W UH M AH N,1
+in-between,IH N B IH T W IY N,1
+cyberbullying,S AY B ER B AH L IY IH NG,1
+pronominal,P R AH N AA M AH N AH L,1
+millinery,M IH L IH N ER IY,1
+toroidal,T ER OY D AH L,1
+semi-skilled,S EH M IY S K IH L D,1
+cartographer,K AA R T AH G R AE F ER,1
+classroom's,K L AE S R UW M Z,1
+frescos,F R EH S K OW Z,1
+durex,D UH R AH K S,1
+valletta,V AA L EH T AH,1
+incorruptible,IH N K ER AH P T IH B AH L,1
+philology,F AH L AA L AH JH IY,1
+fraternally,F R AH T ER N AH L IY,1
+colours,K AH L ER Z,1
+monkey-puzzle,M AH NG K IY P AH Z AH L,1
+ill-behaved,IH L B IY HH EY V D,1
+sackfuls,S AE K F AH L Z,1
+prefixes,P R IY F IH K S IH Z,1
+blue-covered,B L UW K AH V ER D,1
+criticises,K R IH T IH S AY Z IH Z,1
+bellringing,B EH L R IH NG IH NG,1
+pseudonymous,S UW D AA N AH M AH S,1
+unbeliever,AH N B AH L IY V ER,1
+primaeval,P R AY M EY V AH L,1
+buffaloes,B AH F AH L OW Z,1
+tape-recorded,T EY P R IY K AO R D IH D,1
+ides,AY D Z,1
+genii,JH EH N IY IY,1
+agriculturist,AE G R IH K AH L CH ER AH S T,1
+tennis-ball,T EH N IH S B AO L,1
+vinaigrette,V IH N AH G R EH T,1
+presbytery,P R EH S B IH T ER IY,1
+phials,F AY AH L Z,1
+afore-mentioned,AH F AO R M EH N SH AH N D,1
+big-head,B IH G HH EH D,1
+sidecar,S AY D K AA R,1
+meths-powered,M EH TH S P AW ER D,1
+dracula's,D R AE K Y UW L AH Z,1
+trial-run,T R AY AH L R AH N,1
+ex-policewoman,EH K S P AH L IY S W UH M AH N,1
+model-making,M OW D AH L M EY K IH NG,1
+archived,AA R K AY V D,1
+hammarskjold,HH AE M ER S K Y OW L D,1
+asymmetric,EY S AH M EH T R IH K,1
+good-natured,G UH D N EY CH ER D,1
+overage,OW V ER IH JH,1
+well-built,W EH L B IH L T,1
+semi-permanently,S EH M IY P ER M AH N AH N T L IY,1
+dinner-hour,D IH N ER AW R,1
+practising,P R AE K T IH S IH NG,1
+chirped,CH ER P T,1
+frogmen's,F R AA G M EH N Z,1
+taxonomic,T AE K S AH N AA M IH K,1
+analysing,AE N AH L AY Z IH NG,1
+jumble-sale,JH AH M B AH L S EY L,1
+heart-throb,HH AA R T TH R AA B,1
+skilfully,S K IH L F AH L IY,1
+liaise,L IY EY Z,1
+tourers,T UH R ER Z,1
+unhygienic,AH N HH AY JH IY EH N IH K,1
+noughts,N AO T S,1
+repartition,R IY P AA R T IH SH AH N,1
+disaggregate,D IH S AE G R AH G EY T,1
+hydrophobic,HH AY D R AH F OW B IH K,1
+stammered,S T AE M ER D,1
+enumerable,IH N UW M ER AH B AH L,1
+softy,S AO F T IY,1
+manoeuvrable,M AE N OW V R AH B AH L,1
+manoeuvrability,M AE N OW V R AH B IH L IH T IY,1
+acclimatization,AE K L AH M AH T AH Z EY SH AH N,1
+rampantly,R AE M P AH N T L IY,1
+centre-half,S EH N T ER HH AE F,1
+manoeuvre,M AE N UW V R AH,1
+boomerangs,B UW M ER AE NG Z,1
+apprehensively,AE P R IH HH EH N S IH V L IY,1
+southwold,S AW TH W OW L D,1
+rsx,AA R EH S,1
+verruca,V ER UW K AH,1
+evil-looking,EH V AH L UH K IH NG,1
+gramophone,G R AE M AH F OW N,1
+cordoning,K AO R D AH N IH NG,1
+waggon,W AE G AH N,1
+gaoler's,G EY OW L ER Z,1
+disappointedly,D IH S AH P OY N T IH D L IY,1
+incunabula,IH NG K Y UW N AH B Y AH L AH,1
+ceremonious,S EH R AH M OW N IY AH S,1
+connectives,K AH N EH K T IH V Z,1
+motor-cruiser,M OW T ER K R UW Z ER,1
+ogling,OW G L IH NG,1
+spermatozoa,S P ER M AE T AH Z OW AH,1
+schooldays,S K UW L D EY Z,1
+form-room,F AO R M R UW M,1
+fun-loving,F AH N L AH V IH NG,1
+gristly,G R IH S T L IY,1
+satyr,S AE T ER,1
+team-games,T IY M G EY M Z,1
+prayer-book,P R EY ER B UH K,1
+maypole,M EY P OW L,1
+pencilled,P EH N S IH L D,1
+bad-tempered,B AE D T EH M P ER D,1
+decidable,D IH S AY D AH B AH L,1
+woollens,W UH L AH N Z,1
+well-suited,W EH L S UW T IH D,1
+dinner-hours,D IH N ER HH AW ER Z,1
+prefects,P R IY F EH K T S,1
+camphor,K AE M F ER,1
+loneliest,L OW N L IY AH S T,1
+playtimes,P L EY T AY M Z,1
+anointing,AH N OY N T IH NG,1
+serval,S ER V AH L,1
+misdemeanour,M IH S D AH M IY N ER,1
+elbow-grease,EH L B OW G R IY S,1
+hide-out,HH AY D AW T,1
+sub-prefect,S AH B P R IH F EH K T,1
+criticised,K R IH T IH S AY Z D,1
+pigs',P IH G Z,1
+orignal,ER IH G N AH L,1
+all-round,AO L R AW N D,1
+tremolo,T R EH M OW L OW,1
+commonest,K AA M AH N AH S T,1
+prolegomena,P R OW L EH G AH M IY N AH,1
+prefixed,P R IY F IH K S T,1
+trouble-causer,T R AH B AH L K AW Z ER,1
+pollinator,P AA L AH N EY T ER,1
+sandpit,S AE N D P IH T,1
+room-mate,R UW M EY T,1
+horn-rimmed,HH AO R N R IH M D,1
+obbligato,AA B L IH G AA T OW,1
+backchatting,B AE K CH AE T IH NG,1
+unencompassable,AH N EH N K AH M P AH S AH B AH L,1
+monitresses,M AA N IY T R EH S IH Z,1
+clean-smelling,K L IY N Z M EH L IH NG,1
+metallurgic,M EH T AH L ER JH IH K,1
+defenceless,D IH F EH N S L AH S,1
+golliwogs,G AA L IH W AO G Z,1
+kapok,K EY P AA K,1
+interbreed,IH N T ER B R IY D,1
+nest-boxes,N EH S T B AA K S IH Z,1
+cabbage-looking,K AE B IH JH L UH K IH NG,1
+tracksuit,T R AE K S UW T,1
+nuzzled,N AH Z AH L D,1
+high-ranking,HH AY R AE NG K IH NG,1
+bandaging,B AE N D IH JH IH NG,1
+propagates,P R AA P AH G EY T S,1
+unequalled,AH N IY K W AO L D,1
+eleven-plus,EH L AH V AH N P L AH S,1
+semicolon,S EH M IH K AH L AA N,1
+blackcurrants,B L AE K K ER AH N T S,1
+autobiographic,AO T AH B AY AH G R AE F IH K,1
+church-operated,CH ER CH OW P ER EY T IH D,1
+genealogies,JH IY N IY AA L AH JH IY Z,1
+playing-fields,P L EY IH NG F IY L D Z,1
+summerhouse,S AH M ER HH AW S,1
+trouble-maker,T R AH B AH L M EY K ER,1
+xylophones,Z AY L AH F OW N Z,1
+all-boys,AO L B OY Z,1
+maths,M AE TH S,1
+expels,IH K S P EH L Z,1
+battle-axe,B AE T AH L AE K S,1
+headmaster's,HH EH D M AE S T ER Z,1
+colourful,K AH L ER F AH L,1
+spermatozoon,S P ER M AH T AH Z UW N,1
+jamjar,JH AE M Y AA R,1
+criticising,K R IH T IH S AY Z IH NG,1
+tape-recorder,T EY P R IY K AO R D ER,1
+headmistress's,HH EH D M IH S T R AH S IH Z,1
+over-protecting,OW V ER P R AH T EH K T IH NG,1
+trafficked,T R AE F IH K T,1
+quick-tempered,K W IH K T EH M P ER D,1
+vigour,V IH G ER,1
+well-paid,W EH L P EY D,1
+netball,N EH T B AO L,1
+easels,IY Z AH L Z,1
+scatty,S K AE T IY,1
+sick-room,S IH K R UW M,1
+spirituous,S P IH R IH CH UW AH S,1
+knobbly,N AA B L IY,1
+let-down,L EH T D AW N,1
+corridored,K AO R AH D AO R D,1
+untidiness,AH N T IH D IY N AH S,1
+good-tempered,G UH D T EH M P ER D,1
+apennines,AE P AH N IY N Z,1
+hymn-books,HH IH M B UH K S,1
+earwigs,IH R W IH G Z,1
+team-mates,T IY M EY T S,1
+windowsill,W IH N D OW S IH L,1
+curly-headed,K ER L IY HH EH D IH D,1
+fetes,F IY T S,1
+motorway,M OW T ER W EY,1
+equalled,IH K W AO L D,1
+plimsolls,P L IH M S AO L Z,1
+double-cross,D AH B AH L K R AO S,1
+programmes,P R OW G R AE M Z,1
+ripper's,R IH P ER Z,1
+fulfilment,F UH L F IH L M AH N T,1
+fountain-pens,F AW N T AH N P EH N Z,1
+aeroplane,EH R OW P L EY N,1
+two-faced,T UW F EY S T,1
+mucked,M AH K T,1
+sclera,S K L EH R AH,1
+omnivorously,AA M N IH V ER AH S L IY,1
+councillor,K AW N S IH L ER,1
+tea-maker,T IY M EY K ER,1
+tuck-shop,T AH K SH AA P,1
+dunce,D AH N S,1
+fulfil,F UH L F IH L,1
+phial,F AY AH L,1
+serviette,S ER V IY EH T,1
+grammatically,G R AH M AE T IH K L IY,1
+favoured,F EY V ER D,1
+rigour,R IH G ER,1
+despatched,D IH S P AE CH T,1
+dining-room,D AY N IH NG R UW M,1
+apologetics,AH P AA L AH JH EH T IH K S,1
+big-headed,B IH G HH EH D IH D,1
+encapsulation,EH N K AE P S AH L EY SH AH N,1
+walkie-talkie,W AO K IY T AO K IY,1
+burin,B EH R IH N,1
+substructures,S AH B S T R AH K CH ER Z,1
+colouration,K AH L ER EY SH AH N,1
+sepulchre,S EH P AH L K ER,1
+polishers,P AA L IH SH ER Z,1
+crikey,K R AY K IY,1
+quarrelled,K W AO R AH L D,1
+diagrammatically,D AY AH G R AH M AE T IH K L IY,1
+table-tennis,T EY B AH L T EH N IH S,1
+symmetric,S AH M EH T R IH K,1
+pekinese,P EH K IY N IY Z,1
+favourably,F EY V ER AH B L IY,1
+unfavourites,AH N F EY V ER AY T S,1
+enamoured,IH N AE M ER D,1
+aggro,AE G R OW,1
+bleat,B L IY T,1
+unequipped,AH N IY K W IH P T,1
+sidereal,S AY D ER IY L,1
+tobogganing,T AH B AA G AH N IH NG,1
+usurious,Y UW ZH AH S,1
+sagacious,S AH G EY SH AH S,1
+catiline,K AE T AH L IY N,1
+cream-coloured,K R IY M K AH L ER D,1
+bechuanaland,B EH K W AA N AA L AE N D,1
+frogspawn,F R AA G S P AO N,1
+layby,L EY B IY,1
+unravelled,AH N R AE V AH L D,1
+counselling,K AW N S L IH NG,1
+jackdaw,JH AE K D AO,1
+iterate,IH T ER EY T,1
+paralysed,P EH R AH L AY Z D,1
+mediaeval,M IY D IY AH V AH L,1
+cloakrooms,K L OW K R UW M Z,1
+flagrancy,F L EY G R AH N S IY,1
+anoints,AH N OY N T S,1
+filthiness,F IH L TH IY N AH S,1
+primitives,P R IH M AH T IH V Z,1
+water-rat,W AO T ER R AE T,1
+handwork,HH AE N D W ER K,1
+coach-load,K OW CH L OW D,1
+unconnect,AH N K AH N EH K T,1
+breadcrumbs,B R EH D K R AH M Z,1
+pyrenean,P IH R AH N IY AH N,1
+nice-looking,N AY S L UH K IH NG,1
+ninetyninth,N AY N T AY N IH N TH,1
+specialised,S P EH SH AH L AY Z D,1
+daren't,D EH R AH N T,1
+grippe,G R IH P,1
+millipede,M IH L AH P IY D,1
+break-times,B R EY K T AY M Z,1
+factorization,F AE K T ER AH Z EY SH AH N,1
+swimming-pool,S W IH M IH NG P UW L,1
+runners-up,R AH N ER Z AH P,1
+promontory,P R OW M AH N T AO R IY,1
+watercolours,W AO T ER K AH L ER Z,1
+playtime,P L EY T AY M,1
+loud-mouth,L AW D M AW TH,1
+assassinates,AH S AE S AH N EY T S,1
+colloquialism,K AH L OW K W IY AH L IH Z AH M,1
+thoughtlessly,TH AO T L AH S L IY,1
+offences,AO F AH N S IH Z,1
+misdemeanours,M IH S D AH M IY N ER Z,1
+archeologists,AA R K IY AA L AH JH IH S T S,1
+mizzen,M IH Z AH N,1
+vaginas,V AH JH AY N AH Z,1
+badcock's,B AE D K AA K S,1
+crapped,K R AE P T,1
+resistible,R IH Z IH S T AH B AH L,1
+subtracts,S AH B T R AE K T S,1
+transmissible,T R AE N S M IH S AH B AH L,1
