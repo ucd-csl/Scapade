@@ -96,7 +96,17 @@ def missing_targets_pyspell(target_words):
             pyspell_misspelling.write(new_line)
 
 
-missing_targets_cmu(cmu_dict, target_words)
-missing_targets_sym(symspell_words, target_words)
-missing_targets_aspell(target_words)
-missing_targets_pyspell(target_words)
+for key, value in datasets.items():
+    counter = 0
+    with open(datasets[key], 'r') as f:
+        lines = f.read().splitlines()
+        for line in lines:
+            if line[0] == '$' and '_' not in line:
+                counter += 1
+    print(key, counter)
+
+
+# missing_targets_cmu(cmu_dict, target_words)
+# missing_targets_sym(symspell_words, target_words)
+# missing_targets_aspell(target_words)
+# missing_targets_pyspell(target_words)
