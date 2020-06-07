@@ -166,12 +166,13 @@ class Levenshtein_Phoneme(AbstractDistanceComparer):
         **From**: https://github.com/softwx/SoftWx.Match
         """
         input_path_files = "../symspellpy_phonemes/"
-        file_name = 'acoustic_distributional_distance_matrix.csv'
+        # file_name = 'acoustic_distributional_distance_matrix.csv'
+        file_name = 'distance_matrix_spelling_correction.csv'
         input_file = Path(input_path_files) / file_name
         similarities = pd.read_csv(input_file, index_col=0)
 
         # cost of insertion/deletion
-        idc = 1
+        # idc = 1
 
         # compare two seqs of phon
         def compare(string1, string2):
@@ -191,13 +192,13 @@ class Levenshtein_Phoneme(AbstractDistanceComparer):
                             d[0][0] = 0
                             e[0][j] = (0, 0, 0)
                         else:
-                            d[i][j] = d[i][j - 1] + idc
+                            d[i][j] = d[i][j - 1] + score(" ", h[j-1])
                             e[0][j] = (0, 0, 1)
                     elif j == 0:
                         if i == 0:
                             e[i][0] = (0, 0, 0)
                         else:
-                            d[i][j] = d[i - 1][j] + idc
+                            d[i][j] = d[i - 1][j] + score(r[i-1]," ")
                             e[i][0] = (1, 0, 0)
 
             for i in range(1, len(r) + 1):
@@ -209,11 +210,11 @@ class Levenshtein_Phoneme(AbstractDistanceComparer):
                         # some random extra stuff in here that doesn't get used - could clean up but works as is
                         sub = ((d[i - 1][j - 1] + (score(r[i - 1], h[j - 1]))),
                                (str(e[i - 1][j - 1]) + 'substitution ' + str(j - 1) + ', '))
-                        dell = (d[i - 1][j] + idc, (str(e[i][j - 1]) + 'deletion ' + str(j - 1) + ' ,'))
+                        dell = (d[i - 1][j] + score(r[i-1]," "), (str(e[i][j - 1]) + 'deletion ' + str(j - 1) + ' ,'))
                         if j >= len(h):
-                            ins = (d[i][j - 1] + idc, (str(e[i - 1][j]) + 'insertion ' + str(j) + ' ,'))
+                            ins = (d[i][j - 1] + score(" ", h[j-1]), (str(e[i - 1][j]) + 'insertion ' + str(j) + ' ,'))
                         else:
-                            ins = (d[i][j - 1] + idc, (str(e[i - 1][j]) + 'insertion ' + str(j) + ' ,'))
+                            ins = (d[i][j - 1] + score(" ", h[j-1]), (str(e[i - 1][j]) + 'insertion ' + str(j) + ' ,'))
                         d[i][j] = min(sub, ins, dell)[0]
                         e[i][j] = (dell[0] == d[i][j], sub[0] == d[i][j], ins[0] == d[i][j]) * 1
                         # d = table of actual scores
