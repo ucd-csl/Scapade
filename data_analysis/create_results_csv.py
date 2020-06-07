@@ -4,12 +4,13 @@ import pickle
 complete_corrections_path = "../input_files/spelling_correction_dicts/"
 output_path = "../data_analysis/results/"
 dataset_names = ['holbrook', 'birkbeck', 'zeeko', 'aspell', 'wiki']
+dataset_names = ['aspell']
 complete_results = {}
 output_paths = {}
 
 for dataset in dataset_names:
     complete_results[dataset] = complete_corrections_path + dataset + '_phonemes_sym.txt'
-    output_paths[dataset] = output_path + dataset + "/symspell_cmu_phonemes/" + "all_cmu_corrections.csv"
+    output_paths[dataset] = output_path + dataset + "/all_phoneme_corrections.csv"
 
 
 def load_results(file_path):

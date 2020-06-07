@@ -88,7 +88,7 @@ class SymSpell(object):
     N = 1024908267229
     bigram_count_min = sys.maxsize
     def __init__(self, max_dictionary_edit_distance=2, prefix_length=7,
-                 count_threshold=1):
+                 count_threshold=0):
         if max_dictionary_edit_distance < 0:
             raise ValueError("max_dictionary_edit_distance cannot be "
                              "negative")

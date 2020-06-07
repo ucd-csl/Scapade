@@ -8,7 +8,6 @@ from spellchecker import SpellChecker
 from symspellpy_words import SymSpell, Verbosity
 import aspell
 
-
 input_path_files = "../input_files/"
 output_path_files = "../input_files/spelling_correction_dicts"
 
@@ -27,7 +26,7 @@ def create_sym_object():
     :return: sym_spell
     """
 
-    sym_spell = SymSpell(max_dictionary_edit_distance=3, prefix_length=15)
+    sym_spell = SymSpell(max_dictionary_edit_distance=2, prefix_length=15)
     dictionary_path = pkg_resources.resource_filename("symspellpy_words", "frequency_dictionary_en_82_765.txt")
     sym_spell.load_dictionary(dictionary_path, term_index=0, count_index=1)
 
@@ -53,7 +52,7 @@ def create_default_dict(file_path):
                 continue
             if correct_spelling != 'skip':
                 misspelling = line.lower()
-                dictionary_template[misspelling] = {'correct_spelling':correct_spelling}
+                dictionary_template[misspelling] = {'correct_spelling': correct_spelling}
 
     return dictionary_template
 
@@ -126,6 +125,10 @@ def pyspell_dict(input_dict, name):
     """
     file_name = name + "_pyspell_dict.txt"
     spell = SpellChecker()
+    target_words = pickle.load(open('../spelling_mistakes/target_words_all.txt', 'rb'))
+    misspelled = spell.unknown(target_words)
+    spell.word_frequency.load_words(misspelled)
+
     working_dict = dict(input_dict)
     counter = 0
     for misspelling, details in working_dict.items():
@@ -202,8 +205,8 @@ def symspell_phonemes(verbosity_level, dataset):
     SymSpell = symspellpy.SymSpell
     Verbosity = symspellpy.Verbosity
 
-    sym_spell = SymSpell(max_dictionary_edit_distance=3, prefix_length=15)
-    dictionary_path = pkg_resources.resource_filename("symspellpy_phonemes", "cmu_frequency.csv")
+    sym_spell = SymSpell(max_dictionary_edit_distance=2, prefix_length=15)
+    dictionary_path = pkg_resources.resource_filename("symspellpy_phonemes", "cmu_frequency_added.csv")
     sym_spell.load_dictionary(dictionary_path, term_index=1, count_index=2)
 
     input_path_files = "../input_files/spelling_correction_dicts"
@@ -211,14 +214,14 @@ def symspell_phonemes(verbosity_level, dataset):
     phonemes_dict = Path(input_path_files) / dataset
     phonemes_dict = pickle.load(open(phonemes_dict, "rb"))
 
-    input_path_csv = Path("../input_files/") / "cmu_frequency.csv"
+    input_path_csv = Path("../input_files/") / "cmu_frequency_added.csv"
     df = pd.read_csv(input_path_csv, names=['word', 'seq', 'count'])
     counter = 0
+
     for key in phonemes_dict.keys():
         if counter % 10 == 0:
             print('Iteration number:', counter)
         input_term = phonemes_dict[key]['phoneme_rep']
-
         if verbosity_level == 'TOP':
             suggestions = sym_spell.lookup(input_term, Verbosity.TOP)
         elif verbosity_level == 'CLOSEST':
@@ -231,8 +234,9 @@ def symspell_phonemes(verbosity_level, dataset):
             if len(phonemes_dict[key]['candidates']) >= 10:
                 break
             current_seq = str(suggestion).split(',')[0]
+
             df_slice = df[df['seq'] == current_seq].sort_values(by=['count'], ascending=False)
-            if phonemes_dict[key]['suggested'] == '' and df_slice.iloc[0]['count'] > 1:
+            if phonemes_dict[key]['suggested'] == '' and df_slice.iloc[0]['count'] >= 1:
                 phonemes_dict[key]['suggested'] = df_slice.iloc[0]['word']
                 phonemes_dict[key]['suggested_phoneme'] = str(suggestion).split(',')[0]
                 print(phonemes_dict[key]['correct_spelling'],phonemes_dict[key]['suggested'])
@@ -271,25 +275,26 @@ def process_given_dataset(path_misspellings, dataset_name, sym_spell):
     name_phonemes_sym = dataset_name + "_phonemes_sym.txt"
 
     template = create_default_dict(path_misspellings)
-    pyspell = pyspell_dict(template, dataset_name)
-    pickle_output(pyspell[0], pyspell[1])
+    # pyspell = pyspell_dict(template, dataset_name)
+    # pickle_output(pyspell[0], pyspell[1])
     pickle_output(template, name_template_dict)
-    aspell_create = aspell_dict(template, dataset_name)
-    pickle_output(aspell_create[0], name_aspell_dict)
-    g2p_word_list(template, name_word_list)
-    g2p_phoneme_list(dataset_name)
-    sym = symspell_word_dict(dataset_name, sym_spell)
-    pickle_output(sym, name_symspell_dict)
+    # aspell_create = aspell_dict(template, dataset_name)
+    # pickle_output(aspell_create[0], name_aspell_dict)
+    # g2p_word_list(template, name_word_list)
+    # g2p_phoneme_list(dataset_name)
+    # sym = symspell_word_dict(dataset_name, sym_spell)
+    # pickle_output(sym, name_symspell_dict)
     phonemes = add_phonemes(template, dataset_name)
     pickle_output(phonemes, name_phonenems_dict)
-    phonemes_sym = symspell_phonemes('TOP', dataset_name)
+    phonemes_sym = symspell_phonemes('ALL', dataset_name)
     pickle_output(phonemes_sym, name_phonemes_sym)
 
 
 def main():
     """Calls required functions in order, across all datasets"""
     sym_spell = create_sym_object()
-    data_to_process = ['birkbeck', 'holbrook', 'zeeko', 'aspell', 'wiki']
+    # data_to_process = ['birkbeck', 'holbrook', 'zeeko', 'aspell', 'wiki']
+    data_to_process = ['zeeko']
     for dataset in data_to_process:
         process_given_dataset(dataset_paths[dataset], dataset, sym_spell)
 
