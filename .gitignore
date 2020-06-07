@@ -15,3 +15,7 @@ data_structure_test.ipynb
 .DS_Store
 .idea
 __pycache__/
+
+# Ignore other packages
+aspell-python-master
+g2p-seq2seq-master
