@@ -275,15 +275,15 @@ def process_given_dataset(path_misspellings, dataset_name, sym_spell):
     name_phonemes_sym = dataset_name + "_phonemes_sym.txt"
 
     template = create_default_dict(path_misspellings)
-    # pyspell = pyspell_dict(template, dataset_name)
-    # pickle_output(pyspell[0], pyspell[1])
+    pyspell = pyspell_dict(template, dataset_name)
+    pickle_output(pyspell[0], pyspell[1])
     pickle_output(template, name_template_dict)
-    # aspell_create = aspell_dict(template, dataset_name)
-    # pickle_output(aspell_create[0], name_aspell_dict)
-    # g2p_word_list(template, name_word_list)
-    # g2p_phoneme_list(dataset_name)
-    # sym = symspell_word_dict(dataset_name, sym_spell)
-    # pickle_output(sym, name_symspell_dict)
+    aspell_create = aspell_dict(template, dataset_name)
+    pickle_output(aspell_create[0], name_aspell_dict)
+    g2p_word_list(template, name_word_list)
+    g2p_phoneme_list(dataset_name)
+    sym = symspell_word_dict(dataset_name, sym_spell)
+    pickle_output(sym, name_symspell_dict)
     phonemes = add_phonemes(template, dataset_name)
     pickle_output(phonemes, name_phonenems_dict)
     phonemes_sym = symspell_phonemes('ALL', dataset_name)
@@ -293,8 +293,7 @@ def process_given_dataset(path_misspellings, dataset_name, sym_spell):
 def main():
     """Calls required functions in order, across all datasets"""
     sym_spell = create_sym_object()
-    # data_to_process = ['birkbeck', 'holbrook', 'zeeko', 'aspell', 'wiki']
-    data_to_process = ['zeeko']
+    data_to_process = ['birkbeck', 'holbrook', 'zeeko', 'aspell', 'wiki']
     for dataset in data_to_process:
         process_given_dataset(dataset_paths[dataset], dataset, sym_spell)
 
