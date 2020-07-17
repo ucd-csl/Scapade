@@ -259,6 +259,8 @@ def scapade_all_attempts():
             else:
                 input_dict[key]['in_candidates'] = 0
 
+            # add statement to account for correct or in candidates
+
         return input_dict
 
     def create_df_output(input_dict):
