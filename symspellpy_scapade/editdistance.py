@@ -163,11 +163,10 @@ class Levenshtein_Phoneme(AbstractDistanceComparer):
         """Implementation of acoustic similarity distance
         Original author: Emma O'Neill - emma.l.oneill@ucdconnect.ie
         """
-        input_path_files = "/"
+        input_path_files = "../symspellpy_scapade"
         file_name = 'distance_matrix_spelling_correction.csv'
         input_file = Path(input_path_files) / file_name
         similarities = pd.read_csv(input_file, index_col=0)
-
         # compare two seqs of phon
         def compare(string1, string2):
             r = string1
