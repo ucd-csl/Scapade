@@ -4,7 +4,7 @@
 
 1. [Introduction](#introduction) <br/>
 2. [Methodology](#methodology) <br/>
-    2.1 [How the Phoneme Sequence Spelling Corrector Works](#how_works) <br/>
+    2.1 [How S-capade Works](#how_works) <br/>
     2.2 [Tools](#tools) <br/>
     2.3 [Datasets of Misspellings](#misspellings) <br/>
     2.4 [Preprocessing](#preprocessing) <br/>
@@ -37,7 +37,7 @@ This initial study focuses purely on the correction of individual misspellings. 
 
 ## 2.0 - Methodology <a name="methodology"><a/>
 
-### 2.1 - How the Phoneme Sequence Spelling Corrector Works <a name="how_works"><a/>
+### 2.1 - How S-capade Works <a name="how_works"><a/>
 
 1. Misspellings are gathered as a word list which is passed to the [CMU Sequence-to-Sequence G2P toolkit](https://github.com/cmusphinx/g2p-seq2seq) for conversion into phoneme sequences.
 2. The resulting list of phonemes is structured into a Python dictionary for the dataset and method for easy access, lookup and corrections. 
@@ -48,7 +48,7 @@ This initial study focuses purely on the correction of individual misspellings. 
 
 ### 2.2 - Tools <a name="tools"><a/>
 
-For comparison with the phoneme sequence spelling corrector, three spell checker tools were used. These are:
+For comparison with the S-capade sequence spelling corrector, three spell checker tools were used. These are:
 
 * [PySpellChecker](https://pypi.org/project/pyspellchecker/) - an implementation of [Peter Norvig's](https://norvig.com/spell-correct.html) spelling corrector.
 * [SymSpell](https://github.com/wolfgarbe/SymSpell) - a symmetric delete spell checker built for speed.
@@ -96,14 +96,14 @@ A presentation of the current results for all the datasets and methods may be se
 
 All accuracy and overlap results for each dataset using each of the four methods (SymSpell, PySpellChecker, Aspell and the Phoneme sequence) can be seen in the Jupyter Notebook [results_spelling_correction_overlap_and_scores.ipynb](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results_spelling_correction_overlap_and_scores.ipynb)
 
-### 3.3 - Word Corrections Using Phoneme Method <a name="results_word_corrections"><a/>
+### 3.3 - Word Corrections Using S-capade Method <a name="results_word_corrections"><a/>
 
-A notebook linking to all of the word correction results for the phoneme method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.md](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/corrected_words.md).
+A notebook linking to all of the word correction results for the S-capade method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.md](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/corrected_words.md).
 
 To view the word corrections for each dataset and comparison method, navigate to the folder [results](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results). This is broken down by:
 
 * Dataset eg. Birkbeck, Aspell, Zeeko, Holbrook, Wikipedia.
-* Within each dataset is a sub-directory of the compared methods. For example, for the dataset birkbeck, comparing SymSpell against the Phonemes method you would go to [/results/birkbeck/symspell_cmu_phonemes/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results/birkbeck/symspell_cmu_phonemes). In here there are three csv file which show the words corrected by both methods, and the unique word corrections by one or other methods.
+* Within each dataset is a sub-directory of the compared methods. For example, for the dataset birkbeck, comparing SymSpell against the S-capade method you would go to [/results/birkbeck/symspell_cmu_phonemes/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results/birkbeck/symspell_cmu_phonemes). In here there are three csv file which show the words corrected by both methods, and the unique word corrections by one or other methods.
 
 ## 4.0 - Word List to Phoneme Sequence - G2P <a name="g2p_update"><a/>
 
@@ -140,7 +140,7 @@ extract misspellings and create the Zeeko dataset of misspellings.
 
 * ~~Re-run Birkbeck dataset with corrected implementation~~ - _Birkbeck dataset processed_.
 * ~~Improve speed performance of lookups (currently disabled as not working 100% as intended)~~ - _changed edit distance from 3 to 2._
-* Currently each benchmarked method (PySpell, SymSpell, Aspell, :Phoneme Method) all use their own custom dictionary. Creation and extension of a common lookup and generation dictionary is required to ensure all methods are using the same list of words.
+* Currently each benchmarked method (PySpell, SymSpell, Aspell, S-capade Method) all use their own custom dictionary. Creation and extension of a common lookup and generation dictionary is required to ensure all methods are using the same list of words.
 * ~~Requires comparison against a phonetic spell checker, such as Aspell.~~ - _Aspell comparison now implemented in results._
 
 ### 6. 2 Future Work <a name="future_work"><a/>
