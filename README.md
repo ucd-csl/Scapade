@@ -21,6 +21,7 @@
 6. [Known Issues and Future Work](#issues_and_future) <br/>
     6.1 [Known Issues](known_issues) <br/>
     6.2 [Future Work](future_work) <br/>
+7. [Requirements](#requirements) <br/>
 
 
 ## 1.0 - Introduction <a name="introduction"></a>
@@ -148,3 +149,11 @@ extract misspellings and create the Zeeko dataset of misspellings.
 * Explore re-training g2p tool on misspellings to see if it results in an improvement in predicting phonemic representations. Need to investigate data to use and how this impacts generalisation of the model.
 * Investigate distance measure decrease between predicted phoneme sequence and target phoneme sequence. For example: stopping will be predicted as "S T OW P IH NG", but the distance between OW and AA (correct phoneme) will be reduced. This could be done by tuning the matrix to the speaker accent, or may need a new matrix trained on possible pronunciation of letters.
 * Create unit testing suite. 
+
+## 7.0 Requirements
+
+Requirements can be installed using pip and the provided 'requirements.txt' file. For g2p-seq2seq to run correctly you will need to ensure the following:
+* Python version no greater than 3.7 (tensorflow legacy install required)
+* tensorflow == 1.15
+* tensor2tensor == 1.7
+* [g2p-seq2seq](https://github.com/cmusphinx/g2p-seq2seq)
