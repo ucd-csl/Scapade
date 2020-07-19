@@ -12,4 +12,4 @@ from .__version__ import (__title__, __description__, __version__,
 
 from . import editdistance
 from . import helpers
-from .symspellpy import SymSpell, Verbosity
+from .symspellscapade import SymSpell, Verbosity

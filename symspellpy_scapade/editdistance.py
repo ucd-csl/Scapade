@@ -7,9 +7,10 @@ from enum import Enum
 import numpy as np
 import pandas as pd
 from pathlib import Path
-
-
 import symspellpy_scapade.helpers as helpers
+import os
+
+ROOT_DIR = os.path.abspath(os.curdir)
 
 class DistanceAlgorithm(Enum):
     """Supported edit distance algorithms"""
@@ -163,7 +164,12 @@ class Levenshtein_Phoneme(AbstractDistanceComparer):
         """Implementation of acoustic similarity distance
         Original author: Emma O'Neill - emma.l.oneill@ucdconnect.ie
         """
-        input_path_files = "../symspellpy_scapade"
+        location = Path(ROOT_DIR)
+        if "text_processing" in str(location):
+            input_path_files = Path(ROOT_DIR) / "../symspellpy_scapade"
+        else:
+            input_path_files = Path(ROOT_DIR) / "symspellpy_scapade"
+
         file_name = 'distance_matrix_spelling_correction.csv'
         input_file = Path(input_path_files) / file_name
         similarities = pd.read_csv(input_file, index_col=0)
