@@ -34,6 +34,9 @@ We can see from the above that although the word difference by edit distance is 
 
 This initial study focuses purely on the correction of individual misspellings. It does not take into account the word context in a given sentence and does not cover other errors such as grammatical or malapropisms. 
 
+To view a simple example of S-capade working for phoneme representations of misspellings, please use the notebook [
+S-capade Single Phoneme Sequence Correction Demo](https://github.com/ucd-csl/Scapade/blob/master/S-capade%20Single%20Phoneme%20Sequence%20Correction%20Demo.ipynb).
+
 ## 2.0 - Methodology <a name="methodology"><a/>
 
 ### 2.1 - How S-capade Works <a name="how_works"><a/>
