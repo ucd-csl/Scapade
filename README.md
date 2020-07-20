@@ -80,7 +80,7 @@ Data provided by [Zeeko](https://zeeko.ie), a bullying education company in Nova
 
 ### 2.4 - Preprocessing <a name="preprocessing"><a/>
 
-The scripts to pre-processing the input data found in [/text_processing/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/text_processing) are as follows:
+The scripts to pre-processing the input data found in [/text_processing/](https://github.com/ucd-csl/Scapade/tree/master/text_processing) are as follows:
 
 * [dataset_processing.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/dataset_processing.py) - Preprocesses each dataset creating the required word list for g2p and corresponding dictionary objects for each spelling tool to use as input and output.
 * [cmu_preprocess.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/cmu_preprocess.py) - Updates the CMU dictionary to contain frequencies for each word from the SymSpell word dictionary.
