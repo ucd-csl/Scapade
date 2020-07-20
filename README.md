@@ -93,7 +93,7 @@ The scripts to pre-processing the input data found in [/text_processing/](https:
 
 ### 3.1 - Scores and Overlap Results Notebook <a name="results_scores_overlap"><a/>
 
-All accuracy and overlap results for each dataset using each of the four methods (SymSpell, PySpellChecker, Aspell and the Phoneme sequence) can be seen in the Jupyter Notebook [results_spelling_correction_overlap_and_scores.ipynb](https://github.com/ucd-csl/Scapade/blob/master/data_analysis/Results.ipynb)
+All accuracy and overlap results for each dataset using each of the four methods (SymSpell, PySpellChecker, Aspell and the Phoneme sequence) can be seen in the Jupyter Notebook [Results.ipynb](https://github.com/ucd-csl/Scapade/blob/master/data_analysis/Results.ipynb)
 
 ### 3.2 - Word Corrections Using S-capade Method <a name="results_word_corrections"><a/>
 
