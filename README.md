@@ -16,6 +16,7 @@
     5.1 [input_files/](#input_files) <br/>
     5.2 [input_files/spelling_correction_dicts/](#spell_dicts) <br/>
     5.3 [g2p_files/](#g2p_files) <br/>
+    5.4 [symspellpy_scapade/](#symspell_scapade) <br/>
 6. [Known Issues and Future Work](#issues_and_future) <br/>
     6.1 [Known Issues](known_issues) <br/>
     6.2 [Future Work](future_work) <br/>
@@ -113,8 +114,6 @@ In the shell script [g2p_word_list.sh](https://github.com/ucd-csl/Scapade/tree/m
 
 All required input files for the scripts to operate are placed here. These include:
 * The text files of misspellings to be processed eg. [holbrook-missp.txt](https://github.com/ucd-csl/Scapade/blob/master/input_files/holbrook-missp.txt)
-* The acoustic distance matrix - [acoustic_distributional_distance_matrix.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/input_files/acoustic_distributional_distance_matrix.csv)
-* The CMU Pronunciation dictionary with word frequencies - [cmu_frequency.csv](https://github.com/ucd-csl/Scapade/blob/master/input_files/cmu_frequency.csv)
 
 ### 5.2 - [input_files/spelling_correction_dicts/](https://github.com/ucd-csl/Scapade/tree/master/input_files/spelling_correction_dicts) <a name="spell_dicts"><a/>
 
@@ -126,6 +125,13 @@ This contains the input and output for the g2p script which converts word lists 
 
 Example input word list - [aspell_word_list.txt](https://github.com/ucd-csl/Scapade/blob/master/g2p_files/aspell_word_list.txt)
 Example output word-phoneme list - [aspell_phonemes.txt](https://github.com/ucd-csl/Scapade/blob/master/g2p_files/aspell_phonemes.txt)
+
+### 5.4 - [symspellpy_scapade](https://github.com/ucd-csl/Scapade/tree/master/symspellpy_scapade) <a name="symspell_scapade"><a/>
+
+This folder contains the core code for S-capade. It uses an adapted version of SymSpell/SymSpellPy to generate the potential delete candidates (speed, to avoid doing exhaustive search look up). This means on average it's about 2-3 seconds per word look up and candidate list generation. Key files in here for the project to function:
+
+* The acoustic spelling distance matrix - [acoustic_distributional_distance_matrix.csv](https://github.com/ucd-csl/Scapade/blob/master/symspellpy_scapade/distance_matrix_spelling_correction.csv)
+* The CMU Pronunciation dictionary with word frequencies - [https://github.com/ucd-csl/Scapade/blob/master/symspellpy_scapade/cmu_frequency_added.csv](https://github.com/ucd-csl/Scapade/blob/master/symspellpy_scapade/cmu_frequency_added.csv)
 
 ## 6.0 Known Issues and Future Work <a name="issues_and_future"><a/>
 
