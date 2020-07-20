@@ -1,4 +1,4 @@
-# Phoneme Spell Checker Project
+# S-capade - Acoustic Similarity Spelling Correction 
 
 ## Table of Contents
 
