@@ -1,6 +1,6 @@
 # Ignore venv
 nlp/
-venv_phoneme/
+venv_scapade/
 
 # Ignore Elsa's files
 CMU_phonemes_similarity.ipynb
