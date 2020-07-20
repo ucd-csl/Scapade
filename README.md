@@ -9,15 +9,13 @@
     2.3 [Datasets of Misspellings](#misspellings) <br/>
     2.4 [Preprocessing](#preprocessing) <br/>
 3. [Results](#results) <br/>
-    3.1 [Results Presentation](#results_presentation)<br/>
-    3.2 [Scores and Overlap Results Notebook](#results_scores_overlap) <br/>
-    3.3 [Word Corrections Using Phoneme Method](#results_word_corrections) <br/>
+    3.1 [Scores and Overlap Results Notebook](#results_scores_overlap) <br/>
+    3.2 [Word Corrections Using Phoneme Method](#results_word_corrections) <br/>
 4. [Word List to Phoneme Sequence - G2P](#g2p_update) <br/>
 5. [Other Folder Information](#other_folders) <br/>
     5.1 [input_files/](#input_files) <br/>
     5.2 [input_files/spelling_correction_dicts/](#spell_dicts) <br/>
     5.3 [g2p_files/](#g2p_files) <br/>
-    5.4 [zeeko_surveys/](#zeeko_surveys) <br/>
 6. [Known Issues and Future Work](#issues_and_future) <br/>
     6.1 [Known Issues](known_issues) <br/>
     6.2 [Future Work](future_work) <br/>
@@ -82,58 +80,49 @@ Data provided by [Zeeko](https://zeeko.ie), a bullying education company in Nova
 
 The scripts to pre-processing the input data found in [/text_processing/](https://github.com/ucd-csl/Scapade/tree/master/text_processing) are as follows:
 
-* [dataset_processing.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/dataset_processing.py) - Preprocesses each dataset creating the required word list for g2p and corresponding dictionary objects for each spelling tool to use as input and output.
-* [cmu_preprocess.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/cmu_preprocess.py) - Updates the CMU dictionary to contain frequencies for each word from the SymSpell word dictionary.
-* [valid_word_process.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/valid_word_process.py) - Creates a list of valid words that the enchant dictionary does no recognised. Used to ensure only spelling mistakes are extracted from the Zeeko dataset, not valid but unrecognised words such as 'Snapchat'.
-* [/zeeko_survey_spelling_extraction.py](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/text_processing/zeeko_survey_spelling_extraction.py) - Extracts the spelling mistakes from all 15 Zeeko surveys.
+* [dataset_processing.py](https://github.com/ucd-csl/Scapade/blob/master/text_processing/cmu_preprocess.py) - Preprocesses each dataset creating the required word list for g2p and corresponding dictionary objects for each spelling tool to use as input and output.
+* [cmu_preprocess.py](https://github.com/ucd-csl/Scapade/blob/master/text_processing/cmu_preprocess.py) - Updates the CMU dictionary to contain frequencies for each word from the SymSpell word dictionary.
+* [valid_word_process.py](https://github.com/ucd-csl/Scapade/blob/master/text_processing/valid_word_process.py) - Creates a list of valid words that the enchant dictionary does no recognised. Used to ensure only spelling mistakes are extracted from the Zeeko dataset, not valid but unrecognised words such as 'Snapchat'.
+* [/zeeko_survey_spelling_extraction.py](https://github.com/ucd-csl/Scapade/blob/master/text_processing/zeeko_survey_spelling_extraction.py) - Extracts the spelling mistakes from all 15 Zeeko surveys.
 
 ## 3.0 - Results <a name="results"><a/>
 
-### 3.1 - Results Presentation <a name="results_presentation"><a/>
+### 3.1 - Scores and Overlap Results Notebook <a name="results_scores_overlap"><a/>
 
-A presentation of the current results for all the datasets and methods may be seen [here](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/Results%20-%20V2.pdf).
+All accuracy and overlap results for each dataset using each of the four methods (SymSpell, PySpellChecker, Aspell and the Phoneme sequence) can be seen in the Jupyter Notebook [results_spelling_correction_overlap_and_scores.ipynb](https://github.com/ucd-csl/Scapade/blob/master/data_analysis/Results.ipynb)
 
-### 3.2 - Scores and Overlap Results Notebook <a name="results_scores_overlap"><a/>
+### 3.2 - Word Corrections Using S-capade Method <a name="results_word_corrections"><a/>
 
-All accuracy and overlap results for each dataset using each of the four methods (SymSpell, PySpellChecker, Aspell and the Phoneme sequence) can be seen in the Jupyter Notebook [results_spelling_correction_overlap_and_scores.ipynb](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/results_spelling_correction_overlap_and_scores.ipynb)
+A notebook linking to all of the word correction results for the S-capade method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.md](https://github.com/ucd-csl/Scapade/blob/master/data_analysis/corrected_words.md    ).
 
-### 3.3 - Word Corrections Using S-capade Method <a name="results_word_corrections"><a/>
-
-A notebook linking to all of the word correction results for the S-capade method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.md](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/data_analysis/corrected_words.md).
-
-To view the word corrections for each dataset and comparison method, navigate to the folder [results](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results). This is broken down by:
+To view the word corrections for each dataset and comparison method, navigate to the folder [results](https://github.com/ucd-csl/Scapade/tree/master/data_analysis/results). This is broken down by:
 
 * Dataset eg. Birkbeck, Aspell, Zeeko, Holbrook, Wikipedia.
-* Within each dataset is a sub-directory of the compared methods. For example, for the dataset birkbeck, comparing SymSpell against the S-capade method you would go to [/results/birkbeck/symspell_vs_scapade/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/data_analysis/results/birkbeck/symspell_cmu_phonemes). In here there are three csv file which show the words corrected by both methods, and the unique word corrections by one or other methods.
+* Within each dataset is a sub-directory of the compared methods. For example, for the dataset birkbeck, comparing SymSpell against the S-capade method you would go to [/results/birkbeck/symspell_vs_scapade/](https://github.com/ucd-csl/Scapade/tree/master/data_analysis/results/birkbeck/symspell_vs_scapade). In here there are three csv file which show the words corrected by both methods, and the unique word corrections by one or other methods.
 
 ## 4.0 - Word List to Phoneme Sequence - G2P <a name="g2p_update"><a/>
 
-In the shell script [g2p_word_list.sh](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/shell_scripts/g2p_word_list.sh), please edit this script with your correct G2P model path on line 4.
+In the shell script [g2p_word_list.sh](https://github.com/ucd-csl/Scapade/tree/master/shell_scripts), please edit this script with your correct G2P model path on line 4.
 
 ## 5.0 - Other Folder Information <a name="other_folders"><a/>
 
-### 5.1 - [input_files/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/input_files) <a name="input_files"><a/>
+### 5.1 - [input_files/](https://github.com/ucd-csl/Scapade/tree/master/input_files) <a name="input_files"><a/>
 
 All required input files for the scripts to operate are placed here. These include:
-* The text files of misspellings to be processed eg. [holbrook-missp.txt](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/input_files/holbrook-missp.txt)
+* The text files of misspellings to be processed eg. [holbrook-missp.txt](https://github.com/ucd-csl/Scapade/blob/master/input_files/holbrook-missp.txt)
 * The acoustic distance matrix - [acoustic_distributional_distance_matrix.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/input_files/acoustic_distributional_distance_matrix.csv)
-* The CMU Pronunciation dictionary with word frequencies - [cmu_frequency.csv](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/input_files/cmu_frequency.csv)
+* The CMU Pronunciation dictionary with word frequencies - [cmu_frequency.csv](https://github.com/ucd-csl/Scapade/blob/master/input_files/cmu_frequency.csv)
 
-### 5.2 - [input_files/spelling_correction_dicts/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/input_files/spelling_correction_dicts) <a name="spell_dicts"><a/>
+### 5.2 - [input_files/spelling_correction_dicts/](https://github.com/ucd-csl/Scapade/tree/master/input_files/spelling_correction_dicts) <a name="spell_dicts"><a/>
 
 Contains all the dictionaries with the suggested corrections from each dataset for each method. Used to obtain and compare the results. 
 
-### 5.3 - [g2p_files/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/g2p_files) <a name="g2p_files"><a/>
+### 5.3 - [g2p_files/](https://github.com/ucd-csl/Scapade/tree/master/g2p_files) <a name="g2p_files"><a/>
 
 This contains the input and output for the g2p script which converts word lists into their phoneme representation.
 
-Example input word list - [aspell_word_list.txt](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/g2p_files/aspell_word_list.txt)<br/>
-Example output word-phoneme list - [aspell_phonemes.txt](https://github.com/robertyoung2/nlp_phoneme_spelling/blob/master/g2p_files/aspell_phonemes.txt)
-
-### 5.4 - [zeeko_surveys/](https://github.com/robertyoung2/nlp_phoneme_spelling/tree/master/zeeko_surveys) <a name="zeeko_surveys"><a/>
-
-Contains 15 csv files provided from Zeeko with survey responses. Some of the responses are free text. These were used to
-extract misspellings and create the Zeeko dataset of misspellings. 
+Example input word list - [aspell_word_list.txt](https://github.com/ucd-csl/Scapade/blob/master/g2p_files/aspell_word_list.txt)
+Example output word-phoneme list - [aspell_phonemes.txt](https://github.com/ucd-csl/Scapade/blob/master/g2p_files/aspell_phonemes.txt)
 
 ## 6.0 Known Issues and Future Work <a name="issues_and_future"><a/>
 
