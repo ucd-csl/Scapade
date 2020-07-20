@@ -220,7 +220,7 @@ def print_overlap_scores(dict, compare_to):
     print("Overlap corrections: " + "{:.2f}".format(dict['both'] / total_corrections * 100) + "%")
     print("Unique corrections " + compare_to + ": " + "{:.2f}".format(
         dict[compare_to_low] / total_corrections * 100) + "%")
-    print("Unique corrections Phoneme method: " + "{:.2f}".format(dict['scapade'] /
+    print("Unique corrections S-capade method: " + "{:.2f}".format(dict['scapade'] /
                                                                   total_corrections * 100) + "%")
 
 
