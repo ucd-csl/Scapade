@@ -79,7 +79,7 @@ See the results: [/data_analysis/results/holbrook/](https://github.com/ucd-csl/S
 
 ### 2.5 - Holbrook: All Attempts By S-capade <a name="holbrook_scapade_all"><a/>
 
-See the results: [S-capade all attempts](https://github.com/ucd-csl/Scapade/blob/master/data_analysis/results/holbrook/scapade_all_attempts.csv)
+See the results: [data_analysis/results/holbrook/scapade_all_attempts.csv](https://github.com/ucd-csl/Scapade/blob/master/data_analysis/results/holbrook/scapade_all_attempts.csv)
 
 
 
@@ -147,7 +147,7 @@ See the results: [data_analysis/results/aspell/aspell_vs_scapade/both.csv](https
 
 ### 5.4 - Aspell: All Method Corrections <a name="aspell_methods"><a/>
 
-See the results: [data_analysis/results/aspell/(https://github.com/ucd-csl/Scapade/tree/master/data_analysis/results/aspell)
+See the results: [data_analysis/results/aspell/](https://github.com/ucd-csl/Scapade/tree/master/data_analysis/results/aspell)
 
 ### 5.5 - Aspell: All Attempts By S-capade <a name="aspell_scapade_all"><a/>
 

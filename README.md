@@ -93,7 +93,7 @@ All accuracy and overlap results for each dataset using each of the four methods
 
 ### 3.2 - Word Corrections Using S-capade Method <a name="results_word_corrections"><a/>
 
-A notebook linking to all of the word correction results for the S-capade method across the datasets using SymSpell as the comparison method can be seen in [corrected_words.md](https://github.com/ucd-csl/Scapade/blob/master/data_analysis/corrected_words.md    ).
+A notebook linking to all of the word correction results for the S-capade method across the datasets using SymSpell as the comparison method can be seen in [Corrected-Words.md](https://github.com/ucd-csl/Scapade/blob/master/data_analysis/Corrected-Words.md).
 
 To view the word corrections for each dataset and comparison method, navigate to the folder [results](https://github.com/ucd-csl/Scapade/tree/master/data_analysis/results). This is broken down by:
 
