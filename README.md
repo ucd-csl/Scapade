@@ -139,7 +139,7 @@ This folder contains the core code for S-capade. It uses an adapted version of S
 
 * ~~Re-run Birkbeck dataset with corrected implementation~~ - _Birkbeck dataset processed_.
 * ~~Improve speed performance of lookups (currently disabled as not working 100% as intended)~~ - _changed edit distance from 3 to 2._
-* Currently each benchmarked method (PySpell, SymSpell, Aspell, S-capade Method) all use their own custom dictionary. Creation and extension of a common lookup and generation dictionary is required to ensure all methods are using the same list of words.
+* ~~Currently each benchmarked method (PySpell, SymSpell, Aspell, S-capade Method) all use their own custom dictionary. Creation and extension of a common lookup and generation dictionary is required to ensure all methods are using the same list of words.~~ Data processing steps now adds missing words to each dictionary for each tool. 
 * ~~Requires comparison against a phonetic spell checker, such as Aspell.~~ - _Aspell comparison now implemented in results._
 
 ### 6. 2 Future Work <a name="future_work"><a/>
@@ -147,6 +147,9 @@ This folder contains the core code for S-capade. It uses an adapted version of S
 * Explore re-training g2p tool on misspellings to see if it results in an improvement in predicting phonemic representations. Need to investigate data to use and how this impacts generalisation of the model.
 * Investigate distance measure decrease between predicted phoneme sequence and target phoneme sequence. For example: stopping will be predicted as "S T OW P IH NG", but the distance between OW and AA (correct phoneme) will be reduced. This could be done by tuning the matrix to the speaker accent, or may need a new matrix trained on possible pronunciation of letters.
 * Create unit testing suite. 
+* Improve the overall performance (time complexity) of the tool. Alphabet contains 26 letters, CMU phonemes contain 39 phonemes. Standard spelling correction dictionaries contain ~90,000 words, CMU dictionary has ~134,000 words. These two points mean that candidate generation using the symmetric delete approach run on average ~3 seconds per candidate generation. Strategies could be devised to improve this lookup time. One example could be to reduce the size of the CMU dictionary so that it only contained valid, commonly used words like other standard dictionaries. This would reduce the permutations of delete candidates to compare distances with. 
+* Explore using a language model to correct misspellings in context.
+* Find a way to integrate g2p into Scapade to make it more seamless and remove this misspelling preparation step. 
 
 ## 7.0 Requirements
 
@@ -155,3 +158,4 @@ Requirements can be installed using pip and the provided 'requirements.txt' file
 * tensorflow == 1.15
 * tensor2tensor == 1.7
 * [g2p-seq2seq](https://github.com/cmusphinx/g2p-seq2seq)
+* To run aAspell-python spell checker on the datasets, there are a couple of install steps required. See the GitHuh [repo](https://github.com/WojciechMula/aspell-python) for more details.
