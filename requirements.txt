@@ -107,7 +107,7 @@ sympy==1.6.1
 tensor2tensor==1.7.0
 tensorboard==1.15.0
 tensorboard-plugin-wit==1.7.0
-tensorflow==1.15.0
+tensorflow==1.15.2
 tensorflow-addons==0.10.0
 tensorflow-datasets==3.2.1
 tensorflow-estimator==1.15.1
